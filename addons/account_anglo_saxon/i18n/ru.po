@@ -53,12 +53,12 @@ msgstr "Счёт разницы цен"
 #. module: account_anglo_saxon
 #: model:ir.model,name:account_anglo_saxon.model_product_category
 msgid "Product Category"
-msgstr "Категория ТМЦ"
+msgstr "Категория продукта"
 
 #. module: account_anglo_saxon
 #: model:ir.model,name:account_anglo_saxon.model_product_template
 msgid "Product Template"
-msgstr "Шаблон ТМЦ"
+msgstr "Шаблон продукта"
 
 #. module: account_anglo_saxon
 #: model:ir.model,name:account_anglo_saxon.model_purchase_order

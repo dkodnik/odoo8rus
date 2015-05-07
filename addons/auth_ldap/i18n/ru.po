@@ -27,12 +27,12 @@ msgstr ""
 #. module: auth_ldap
 #: model:ir.model,name:auth_ldap.model_res_company
 msgid "Companies"
-msgstr "Организации"
+msgstr "Компании"
 
 #. module: auth_ldap
 #: field:res.company.ldap,company:0
 msgid "Company"
-msgstr "Организация"
+msgstr "Компания"
 
 #. module: auth_ldap
 #: field:res.company.ldap,create_user:0
@@ -42,17 +42,17 @@ msgstr "Создать пользователя"
 #. module: auth_ldap
 #: field:res.company.ldap,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: auth_ldap
 #: field:res.company.ldap,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: auth_ldap
 #: field:res.company.ldap,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: auth_ldap
 #: view:res.company:auth_ldap.company_form_view
@@ -99,17 +99,17 @@ msgstr "Пароль LDAP"
 #. module: auth_ldap
 #: field:res.company.ldap,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: auth_ldap
 #: field:res.company.ldap,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: auth_ldap
 #: view:res.company.ldap:auth_ldap.view_ldap_installer_form
 msgid "Login Information"
-msgstr ""
+msgstr "Информация входа"
 
 #. module: auth_ldap
 #: view:res.company.ldap:auth_ldap.view_ldap_installer_form
@@ -132,7 +132,7 @@ msgstr "Последовательность"
 #. module: auth_ldap
 #: view:res.company.ldap:auth_ldap.view_ldap_installer_form
 msgid "Server Information"
-msgstr ""
+msgstr "Сведения о сервере"
 
 #. module: auth_ldap
 #: model:ir.actions.act_window,name:auth_ldap.action_ldap_installer
@@ -176,4 +176,4 @@ msgstr ""
 #. module: auth_ldap
 #: model:ir.model,name:auth_ldap.model_res_users
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"

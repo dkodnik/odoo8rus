@@ -21,7 +21,7 @@ msgstr ""
 #: field:analytic.user.funct.grid,account_id:0
 #: model:ir.model,name:analytic_user_function.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "Счет аналитического учета"
+msgstr "Счет аналитики"
 
 #. module: analytic_user_function
 #: model:ir.model,name:analytic_user_function.model_account_analytic_line
@@ -31,12 +31,12 @@ msgstr "Позиция аналитики"
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
@@ -53,12 +53,12 @@ msgstr ""
 #: code:addons/analytic_user_function/analytic_user_function.py:137
 #, python-format
 msgid "Error!"
-msgstr "Ошибка !"
+msgstr "Ошибка!"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
@@ -74,12 +74,12 @@ msgstr "Данные выставления счетов"
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit

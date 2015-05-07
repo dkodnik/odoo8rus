@@ -32,7 +32,7 @@ msgstr "Счета"
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 #: field:account.analytic.default,analytic_id:0
 msgid "Analytic Account"
-msgstr "Счет аналитического учета"
+msgstr "Счёт аналитики"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form
@@ -70,12 +70,12 @@ msgstr "Условия"
 #. module: account_analytic_default
 #: field:account.analytic.default,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,date_stop:0
@@ -106,12 +106,12 @@ msgstr "Определяет порядок вывода списка разне
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 msgid "Group By"
-msgstr ""
+msgstr "Группировать по"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_account_invoice_line
@@ -121,12 +121,12 @@ msgstr "Позиция счета"
 #. module: account_analytic_default
 #: field:account.analytic.default,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
@@ -149,7 +149,7 @@ msgstr "Продукт"
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Шаблон продукта"
 
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_sale_order_line

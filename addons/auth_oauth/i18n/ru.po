@@ -48,7 +48,7 @@ msgstr ""
 #: code:addons/auth_oauth/controllers/main.py:100
 #, python-format
 msgid "Access Denied"
-msgstr ""
+msgstr "Доступ запрещен"
 
 #. module: auth_oauth
 #: field:base.config.settings,auth_oauth_facebook_enabled:0
@@ -73,7 +73,7 @@ msgstr ""
 #. module: auth_oauth
 #: field:auth.oauth.provider,body:0
 msgid "Body"
-msgstr ""
+msgstr "Тело"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,css_class:0
@@ -85,17 +85,17 @@ msgstr ""
 #: field:base.config.settings,auth_oauth_facebook_client_id:0
 #: field:base.config.settings,auth_oauth_google_client_id:0
 msgid "Client ID"
-msgstr ""
+msgstr "ID клиента"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,data_endpoint:0
@@ -110,17 +110,17 @@ msgstr ""
 #. module: auth_oauth
 #: field:auth.oauth.provider,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: auth_oauth
 #: view:base.config.settings:auth_oauth.view_general_configuration
@@ -198,7 +198,7 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_res_users
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #. module: auth_oauth
 #: field:auth.oauth.provider,validation_endpoint:0
@@ -228,4 +228,4 @@ msgstr ""
 #. module: auth_oauth
 #: field:auth.oauth.provider,sequence:0
 msgid "unknown"
-msgstr ""
+msgstr "неизвестно"

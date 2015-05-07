@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,amount:0
 msgid "Amount"
-msgstr "Сумма"
+msgstr "Количество"
 
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
@@ -179,14 +179,14 @@ msgstr "Число контрагентов"
 #: field:cancel.statement.line,create_uid:0
 #: field:confirm.statement.line,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,create_date:0
 #: field:cancel.statement.line,create_date:0
 #: field:confirm.statement.line,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
@@ -265,7 +265,7 @@ msgstr ""
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Group By"
-msgstr ""
+msgstr "Группировать по"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,id:0
@@ -273,7 +273,7 @@ msgstr ""
 #: field:confirm.statement.line,id:0
 #: field:report.account_bank_statement_extensions.report_bankstatementbalance,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0
@@ -291,14 +291,14 @@ msgstr "Журнал"
 #: field:cancel.statement.line,write_uid:0
 #: field:confirm.statement.line,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,write_date:0
 #: field:cancel.statement.line,write_date:0
 #: field:confirm.statement.line,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0

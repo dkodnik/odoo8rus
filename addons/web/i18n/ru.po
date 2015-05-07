@@ -7,10 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openerp-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2014-08-14 16:14+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-22 23:18+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
+"web/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -116,7 +118,7 @@ msgstr "'%s' не является корректной датой"
 msgid "'%s' is not a correct date, datetime nor time"
 msgstr ""
 "'%s' не является ни корректной датой, ни временем, ни тем и другим вместе "
-"взятым."
+"взятым"
 
 #. module: web
 #. openerp-web
@@ -256,14 +258,14 @@ msgstr "О программе"
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
 msgid "About Odoo"
-msgstr ""
+msgstr "Об Odoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:580
 #, python-format
 msgid "Access Denied"
-msgstr "Доступ запрещён"
+msgstr "Доступ запрещен"
 
 #. module: web
 #. openerp-web
@@ -415,21 +417,21 @@ msgstr "Резервное копирование базы данных"
 #: code:addons/web/static/src/xml/base.xml:270
 #, python-format
 msgid "Backup Restore"
-msgstr ""
+msgstr "Восстановление резервной копии"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:229
 #, python-format
 msgid "Backup format:"
-msgstr ""
+msgstr "Формат бэкапа:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:428
 #, python-format
 msgid "Belgium"
-msgstr ""
+msgstr "Бельгия"
 
 #. module: web
 #. openerp-web
@@ -460,6 +462,9 @@ msgid ""
 "By default, the master password is 'admin'. This password\n"
 "                    is required to create, delete, dump or restore databases."
 msgstr ""
+"По умолчанию, главный пароль 'admin'. Этот пароль\n"
+"требуется для создания, удаления, резервного копирования или восстановления "
+"баз данных."
 
 #. module: web
 #. openerp-web
@@ -547,7 +552,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
 msgid "Check this box to evaluate Odoo."
-msgstr ""
+msgstr "Отметьте галочкой это окно, чтобы оценить Odoo."
 
 #. module: web
 #. openerp-web
@@ -616,7 +621,7 @@ msgstr "Условие:"
 #: code:addons/web/static/src/js/view_form.js:1952
 #, python-format
 msgid "Confirm"
-msgstr "Подтвердить"
+msgstr "Утвердить"
 
 #. module: web
 #. openerp-web
@@ -651,7 +656,7 @@ msgstr "Контекст:"
 #: code:addons/web/static/src/xml/base.xml:271
 #, python-format
 msgid "Copy of an existing database"
-msgstr ""
+msgstr "Копия существующей базы данных"
 
 #. module: web
 #. openerp-web
@@ -725,7 +730,7 @@ msgstr "Создать базу данных"
 #: code:addons/web/static/src/js/view_form.js:3467
 #, python-format
 msgid "Create a %s"
-msgstr ""
+msgstr "Создать %s"
 
 #. module: web
 #. openerp-web
@@ -746,7 +751,7 @@ msgstr "Создать и изменить..."
 #: code:addons/web/static/src/xml/base.xml:2005
 #, python-format
 msgid "Create and edit"
-msgstr ""
+msgstr "Создать и редактировать"
 
 #. module: web
 #. openerp-web
@@ -787,7 +792,7 @@ msgstr "Настраиваемый фильтр"
 #. module: web
 #: view:website:web.database_select
 msgid "Database"
-msgstr ""
+msgstr "База данных"
 
 #. module: web
 #. openerp-web
@@ -940,7 +945,7 @@ msgstr "Не уходите,<br />загрузка продолжается ..."
 #: code:addons/web/static/src/js/view_form.js:2675
 #, python-format
 msgid "Done"
-msgstr "Готово"
+msgstr "Выполнено"
 
 #. module: web
 #. openerp-web
@@ -1048,7 +1053,7 @@ msgstr "Редактировать процесс"
 #. module: web
 #: view:website:web.login
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #. module: web
 #. openerp-web
@@ -1062,7 +1067,7 @@ msgstr "Кодировка:"
 #: code:addons/web/static/src/xml/website.tour.xml:25
 #, python-format
 msgid "End This Tutorial"
-msgstr ""
+msgstr "Закончить обучение"
 
 #. module: web
 #. openerp-web
@@ -1076,7 +1081,7 @@ msgstr "Удалить текущую дату"
 #: code:addons/web/static/src/js/search.js:1886
 #, python-format
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #. module: web
 #: code:addons/web/controllers/main.py:764
@@ -1140,14 +1145,14 @@ msgstr "Экспортировать все данные"
 #: code:addons/web/static/src/js/views.js:852
 #, python-format
 msgid "Failed to evaluate search criterions"
-msgstr ""
+msgstr "Не удалось оценить критерии поиска"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1732
 #, python-format
 msgid "Favorites"
-msgstr ""
+msgstr "Избранное"
 
 #. module: web
 #. openerp-web
@@ -1211,6 +1216,12 @@ msgid ""
 "created,\n"
 "                    you will be able to install your first application."
 msgstr ""
+"Заполните эту форму, чтобы создать базу данных Odoo. Вы можете\n"
+"                    создавать базы данных для разных компаний или для "
+"различных\n"
+"                    целей (испытание, производство). Как только база данных "
+"будет создана,\n"
+"                    вы сможете установить свое первое приложение."
 
 #. module: web
 #. openerp-web
@@ -1238,7 +1249,7 @@ msgstr "Название фильтра"
 #: code:addons/web/static/src/js/search.js:1886
 #, python-format
 msgid "Filter name is required."
-msgstr ""
+msgstr "Необходимо название фильтра."
 
 #. module: web
 #. openerp-web
@@ -1260,7 +1271,7 @@ msgstr "Фильтры"
 #: code:addons/web/static/src/xml/base.xml:439
 #, python-format
 msgid "Follow Us..."
-msgstr ""
+msgstr "Следить за нами..."
 
 #. module: web
 #. openerp-web
@@ -1462,7 +1473,7 @@ msgstr "Список"
 #: code:addons/web/static/src/xml/base.xml:111
 #, python-format
 msgid "Load demonstration data:"
-msgstr "Загрузить демонстрационные данные"
+msgstr "Загрузить демонстрационные данные:"
 
 #. module: web
 #. openerp-web
@@ -1575,7 +1586,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views.js:990
 #, python-format
 msgid "Metadata (%s)"
-msgstr ""
+msgstr "Метаданные (%s)"
 
 #. module: web
 #. openerp-web
@@ -1596,7 +1607,7 @@ msgstr "Минута"
 #: code:addons/web/static/src/xml/base.xml:268
 #, python-format
 msgid "Mode:"
-msgstr ""
+msgstr "Режим:"
 
 #. module: web
 #. openerp-web
@@ -1633,7 +1644,7 @@ msgstr "Еще"
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
 msgid "My Odoo.com account"
-msgstr ""
+msgstr "Моя учетная запись на Odoo.com"
 
 #. module: web
 #. openerp-web
@@ -1710,14 +1721,14 @@ msgstr "Нет данных."
 #: code:addons/web/static/src/js/view_form.js:3399
 #, python-format
 msgid "No results to show..."
-msgstr ""
+msgstr "Нет результатов для отображения..."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:3775
 #, python-format
 msgid "No value found for the field  for value "
-msgstr ""
+msgstr "Для поля значения не найдено ни одного значения "
 
 #. module: web
 #. openerp-web
@@ -1745,33 +1756,33 @@ msgstr "Объект:"
 #: view:website:web.login_layout
 #: view:website:web.menu_secondary
 msgid "Odoo"
-msgstr ""
+msgstr "Odoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
 msgid "Odoo (Formerly OpenERP)"
-msgstr ""
+msgstr "Odoo (ранее OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
 msgid "Odoo Web Tests"
-msgstr ""
+msgstr "Веб-тесты Odoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
 msgid "Odoo is a trademark of the"
-msgstr ""
+msgstr "Odoo - это торговая марка"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
 msgid "Odoo.com"
-msgstr ""
+msgstr "Odoo.com"
 
 #. module: web
 #. openerp-web
@@ -1824,7 +1835,7 @@ msgstr "Открыть: "
 #: code:addons/web/static/src/xml/base.xml:425
 #, python-format
 msgid "OpenERP S.A."
-msgstr ""
+msgstr "OpenERP S.A."
 
 #. module: web
 #. openerp-web
@@ -1845,14 +1856,14 @@ msgstr "название исходной базы данных:"
 #: code:addons/web/static/src/xml/base.xml:436
 #, python-format
 msgid "Our next Events"
-msgstr ""
+msgstr "Наши ближайшие события"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:432
 #, python-format
 msgid "Our website"
-msgstr ""
+msgstr "Наш вебсайт"
 
 #. module: web
 #. openerp-web
@@ -1903,6 +1914,7 @@ msgstr "Пожалуйста введите ваш предыдущий паро
 #, python-format
 msgid "Please note that only the selected ids will be exported."
 msgstr ""
+"Пожалуйста, обратите внимание, что только выбранные id будут экспортированы."
 
 #. module: web
 #. openerp-web
@@ -1912,6 +1924,8 @@ msgid ""
 "Please pay attention that all records matching your search filter will be "
 "exported. Not only the selected ids."
 msgstr ""
+"Пожалуйста, обратите внимание, что все записи, соответствующие Вашему "
+"фильтру поиска, будут экспортированы. Не только выбранные id."
 
 #. module: web
 #. openerp-web
@@ -1980,7 +1994,7 @@ msgstr "Удалить все"
 #: code:addons/web/static/src/js/view_form.js:3775
 #, python-format
 msgid "Render"
-msgstr ""
+msgstr "Отобразить"
 
 #. module: web
 #. openerp-web
@@ -2491,7 +2505,7 @@ msgstr "Сегодня"
 #: code:addons/web/static/src/xml/base.xml:1039
 #, python-format
 msgid "Toggle Dropdown"
-msgstr ""
+msgstr "Вывод выпадающего меню"
 
 #. module: web
 #. openerp-web
@@ -2542,7 +2556,7 @@ msgstr "Неподдерживаемый виджет"
 #: code:addons/web/static/src/js/view_form.js:3175
 #, python-format
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #. module: web
 #. openerp-web
@@ -2650,7 +2664,7 @@ msgstr "Просмотр полей"
 #: code:addons/web/static/src/xml/base.xml:539
 #, python-format
 msgid "View Metadata"
-msgstr ""
+msgstr "Посмотреть метаданные"
 
 #. module: web
 #. openerp-web
@@ -2728,7 +2742,7 @@ msgstr "Да"
 #: code:addons/web/static/src/js/view_form.js:3473
 #, python-format
 msgid "You are creating a new %s, are you sure it does not exist yet?"
-msgstr ""
+msgstr "Вы создаете новый %s, вы уверены, что такого еще нет?"
 
 #. module: web
 #: code:addons/web/controllers/main.py:796
@@ -2764,7 +2778,7 @@ msgstr "Вы должны выбрать хотя бы одну запись ."
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
 msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr ""
+msgstr "Ваша сессия Odoo истекла. Пожалуйста, обновите текущую веб-страницу."
 
 #. module: web
 #. openerp-web
@@ -2978,7 +2992,7 @@ msgstr "или"
 #: code:addons/web/static/src/xml/base.xml:233
 #, python-format
 msgid "pg_dump custom format (without filestore)"
-msgstr ""
+msgstr "pg_dump пользовательский формат (без файлового хранилища)"
 
 #. module: web
 #. openerp-web
@@ -2992,7 +3006,7 @@ msgstr "вызвано из поиска"
 #: code:addons/web/static/src/xml/base.xml:232
 #, python-format
 msgid "zip (includes filestore)"
-msgstr ""
+msgstr "zip (включает файловое хранилище)"
 
 #, python-format
 #~ msgid ""

@@ -7,10 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2014-09-19 12:12+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-01 21:30+0300\n"
+"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/portal_project/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,20 +27,24 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                  Нажмите, чтобы начать новый проект.\n"
+"                </p>\n"
+"            "
 
 #. module: portal_project
 #: code:addons/portal_project/project.py:33
 #, python-format
 msgid "Customer related project: visible through portal"
-msgstr ""
+msgstr "Заказчик, связанных с проектом: видимый через портал"
 
 #. module: portal_project
 #: model:ir.model,name:portal_project.model_project_project
 msgid "Project"
-msgstr ""
+msgstr "Проект"
 
 #. module: portal_project
 #: model:ir.actions.act_window,name:portal_project.open_view_project
 #: model:ir.ui.menu,name:portal_project.portal_services_projects
 msgid "Projects"
-msgstr ""
+msgstr "Проекты"

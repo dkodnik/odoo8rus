@@ -100,7 +100,7 @@ msgstr "Название панели"
 #: code:addons/board/static/src/js/dashboard.js:374
 #, python-format
 msgid "Can't find dashboard action"
-msgstr ""
+msgstr "Не возможно найти действие доски"
 
 #. module: board
 #: view:board.create:board.view_board_create
@@ -133,7 +133,7 @@ msgstr "Выбрать вид панели"
 #: code:addons/board/static/src/js/dashboard.js:406
 #, python-format
 msgid "Could not add filter to dashboard"
-msgstr ""
+msgstr "Не возможно добавить фильтр к доске"
 
 #. module: board
 #: view:board.create:board.view_board_create
@@ -154,12 +154,12 @@ msgstr "Создать новую панель"
 #. module: board
 #: field:board.create,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: board
 #: field:board.create,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: board
 #. openerp-web
@@ -173,23 +173,23 @@ msgstr "Редактировать макет"
 #: code:addons/board/static/src/js/dashboard.js:409
 #, python-format
 msgid "Filter added to dashboard"
-msgstr ""
+msgstr "Фильтр добавлен к доске"
 
 #. module: board
 #: field:board.board,id:0
 #: field:board.create,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: board
 #: field:board.create,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: board
 #: field:board.create,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: board
 #: view:board.board:board.board_my_dash_view

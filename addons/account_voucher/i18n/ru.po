@@ -139,7 +139,7 @@ msgstr "Распределение"
 #. module: account_voucher
 #: field:account.voucher.line,amount:0
 msgid "Amount"
-msgstr "Суммма"
+msgstr "Количество"
 
 #. module: account_voucher
 #: field:account.voucher.line,account_analytic_id:0
@@ -271,13 +271,13 @@ msgstr "Корреспондирующий коментарий"
 #: field:account.voucher,create_uid:0
 #: field:account.voucher.line,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: account_voucher
 #: field:account.voucher,create_date:0
 #: field:account.voucher.line,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: account_voucher
 #: selection:account.voucher.line,type:0
@@ -312,7 +312,7 @@ msgstr ""
 #: view:account.voucher:account_voucher.view_voucher_filter_customer_pay
 #: view:account.voucher:account_voucher.view_voucher_filter_sale
 msgid "Customer"
-msgstr "Заказчик"
+msgstr "Клиент"
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.act_pay_voucher
@@ -331,7 +331,7 @@ msgstr "Дата"
 #. module: account_voucher
 #: help:account.voucher,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "Дата последнего сообщения размещенного в отчете."
 
 #. module: account_voucher
 #: selection:account.voucher.line,type:0
@@ -446,7 +446,7 @@ msgstr "Полная сверка"
 #: code:addons/account_voucher/account_voucher.py:1104
 #, python-format
 msgid "Go to the configuration panel"
-msgstr ""
+msgstr "Перейдите на панель конфигурации"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -456,7 +456,7 @@ msgstr ""
 #: view:account.voucher:account_voucher.view_voucher_filter_vendor_pay
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 msgid "Group By"
-msgstr ""
+msgstr "Группировать по"
 
 #. module: account_voucher
 #: field:account.voucher,currency_help_label:0
@@ -469,15 +469,15 @@ msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
 msgstr ""
-"Содержит сводку по Чаттеру (количество сообщений,...). Эта сводка в формате "
-"html для возможности использования в канбан виде"
+"Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
+"непосредственно в HTML формате для того, чтобы вставить в виды kanban."
 
 #. module: account_voucher
 #: field:account.voucher,id:0
 #: field:account.voucher.line,id:0
 #: field:sale.receipt.report,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_voucher
 #: help:account.voucher,message_unread:0
@@ -513,7 +513,7 @@ msgstr "Счета и незавершенные операции"
 #. module: account_voucher
 #: field:account.voucher,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Подписан"
+msgstr "Является подписчиком"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -556,19 +556,19 @@ msgstr "Оставить открытым"
 #. module: account_voucher
 #: field:account.voucher,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Дата последнего сообщения"
 
 #. module: account_voucher
 #: field:account.voucher,write_uid:0
 #: field:account.voucher.line,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_voucher
 #: field:account.voucher,write_date:0
 #: field:account.voucher.line,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_voucher
 #: field:account.voucher,name:0
@@ -583,7 +583,7 @@ msgstr "Сообщения"
 #. module: account_voucher
 #: help:account.voucher,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Сообщения и журнал обращений"
 
 #. module: account_voucher
 #: field:account.voucher,is_multi_currency:0
@@ -773,7 +773,7 @@ msgstr ""
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
 msgid "Post"
-msgstr ""
+msgstr "Опубликовать"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -1045,7 +1045,7 @@ msgstr ""
 #: view:account.voucher:account_voucher.view_voucher_tree
 #: view:account.voucher:account_voucher.view_voucher_tree_nocreate
 msgid "Total Amount"
-msgstr "Общая сумма"
+msgstr "Итоговая сумма"
 
 #. module: account_voucher
 #: field:sale.receipt.report,price_total_tax:0
@@ -1071,7 +1071,7 @@ msgstr "Тип"
 #. module: account_voucher
 #: field:account.voucher,message_unread:0
 msgid "Unread Messages"
-msgstr "Непрочитанные"
+msgstr "Непрочитанные сообщения"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_vendor_payment_form
@@ -1162,12 +1162,12 @@ msgstr "Проводки ваучеров"
 #. module: account_voucher
 #: field:account.voucher,website_message_ids:0
 msgid "Website Messages"
-msgstr ""
+msgstr "Сообщения сайта"
 
 #. module: account_voucher
 #: help:account.voucher,website_message_ids:0
 msgid "Website communication history"
-msgstr ""
+msgstr "История переписки сайта"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:377

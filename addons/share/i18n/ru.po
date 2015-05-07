@@ -7,10 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2014-08-14 16:10+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-22 23:23+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
+"share/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,7 +72,7 @@ msgstr "Данные доступа"
 #. module: share
 #: help:share.wizard,access_mode:0
 msgid "Access rights to be granted on the shared documents."
-msgstr "Права доступа будут предоставлены на документы совместного доступа"
+msgstr "Права доступа будут предоставлены на документы совместного доступа."
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:640
@@ -140,13 +142,13 @@ msgstr "Скопированы права совместного доступа"
 #: field:share.wizard,create_uid:0
 #: field:share.wizard.result.line,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: share
 #: field:share.wizard,create_date:0
 #: field:share.wizard.result.line,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: share
 #: field:share.wizard,view_type:0
@@ -179,14 +181,14 @@ msgstr "Показ заголовка"
 #. module: share
 #: field:share.wizard,domain:0
 msgid "Domain"
-msgstr "Ограничение"
+msgstr "Домен"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:813
 #: code:addons/share/wizard/share_wizard.py:844
 #, python-format
 msgid "Email Required"
-msgstr ""
+msgstr "Нужен адрес электронной почты"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:77
@@ -264,7 +266,7 @@ msgstr ""
 #: field:share.wizard,id:0
 #: field:share.wizard.result.line,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: share
 #: view:share.wizard:share.share_step1_form
@@ -300,24 +302,24 @@ msgstr "Приглашение"
 #. module: share
 #: field:share.wizard,invite:0
 msgid "Invite users to OpenSocial record"
-msgstr "Пригласить пользователей в запись OpenSocial."
+msgstr "Пригласить пользователей в запись OpenSocial"
 
 #. module: share
 #: field:share.wizard,write_uid:0
 #: field:share.wizard.result.line,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: share
 #: field:share.wizard,write_date:0
 #: field:share.wizard.result.line,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: share
 #: field:share.wizard.result.line,login:0
 msgid "Login"
-msgstr "Имя пользователя"
+msgstr "Логин"
 
 #. module: share
 #: help:share.wizard,share_root_url:0
@@ -370,6 +372,9 @@ msgid ""
 "Sales, HR, etc.)\n"
 "It is open source and can be found on https://www.odoo.com."
 msgstr ""
+"Odoo - мощный и удобный для пользователя пакет бизнес-приложений (управление "
+"взаимодействием с клиентами, продажи, управление персоналом и т.п.)\n"
+"Это открытый источник, который доступен по ссылке http://www.odoo.com."
 
 #. module: share
 #: help:share.wizard,domain:0
@@ -388,8 +393,7 @@ msgstr ""
 #. module: share
 #: view:share.wizard:share.share_step2_form
 msgid "Or insert the following code where you want to embed your documents"
-msgstr ""
-"Или вставьте следующий код туда, где вы хотите вставить ваши документы"
+msgstr "Или вставьте следующий код туда, где вы хотите вставить ваши документы"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:829
@@ -566,7 +570,7 @@ msgid ""
 "The action that opens the screen containing the data you wish to share."
 msgstr ""
 "Действие, которое открывает экран, содержащий данные, которыми вы хотите "
-"поделиться"
+"поделиться."
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:813
@@ -589,6 +593,10 @@ msgid ""
 "    %s\n"
 "\n"
 msgstr ""
+"Документы не прикреплены, вы можете посмотреть их онлайн непосредственно на "
+"моем сервере Odoo:\n"
+"    %s\n"
+"\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:864
@@ -596,6 +604,7 @@ msgstr ""
 msgid ""
 "The documents have been automatically added to your current Odoo documents.\n"
 msgstr ""
+"Документы были автоматически добавлены к вашим текущим документам на Odoo.\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:831
@@ -644,7 +653,7 @@ msgstr "Пользователь"
 #: code:addons/share/wizard/share_wizard.py:860
 #, python-format
 msgid "Username"
-msgstr "Пользователь"
+msgstr "Имя пользователя"
 
 #. module: share
 #: model:ir.model,name:share.model_res_users
@@ -685,7 +694,7 @@ msgstr "или"
 #. module: share
 #: field:share.wizard.result.line,user_id:0
 msgid "unknown"
-msgstr "неизвесно"
+msgstr "неизвестно"
 
 #. module: share
 #: view:res.groups:share.view_groups_form_share

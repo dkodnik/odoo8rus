@@ -48,7 +48,7 @@ msgstr "Счет активов"
 #. module: account_asset
 #: field:account.asset.asset,active:0
 msgid "Active"
-msgstr "Активное"
+msgstr "Активный"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -194,7 +194,7 @@ msgstr "Активы в рабочем состоянии"
 #: view:asset.depreciation.confirmation.wizard:account_asset.view_asset_depreciation_confirmation_wizard
 #: view:asset.modify:account_asset.asset_modify_form
 msgid "Cancel"
-msgstr "Отменена"
+msgstr "Отмена"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -309,7 +309,7 @@ msgstr "Созданные операции по активам"
 #: field:asset.depreciation.confirmation.wizard,create_uid:0
 #: field:asset.modify,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: account_asset
 #: field:account.asset.asset,create_date:0
@@ -319,7 +319,7 @@ msgstr ""
 #: field:asset.depreciation.confirmation.wizard,create_date:0
 #: field:asset.modify,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: account_asset
 #: field:account.asset.asset,currency_id:0
@@ -453,7 +453,7 @@ msgstr "Ошибка! Нельзя создавать рекурсивные а�
 #: code:addons/account_asset/account_asset.py:81
 #, python-format
 msgid "Error!"
-msgstr "Ошибка !"
+msgstr "Ошибка!"
 
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
@@ -478,7 +478,7 @@ msgstr "Валовая стоимость"
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Group By"
-msgstr ""
+msgstr "Группировать по"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -500,7 +500,7 @@ msgstr "Название истории"
 #: field:asset.depreciation.confirmation.wizard,id:0
 #: field:asset.modify,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_asset
 #: help:account.asset.asset,prorata:0
@@ -547,7 +547,7 @@ msgstr "Элементы журнала"
 #: field:asset.depreciation.confirmation.wizard,write_uid:0
 #: field:asset.modify,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_asset
 #: field:account.asset.asset,write_date:0
@@ -557,7 +557,7 @@ msgstr ""
 #: field:asset.depreciation.confirmation.wizard,write_date:0
 #: field:asset.modify,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_asset
 #: selection:account.asset.asset,method:0
@@ -718,7 +718,7 @@ msgstr "Поиск категории актива"
 #. module: account_asset
 #: field:account.asset.depreciation.line,sequence:0
 msgid "Sequence"
-msgstr "Нумерация"
+msgstr "Последовательность"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -728,7 +728,7 @@ msgstr "Установить в \"Закрыто\""
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
 msgid "Set to Draft"
-msgstr "Установить в \"Черновик\""
+msgstr "Установить в 'Черновик'"
 
 #. module: account_asset
 #: field:account.asset.category,open_asset:0

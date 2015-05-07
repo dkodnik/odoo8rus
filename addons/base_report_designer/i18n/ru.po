@@ -30,7 +30,7 @@ msgstr "Отмена"
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid "Configure"
-msgstr "Настроить"
+msgstr "Настройка"
 
 #. module: base_report_designer
 #: view:base.report.sxw:base_report_designer.view_base_report_sxw
@@ -43,7 +43,7 @@ msgstr "Далее"
 #: field:base.report.sxw,create_uid:0
 #: field:base_report_designer.installer,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: base_report_designer
 #: field:base.report.file.sxw,create_date:0
@@ -51,7 +51,7 @@ msgstr ""
 #: field:base.report.sxw,create_date:0
 #: field:base_report_designer.installer,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: base_report_designer
 #: field:base_report_designer.installer,description:0
@@ -75,7 +75,7 @@ msgstr "Получить отчет"
 #: field:base.report.sxw,id:0
 #: field:base_report_designer.installer,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
@@ -88,7 +88,7 @@ msgstr "Шаги по установке и настройке"
 #: field:base.report.sxw,write_uid:0
 #: field:base_report_designer.installer,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: base_report_designer
 #: field:base.report.file.sxw,write_date:0
@@ -96,23 +96,23 @@ msgstr ""
 #: field:base.report.sxw,write_date:0
 #: field:base_report_designer.installer,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_wizard
 msgid "Odoo Report Designer"
-msgstr ""
+msgstr "Конструктор отчетов Odoo"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid "Odoo Report Designer Configuration"
-msgstr ""
+msgstr "Настройки конструктора отчетов Odoo"
 
 #. module: base_report_designer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_installer
 msgid "Odoo Report Designer Installation"
-msgstr ""
+msgstr "Установка конструктора отчетов Odoo"
 
 #. module: base_report_designer
 #: field:base_report_designer.installer,plugin_file:0
@@ -177,12 +177,18 @@ msgid ""
 "Don't forget to install the Odoo SA OpenOffice package to modify it.\n"
 "Once it is modified, re-upload it in Odoo using this wizard."
 msgstr ""
+"Это шаблон запрашиваемого вами отчета. \n"
+"Сохраните его в виде файла .sxw и открыть его с помощью OpenOffice. \n"
+"Не забудьте установить пакет Odoo SA OpenOffice, чтобы изменить его. \n"
+"Как только он будет изменен, повторно загрузите его в Odoo с помощью этого "
+"пакета."
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid ""
 "This plug-in allows you to create/modify Odoo Reports into OpenOffice Writer."
 msgstr ""
+"Этот плагин позволяет создавать/изменять отчеты Odoo в OpenOffice Writer."
 
 #. module: base_report_designer
 #: view:base.report.sxw:base_report_designer.view_base_report_sxw
@@ -204,4 +210,4 @@ msgstr "или"
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid "title"
-msgstr "title"
+msgstr "заглавие"

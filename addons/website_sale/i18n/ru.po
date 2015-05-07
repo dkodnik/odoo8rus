@@ -7,10 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-01-21 14:09+0000\n"
-"PO-Revision-Date: 2014-10-21 18:48+0000\n"
-"Last-Translator: litnimax <Unknown>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-22 22:54+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
+"website_sale/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,15 +56,16 @@ msgid ""
 "        "
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"            Кликните, чтобы определить новую категорию.\n"
+"            Нажмите, чтобы определить новую категорию.\n"
 "          </p><p>\n"
-"            Категории используются для навигации по вашим продуктам в\n"
-"            интерфейсе тачскрина.\n"
+"            Категории используются для загрузки ваших товаров через\n"
+"            интерфейс с сенсорным экраном.\n"
 "          </p><p>\n"
-"            Если вы установите фотографию для категории, расположение в\n"
-"            интерфейсе тачскрин изменится автоматически. Мы рекомендуем не "
-"устанавливать\n"
-"            фотографии для категорий на маленьких (1024x768) экранах.\n"
+"            Если вы поместите фотографию на категорию, то структура\n"
+"            интерфейса с сенсорным экраном  выстроится автоматически. Мы "
+"рекомендуем не\n"
+"            ставить фотографию на категории для маленьких (1024x768) "
+"экранов.\n"
 "          </p>\n"
 "        "
 
@@ -105,13 +108,13 @@ msgstr "Применить"
 #. module: website_sale
 #: field:product.template,website_published:0
 msgid "Available in the website"
-msgstr "Доступно на сайте"
+msgstr "Доступно на веб-сайте"
 
 #. module: website_sale
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Bill To:"
-msgstr "Счет:"
+msgstr "Счет по адресу:"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -121,7 +124,7 @@ msgstr "Информация об оплате"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Buy now, get in 2 days"
-msgstr "Купи сейчас, получи через 2 дня"
+msgstr "Купите сейчас, получите через 2 дня"
 
 #. module: website_sale
 #: field:sale.order,cart_quantity:0
@@ -143,7 +146,7 @@ msgstr "Изменить цену"
 #. module: website_sale
 #: field:product.public.category,child_id:0
 msgid "Children Categories"
-msgstr "Детские Категории"
+msgstr "Подчиненные категории"
 
 #. module: website_sale
 #. openerp-web
@@ -169,7 +172,7 @@ msgstr "Нажмите <em>Продолжить</em> для создания н�
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:19
 #, python-format
 msgid "Click here to add a new product."
-msgstr "Нажмите, чтобы создать новый продукт."
+msgstr "Нажмите здесь, чтобы добавить новый продукт."
 
 #. module: website_sale
 #. openerp-web
@@ -183,7 +186,7 @@ msgstr "Нажмите, чтобы установить изображение, 
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:75
 #, python-format
 msgid "Click on save to add the image to the product decsription."
-msgstr "Нажмите сохранить, чтобы добавить изображение к описанию продукта."
+msgstr "Нажмите Сохранить, чтобы добавить изображение к описанию продукта."
 
 #. module: website_sale
 #. openerp-web
@@ -191,7 +194,7 @@ msgstr "Нажмите сохранить, чтобы добавить изоб�
 #, python-format
 msgid "Click to publish your product so your customers can see it."
 msgstr ""
-"Нажмите, чтобы опубликовать продукт, так чтобы ваши клиенты могли его видеть."
+"Нажмите, чтобы опубликовать продукт, так чтобы ваши клиенты могли видеть его."
 
 #. module: website_sale
 #. openerp-web
@@ -208,12 +211,12 @@ msgstr "Цвет"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Company Name"
-msgstr "Название Компании"
+msgstr "Название Организации"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Confirm"
-msgstr "Подтвердить"
+msgstr "Утвердить"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -226,7 +229,7 @@ msgstr "Подтверждение"
 #. module: website_sale
 #: view:website:website_sale.confirmation
 msgid "Confirmed"
-msgstr "Подтвержден"
+msgstr "Утверждено"
 
 #. module: website_sale
 #. openerp-web
@@ -253,7 +256,7 @@ msgstr "Продолжить"
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Continue Shopping"
-msgstr "Продолжить Покупки"
+msgstr "Продолжить покупки"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -268,7 +271,7 @@ msgstr "Страна..."
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Coupon Code"
-msgstr "Код Купона"
+msgstr "Код купона"
 
 #. module: website_sale
 #. openerp-web
@@ -308,7 +311,7 @@ msgstr "Создано"
 #: field:product.public.category,create_date:0
 #: field:product.style,create_date:0
 msgid "Created on"
-msgstr "Создано"
+msgstr "Создан"
 
 #. module: website_sale
 #: field:website,currency_id:0
@@ -344,19 +347,19 @@ msgstr "Перетащить и отпустить блок"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:89
 #, python-format
 msgid "Drag the 'Big Picture' block and drop it in your page."
-msgstr "Перетащите блок 'Большая Картинка' и отпустите его на вашу страницу."
+msgstr "Перетащите блок 'Большая картинка' и поместите его на вашей странице."
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:54
 #, python-format
 msgid "Edit the price of this product by clicking on the amount."
-msgstr "Редактируйте цену этого продукта, кликая на сумму."
+msgstr "Отредактируйте цену этого продукта, нажав на сумму."
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Email"
-msgstr "Электронный адрес"
+msgstr "Email"
 
 #. module: website_sale
 #. openerp-web
@@ -384,17 +387,17 @@ msgstr "Выдает порядок следования, отображая с�
 #. module: website_sale
 #: field:product.style,html_class:0
 msgid "HTML Classes"
-msgstr "HTML Классы"
+msgstr "Классы HTML"
 
 #. module: website_sale
 #: field:product.attribute.value,color:0
 msgid "HTML Color Index"
-msgstr "HTML Индексы Цветов"
+msgstr "Цветовой индекс HTML"
 
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Have a coupon code? Fill in this field and apply."
-msgstr "Есть купон кода? Введите его в поле и примените."
+msgstr "Есть код купона? Заполните это поле и подтвердите."
 
 #. module: website_sale
 #: help:product.attribute.value,color:0
@@ -402,13 +405,13 @@ msgid ""
 "Here you can set a specific HTML color index (e.g. #ff0000) to display the "
 "color on the website if the attibute type is 'Color'."
 msgstr ""
-"Здесь вы можете установить определенный HTML индекс цвета (например, "
-"#ff0000) для отображения цвета на сайте, если тип атрибута 'Цвет'."
+"Здесь вы можете установить определенный цветовой индекс HTML (например, "
+"#ff0000), чтобы отображать цвет на веб-сайте, если тип атрибута - 'Цвет'."
 
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Hidden"
-msgstr "Спрятан"
+msgstr "Скрыто"
 
 #. module: website_sale
 #: field:product.public.category,id:0
@@ -428,19 +431,20 @@ msgstr "Изображение"
 msgid ""
 "Insert blocks like text-image, or gallery to fully describe the product."
 msgstr ""
-"Вставьте блоки типа текст-картинка или галерея для полного описания продукта."
+"Вставляйте блоки, такие как текст-изображение или галерея, чтобы полностью "
+"описать продукт."
 
 #. module: website_sale
 #: field:product.public.category,write_uid:0
 #: field:product.style,write_uid:0
 msgid "Last Updated by"
-msgstr "Последнее Обновление"
+msgstr "Последний раз обновлено"
 
 #. module: website_sale
 #: field:product.public.category,write_date:0
 #: field:product.style,write_date:0
 msgid "Last Updated on"
-msgstr "Последнее Обновление"
+msgstr "Последний раз обновлено"
 
 #. module: website_sale
 #. openerp-web
@@ -479,7 +483,7 @@ msgstr "Имя"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Name (Shipping)"
-msgstr "Имя (Доставка)"
+msgstr "Название (Доставка)"
 
 #. module: website_sale
 #. openerp-web
@@ -507,7 +511,7 @@ msgstr "Не определен ни один продукт."
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:96
 #, python-format
 msgid "Once you click on save, your product is updated."
-msgstr "Когда вы нажмете сохранить, ваш продукт будет обновлен."
+msgstr "Когда вы нажмете на \"Сохранить\", ваш продукт будет обновлен."
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -522,7 +526,7 @@ msgstr "Заказ"
 #. module: website_sale
 #: field:sale.order,website_order_line:0
 msgid "Order Lines displayed on Website"
-msgstr "Строки заказа отображеные на сайте"
+msgstr "Строки заказа, отображаемые на сайте"
 
 #. module: website_sale
 #: help:sale.order,website_order_line:0
@@ -530,8 +534,8 @@ msgid ""
 "Order Lines to be displayed on the website. They should not be used for "
 "computation purpose."
 msgstr ""
-"Строки заказа, которые должны быть отображены на сайте. Они не должны быть "
-"использованы в целях подсчета."
+"Строки заказа для отображения на сайте. Они не должны использоваться для "
+"расчетов."
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.categ_others
@@ -541,7 +545,7 @@ msgstr "Другие"
 #. module: website_sale
 #: field:product.public.category,parent_id:0
 msgid "Parent Category"
-msgstr "Родительская Категория"
+msgstr "Родительская категория"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:654
@@ -561,17 +565,17 @@ msgstr "Оплата"
 #. module: website_sale
 #: field:sale.order,payment_acquirer_id:0
 msgid "Payment Acquirer"
-msgstr "Способ Оплаты"
+msgstr "Платежи клиентов"
 
 #. module: website_sale
 #: view:website:website_sale.payment
 msgid "Payment Method:"
-msgstr "Метод Оплаты:"
+msgstr "Способ оплаты:"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "Операция Оплаты"
+msgstr "Операция оплаты"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -586,7 +590,7 @@ msgstr "Условия"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Post"
-msgstr "Почта"
+msgstr "Опубликовать"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -597,7 +601,7 @@ msgstr "Цена"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_pricelist
 msgid "Pricelist"
-msgstr "Прайс-лист"
+msgstr "Прайслист"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -624,12 +628,12 @@ msgstr "Название Продукта"
 #. module: website_sale
 #: view:product.public.category:website_sale.product_public_category_tree_view
 msgid "Product Product Categories"
-msgstr "Продукт Продукт Категории"
+msgstr "Категории Продукта"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template
 msgid "Product Template"
-msgstr "Шаблон Продукта"
+msgstr "Шаблон продукта"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -710,7 +714,7 @@ msgstr "Количество"
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Radio"
-msgstr "Radio"
+msgstr "Радио(кнп.)"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -728,12 +732,12 @@ msgstr "Вернуться к списку продуктов."
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Review Order"
-msgstr "Просмотреть Заказ"
+msgstr "Просмотреть заказ"
 
 #. module: website_sale
 #: view:website:website_sale.products_item
 msgid "Sale"
-msgstr "Распродажа"
+msgstr "Продажа"
 
 #. module: website_sale
 #: field:payment.transaction,sale_order_id:0
@@ -750,7 +754,7 @@ msgstr "Заказы на Продажу"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:74
 #, python-format
 msgid "Save this Image"
-msgstr "Сохранить это Изображение"
+msgstr "Сохранить это изображение"
 
 #. module: website_sale
 #. openerp-web
@@ -767,7 +771,7 @@ msgstr "Поиск..."
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Secure Payment"
-msgstr "Безопасный Платеж"
+msgstr "Безопасный платеж"
 
 #. module: website_sale
 #: selection:product.attribute,type:0
@@ -790,7 +794,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:67
 #, python-format
 msgid "Select an Image"
-msgstr "Выбрить Изображение"
+msgstr "Выбрать изображение"
 
 #. module: website_sale
 #: field:product.public.category,sequence:0
@@ -802,19 +806,19 @@ msgstr "Последовательность"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship To:"
-msgstr "Доставить:"
+msgstr "Отправить по адресу:"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship to the same address"
-msgstr "Доставить по этому же адресу"
+msgstr "Отправить по тому же адресу"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shipping"
-msgstr "Доставка"
+msgstr "Отправка продукта"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -827,7 +831,7 @@ msgstr "Доставка и Оплата"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shipping Information"
-msgstr "Информация о Доставке"
+msgstr "Информация о доставке"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -838,12 +842,12 @@ msgstr "Магазин"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shop - Checkout"
-msgstr "Магазин - Оформление заказа"
+msgstr "Магазин - Оформить заказ"
 
 #. module: website_sale
 #: view:website:website_sale.confirmation
 msgid "Shop - Confirmed"
-msgstr "Магазин - Подтверждение Заказа"
+msgstr "Магазин - Подтверждено"
 
 #. module: website_sale
 #: view:website:website_sale.payment
@@ -885,7 +889,7 @@ msgstr "Пропустить"
 #. module: website_sale
 #: field:product.public.category,image_small:0
 msgid "Smal-sized image"
-msgstr "Изображение малого размера"
+msgstr "Изображение маленького размера"
 
 #. module: website_sale
 #: help:product.public.category,image_small:0
@@ -901,24 +905,24 @@ msgstr ""
 #. module: website_sale
 #: view:website:website_sale.404
 msgid "Sorry, this product is not available anymore."
-msgstr "Извините, этот продукт более не доступен."
+msgstr "Извините, этот продукт больше не доступен."
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:13
 #, python-format
 msgid "Start Tutorial"
-msgstr "Начать Обучение"
+msgstr "Начать обучение"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "State / Province"
-msgstr "Штат / Провинция"
+msgstr "Штат / Область"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "State / Province..."
-msgstr "Штат / Провинция..."
+msgstr "Штат / Область..."
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -928,7 +932,7 @@ msgstr "Улица"
 #. module: website_sale
 #: field:product.style,name:0
 msgid "Style Name"
-msgstr "Название Стиля"
+msgstr "Название стиля"
 
 #. module: website_sale
 #: field:product.template,website_style_ids:0
@@ -966,7 +970,7 @@ msgstr "Налоги:"
 #. module: website_sale
 #: view:website:website_sale.confirmation
 msgid "Thank you for your order."
-msgstr "Благодарим за заказ."
+msgstr "Спасибо вам за заказ."
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:752
@@ -979,7 +983,7 @@ msgstr "Похоже оплата была отменена."
 #: code:addons/website_sale/controllers/main.py:740
 #, python-format
 msgid "There seems to be an error with your request."
-msgstr "Похоже в вашем заказе ошибка."
+msgstr "Похоже, что с вашим запросом возникла ошибка."
 
 #. module: website_sale
 #: help:product.public.category,image:0
@@ -987,6 +991,8 @@ msgid ""
 "This field holds the image used as image for the category, limited to "
 "1024x1024px."
 msgstr ""
+"Это поле содержит изображение, используемое в качестве изображения для "
+"категории, размер ограничен до 1024x1024 пикселей."
 
 #. module: website_sale
 #. openerp-web
@@ -1005,12 +1011,12 @@ msgstr ""
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Total To Pay:"
-msgstr "К Оплате:"
+msgstr "Всего к оплате:"
 
 #. module: website_sale
 #: view:website:website_sale.total
 msgid "Total:"
-msgstr "Сумма:"
+msgstr "Всего:"
 
 #. module: website_sale
 #: field:sale.order,payment_tx_id:0
@@ -1032,7 +1038,7 @@ msgstr "Обновить изображение"
 #. module: website_sale
 #: view:website:website_sale.products
 msgid "Use the"
-msgstr "Используйте"
+msgstr "Использовать"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -1042,44 +1048,44 @@ msgstr "Номер НДС"
 #. module: website_sale
 #: view:website:website_sale.payment
 msgid "Validate Order"
-msgstr "Подтвердить Заказа"
+msgstr "Подтвердить заказ"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website
 #: view:product.template:website_sale.product_template_form_view
 msgid "Website"
-msgstr "Сайт"
+msgstr "Вебсайт"
 
 #. module: website_sale
 #: field:product.template,website_message_ids:0
 msgid "Website Comments"
-msgstr "Комментарии на сайте"
+msgstr "Комментарии на веб-сайте"
 
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website
 msgid "Website Shop"
-msgstr "Сайт Магазина"
+msgstr "Магазин сайта"
 
 #. module: website_sale
 #: field:product.template,website_meta_description:0
 msgid "Website meta description"
-msgstr "Мета описание сайта"
+msgstr "Мета-сайта: описание"
 
 #. module: website_sale
 #: field:product.template,website_meta_keywords:0
 msgid "Website meta keywords"
-msgstr "Мета-ключевые слова сайта"
+msgstr "Мета-сайта: ключевые слова"
 
 #. module: website_sale
 #: field:product.template,website_meta_title:0
 msgid "Website meta title"
-msgstr "Мета заголовок сайта"
+msgstr "Мета-сайта: название"
 
 #. module: website_sale
 #: field:product.product,website_url:0
 #: field:product.template,website_url:0
 msgid "Website url"
-msgstr "URL сайта"
+msgstr "Url веб-сайта"
 
 #. module: website_sale
 #. openerp-web
@@ -1091,7 +1097,7 @@ msgstr "Добро пожаловать в ваш магазин"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Write a comment..."
-msgstr "Написать комментарий:"
+msgstr "Написать комментарий..."
 
 #. module: website_sale
 #. openerp-web
@@ -1101,23 +1107,23 @@ msgid ""
 "You successfully installed the e-commerce. This guide will help you to "
 "create your product and promote your sales."
 msgstr ""
-"Вы успешно установили электронную коммерцию. Этот гид поможет вам создать "
-"ваш продукт и продвигать ваши продажи."
+"Вы успешно установили электронную коммерцию. Это руководство поможет вам "
+"создавать продукты и повышать свои продажи."
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Your Address"
-msgstr "Ваш Адрес"
+msgstr "Ваш адрес"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Your Name"
-msgstr "Ваше Имя"
+msgstr "Ваше имя"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Your Order"
-msgstr "Ваш Заказ"
+msgstr "Ваш заказ"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -1128,7 +1134,7 @@ msgstr "Ваша корзина пуста!"
 #: code:addons/website_sale/controllers/main.py:750
 #, python-format
 msgid "Your payment has been received."
-msgstr "Ваша оплата получена."
+msgstr "Ваш платеж был получен."
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:754
@@ -1140,7 +1146,7 @@ msgstr "Ваша транзакция ожидает подтверждения.
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Zip / Postal Code"
-msgstr "Почтовый Код"
+msgstr "Почтовый индекс"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -1175,12 +1181,12 @@ msgstr "комментарии"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "on"
-msgstr ""
+msgstr "на"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -1220,4 +1226,4 @@ msgstr "☑ Счет высылается по электронной почте
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "☑ Processed by Ogone"
-msgstr "☑ Обработка Ogone"
+msgstr "☑ Обработка системой Ogone"

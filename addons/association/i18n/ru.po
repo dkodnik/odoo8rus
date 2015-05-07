@@ -30,7 +30,7 @@ msgstr "Управление событиями"
 #. module: association
 #: field:profile.association.config.install_modules_wizard,project_gtd:0
 msgid "Getting Things Done"
-msgstr "Getting Things Done"
+msgstr "Достигать намеченого"
 
 #. module: association
 #: model:ir.module.module,description:association.module_meta_information
@@ -54,7 +54,7 @@ msgstr ""
 #. module: association
 #: view:profile.association.config.install_modules_wizard:0
 msgid "title"
-msgstr "title"
+msgstr "заглавие"
 
 #. module: association
 #: help:profile.association.config.install_modules_wizard,event_project:0
@@ -143,4 +143,4 @@ msgstr "Управление проектами"
 #. module: association
 #: view:profile.association.config.install_modules_wizard:0
 msgid "Configure"
-msgstr "Настроить"
+msgstr "Настройка"

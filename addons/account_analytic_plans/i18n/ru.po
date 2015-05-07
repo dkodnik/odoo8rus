@@ -66,7 +66,7 @@ msgstr "счет 6 уровня"
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
 msgid "Amount"
-msgstr "Сумма"
+msgstr "Количество"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance.line,analytic_account_id:0
@@ -201,7 +201,7 @@ msgstr ""
 #: field:account.crossovered.analytic,create_uid:0
 #: field:analytic.plan.create.model,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,create_date:0
@@ -211,7 +211,7 @@ msgstr ""
 #: field:account.crossovered.analytic,create_date:0
 #: field:analytic.plan.create.model,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: account_analytic_plans
 #: view:account.crossovered.analytic:account_analytic_plans.view_account_crossovered_analytic
@@ -277,7 +277,7 @@ msgstr ""
 #: field:analytic.plan.create.model,id:0
 #: field:report.account_analytic_plans.report_crossoveredanalyticplans,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice
@@ -307,7 +307,7 @@ msgstr "Элементы журнала"
 #: field:account.crossovered.analytic,write_uid:0
 #: field:analytic.plan.create.model,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,write_date:0
@@ -317,7 +317,7 @@ msgstr ""
 #: field:account.crossovered.analytic,write_date:0
 #: field:analytic.plan.create.model,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.line,max_required:0

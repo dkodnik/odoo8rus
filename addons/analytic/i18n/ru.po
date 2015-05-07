@@ -41,7 +41,7 @@ msgstr "Наименование счета/договора"
 #. module: analytic
 #: field:account.analytic.line,amount:0
 msgid "Amount"
-msgstr "Суммма"
+msgstr "Количество"
 
 #. module: analytic
 #: view:account.analytic.account:analytic.view_account_analytic_account_form
@@ -155,18 +155,18 @@ msgstr "Договор: "
 #. module: analytic
 #: field:account.analytic.line,create_date:0
 msgid "Create Date"
-msgstr ""
+msgstr "Дата создания"
 
 #. module: analytic
 #: field:account.analytic.account,create_uid:0
 #: field:account.analytic.line,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: analytic
 #: field:account.analytic.account,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: analytic
 #: field:account.analytic.account,credit:0
@@ -181,7 +181,7 @@ msgstr "Валюта"
 #. module: analytic
 #: field:account.analytic.account,partner_id:0
 msgid "Customer"
-msgstr "Заказчик"
+msgstr "Клиент"
 
 #. module: analytic
 #: field:account.analytic.line,date:0
@@ -191,7 +191,7 @@ msgstr "Дата"
 #. module: analytic
 #: help:account.analytic.account,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "Дата последнего сообщения размещенного в отчете."
 
 #. module: analytic
 #: field:account.analytic.account,debit:0
@@ -241,14 +241,14 @@ msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
 msgstr ""
-"Содержит сводку по Чаттеру (количество сообщений,...). Эта сводка в формате "
-"html для возможности использования в канбан виде"
+"Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
+"непосредственно в HTML формате для того, чтобы вставить в виды kanban."
 
 #. module: analytic
 #: field:account.analytic.account,id:0
 #: field:account.analytic.line,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: analytic
 #: help:account.analytic.account,message_unread:0
@@ -282,29 +282,29 @@ msgstr ""
 #. module: analytic
 #: selection:account.analytic.account,state:0
 msgid "In Progress"
-msgstr "Выполняется"
+msgstr "В процессе"
 
 #. module: analytic
 #: field:account.analytic.account,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Подписан"
+msgstr "Является подписчиком"
 
 #. module: analytic
 #: field:account.analytic.account,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Дата последнего сообщения"
 
 #. module: analytic
 #: field:account.analytic.account,write_uid:0
 #: field:account.analytic.line,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: analytic
 #: field:account.analytic.account,write_date:0
 #: field:account.analytic.line,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: analytic
 #: field:account.analytic.account,message_ids:0

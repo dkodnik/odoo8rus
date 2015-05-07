@@ -29,6 +29,14 @@ msgid ""
 "          </p>\n"
 "        "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Нажмите для добавления контакта в вашу адресную книгу.\n"
+"          </p><p>\n"
+"            Система поможет вам легко отслеживать все действия связанные с\n"
+"            клиентами; обсуждений, историй бизнес предложений,\n"
+"            документов, и т.д..\n"
+"          </p>\n"
+"        "
 
 #. module: contacts
 #: model:ir.actions.act_window,name:contacts.action_contacts

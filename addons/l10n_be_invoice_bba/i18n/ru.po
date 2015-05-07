@@ -1,0 +1,146 @@
+# Russian translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-11-24 02:53+0000\n"
+"PO-Revision-Date: 2014-10-01 15:47+0300\n"
+"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/l10n_be_invoice_bba/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-22 07:52+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
+
+#. module: l10n_be_invoice_bba
+#: sql_constraint:account.invoice:0
+msgid "Invoice Number must be unique per Company!"
+msgstr "Номер счета должен быть уникальным в компании!"
+
+#. module: l10n_be_invoice_bba
+#: model:ir.model,name:l10n_be_invoice_bba.model_account_invoice
+msgid "Invoice"
+msgstr "Счет"
+
+#. module: l10n_be_invoice_bba
+#: constraint:res.partner:0
+msgid "Error ! You cannot create recursive associated members."
+msgstr "Ошибка! Вы не можете создать рекурсивные ассоциированных членов."
+
+#. module: l10n_be_invoice_bba
+#: constraint:account.invoice:0
+msgid "Invalid BBA Structured Communication !"
+msgstr "Неверный BBA Структурированные общение!"
+
+#. module: l10n_be_invoice_bba
+#: selection:res.partner,out_inv_comm_algorithm:0
+msgid "Random"
+msgstr "Случайный"
+
+#. module: l10n_be_invoice_bba
+#: help:res.partner,out_inv_comm_type:0
+msgid "Select Default Communication Type for Outgoing Invoices."
+msgstr ""
+"Выберите По умолчанию тип связи для исходящих счетов-фактур."
+
+#. module: l10n_be_invoice_bba
+#: help:res.partner,out_inv_comm_algorithm:0
+msgid "Select Algorithm to generate the Structured Communication on Outgoing Invoices."
+msgstr ""
+"Выберите алгоритм для генерации структурированной связи исходящих счетов-фактур."
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:109
+#: code:addons/l10n_be_invoice_bba/invoice.py:135
+#, python-format
+msgid "The daily maximum of outgoing invoices with an automatically generated BBA Structured Communications has been exceeded!\n"
+"Please create manually a unique BBA Structured Communication."
+msgstr ""
+"Суточный максимум исходящих счетов-фактур с автоматически BBA структурированных связи была превышена!\n"
+"Пожалуйста, создайте вручную уникальный BBA структурированный связи."
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:150
+#, python-format
+msgid "Error!"
+msgstr "Ошибка!"
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:121
+#, python-format
+msgid "The Partner should have a 3-7 digit Reference Number for the generation of BBA Structured Communications!\n"
+"Please correct the Partner record."
+msgstr ""
+"Партнер должен иметь 3-7 цифр справочный номер для генерации BBA структурированных связей!\n"
+"Пожалуйста, исправьте запись партнера."
+
+#. module: l10n_be_invoice_bba
+#: constraint:res.partner:0
+msgid "Error: Invalid ean code"
+msgstr "Ошибка: Неверный код EAN"
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:108
+#: code:addons/l10n_be_invoice_bba/invoice.py:120
+#: code:addons/l10n_be_invoice_bba/invoice.py:134
+#: code:addons/l10n_be_invoice_bba/invoice.py:162
+#: code:addons/l10n_be_invoice_bba/invoice.py:172
+#: code:addons/l10n_be_invoice_bba/invoice.py:197
+#, python-format
+msgid "Warning!"
+msgstr "Внимание!"
+
+#. module: l10n_be_invoice_bba
+#: selection:res.partner,out_inv_comm_algorithm:0
+msgid "Customer Reference"
+msgstr "Ссылка клиентов"
+
+#. module: l10n_be_invoice_bba
+#: field:res.partner,out_inv_comm_type:0
+msgid "Communication Type"
+msgstr "Тип связи"
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:173
+#: code:addons/l10n_be_invoice_bba/invoice.py:198
+#, python-format
+msgid "The BBA Structured Communication has already been used!\n"
+"Please create manually a unique BBA Structured Communication."
+msgstr ""
+
+#. module: l10n_be_invoice_bba
+#: selection:res.partner,out_inv_comm_algorithm:0
+msgid "Date"
+msgstr "Дата"
+
+#. module: l10n_be_invoice_bba
+#: model:ir.model,name:l10n_be_invoice_bba.model_res_partner
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:151
+#, python-format
+msgid "Unsupported Structured Communication Type Algorithm '%s' !\n"
+"Please contact your OpenERP support channel."
+msgstr ""
+
+#. module: l10n_be_invoice_bba
+#: field:res.partner,out_inv_comm_algorithm:0
+msgid "Communication Algorithm"
+msgstr ""
+
+#. module: l10n_be_invoice_bba
+#: code:addons/l10n_be_invoice_bba/invoice.py:163
+#, python-format
+msgid "Empty BBA Structured Communication!\n"
+"Please fill in a unique BBA Structured Communication."
+msgstr ""
+

@@ -1,0 +1,152 @@
+# Russian translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-01 15:46+0300\n"
+"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/l10n_be_hr_payroll/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-22 07:52+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
+
+#. module: l10n_be_hr_payroll
+#: help:hr.employee,disabled_spouse_bool:0
+msgid "if recipient spouse is declared disabled by law"
+msgstr "если получатель супруг объявил отключена законом"
+
+#. module: l10n_be_hr_payroll
+#: help:hr.employee,disabled_children_bool:0
+msgid "if recipient children is/are declared disabled by law"
+msgstr "если дети получатель/объявляются отключена законом"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,misc_onss_deduction:0
+msgid "Miscellaneous exempt ONSS "
+msgstr "Разное освобождаются ONSS "
+
+#. module: l10n_be_hr_payroll
+#: model:ir.model,name:l10n_be_hr_payroll.model_hr_employee
+msgid "Employee"
+msgstr "Сотрудник"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.employee,disabled_spouse_bool:0
+msgid "Disabled Spouse"
+msgstr "Нетрудоспособного супруга"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,retained_net_amount:0
+msgid "Net retained "
+msgstr "Чистая сохраняется "
+
+#. module: l10n_be_hr_payroll
+#: field:hr.employee,resident_bool:0
+msgid "Nonresident"
+msgstr "Нерезидент"
+
+#. module: l10n_be_hr_payroll
+#: help:hr.employee,resident_bool:0
+msgid "if recipient lives in a foreign country"
+msgstr "если получатель живет в чужой стране"
+
+#. module: l10n_be_hr_payroll
+#: view:hr.employee:0
+msgid "if spouse has professionnel income or not"
+msgstr "если супруг имеет профессиональный доход или нет"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,insurance_employee_deduction:0
+msgid "Insurance Group - by worker "
+msgstr "Страховая Группа - работником "
+
+#. module: l10n_be_hr_payroll
+#: selection:hr.employee,spouse_fiscal_status:0
+msgid "With Income"
+msgstr "С доходов"
+
+#. module: l10n_be_hr_payroll
+#: selection:hr.employee,spouse_fiscal_status:0
+msgid "Without Income"
+msgstr "Без доходов"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.employee,disabled_children_number:0
+msgid "Number of disabled children"
+msgstr "Количество детей-инвалидов"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,additional_net_amount:0
+msgid "Net supplements"
+msgstr "Чистые добавки"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,car_company_amount:0
+msgid "Company car employer"
+msgstr "Автомобиль компании работодателя"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,misc_advantage_amount:0
+msgid "Benefits of various nature "
+msgstr "Преимущества различной природы "
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,car_employee_deduction:0
+msgid "Company Car Deduction for Worker"
+msgstr "Автомобиль компании - вычет для рабочего"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.employee,disabled_children_bool:0
+msgid "Disabled Children"
+msgstr "Ребенок инвалид"
+
+#. module: l10n_be_hr_payroll
+#: model:ir.model,name:l10n_be_hr_payroll.model_hr_contract
+msgid "Contract"
+msgstr "Договор"
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,meal_voucher_amount:0
+msgid "Check Value Meal "
+msgstr "Проверьте значение - Еда "
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,travel_reimbursement_amount:0
+msgid "Reimbursement of travel expenses"
+msgstr "Возмещение командировочных расходов"
+
+#. module: l10n_be_hr_payroll
+#: constraint:hr.contract:0
+msgid "Error! Contract start-date must be less than contract end-date."
+msgstr ""
+"Ошибка!Дата заключения договора должна быть меньше даты окончания срока "
+"действия договора."
+
+#. module: l10n_be_hr_payroll
+#: field:hr.employee,spouse_fiscal_status:0
+msgid "Tax status for spouse"
+msgstr "Налоговый статус для супруга"
+
+#. module: l10n_be_hr_payroll
+#: view:hr.employee:0
+msgid "number of dependent children declared as disabled"
+msgstr "количество детей на иждивении объявленные как инвалиды"
+
+#. module: l10n_be_hr_payroll
+#: constraint:hr.employee:0
+msgid "Error! You cannot create recursive hierarchy of Employee(s)."
+msgstr "Ошибка! Вы не можете создавать рекурсивную иерархию сотрудника(ов)."
+
+#. module: l10n_be_hr_payroll
+#: field:hr.contract,meal_voucher_employee_deduction:0
+msgid "Check Value Meal - by worker "
+msgstr "Проверьте значение Еда - работником"

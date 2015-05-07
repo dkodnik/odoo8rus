@@ -11,6 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2014-08-14 16:10+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,12 +21,12 @@ msgstr ""
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,email:0
 msgid "# Emails"
-msgstr "# эл. писем"
+msgstr "# Адреса эл.почты"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,nbr:0
 msgid "# of Requests"
-msgstr ""
+msgstr "# кол-во Запросов"
 
 #. module: crm_helpdesk
 #: model:ir.actions.act_window,help:crm_helpdesk.crm_case_helpdesk_act111
@@ -44,6 +45,19 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Нажмите чтобы создать новый запрос. \n"
+"              </p><p>\n"
+"                Helpdesk и Поддержка позволит вам отслеживать ваши "
+"вмешательства.\n"
+"              </p><p>\n"
+"                Используйте систему задач Odoo чтобы контролировать вашу \n"
+"                 деятельность. Задачи могут быть подключены к электронному "
+"шлюзу: новые \n"
+"                 электронные письма могут создавать задачи, каждый из "
+"которых автоматически получает Историю переписки с клиентом.\n"
+"              </p>\n"
+"            "
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,active:0
@@ -58,7 +72,7 @@ msgstr "Все ожидающие запросы техподдержки"
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "Assigned to Me or My Sales Team(s)"
-msgstr ""
+msgstr "Присвоенный мне или моей группе (ам) сбыта"
 
 #. module: crm_helpdesk
 #: selection:crm.helpdesk,state:0
@@ -131,7 +145,7 @@ msgstr ""
 #. module: crm_helpdesk
 #: field:crm.helpdesk,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,create_date:0
@@ -149,7 +163,7 @@ msgstr "Дата"
 #. module: crm_helpdesk
 #: help:crm.helpdesk,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "Дата последнего сообщения размещенного в отчете."
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
@@ -161,7 +175,7 @@ msgstr "Даты"
 #: field:crm.helpdesk,date_deadline:0
 #: field:crm.helpdesk.report,date_deadline:0
 msgid "Deadline"
-msgstr "Срок"
+msgstr "Последний срок"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,delay_close:0
@@ -176,7 +190,7 @@ msgstr "Описание"
 #. module: crm_helpdesk
 #: help:crm.helpdesk,email_from:0
 msgid "Destination email for email gateway"
-msgstr ""
+msgstr "Направление электронной почты для почтового шлюза"
 
 #. module: crm_helpdesk
 #: selection:crm.helpdesk.report,state:0
@@ -197,7 +211,7 @@ msgstr "Эл. почта"
 #: code:addons/crm_helpdesk/crm_helpdesk.py:117
 #, python-format
 msgid "Error!"
-msgstr ""
+msgstr "Ошибка!"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
@@ -233,7 +247,7 @@ msgstr "Общее"
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 msgid "Group By"
-msgstr ""
+msgstr "Группировать по"
 
 #. module: crm_helpdesk
 #: model:ir.actions.act_window,help:crm_helpdesk.action_report_crm_helpdesk
@@ -300,6 +314,8 @@ msgid ""
 "Helpdesk requests that are assigned to me or to one of the sale teams I "
 "manage"
 msgstr ""
+"Запросы Helpdesk, назначенные мне или одной из моих групп по сбыту, которыми "
+"я управляю"
 
 #. module: crm_helpdesk
 #: selection:crm.helpdesk,priority:0
@@ -318,8 +334,8 @@ msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
 msgstr ""
-"Содержит сводку по Чаттеру (количество сообщений,...). Эта сводка в формате "
-"html для возможности использования в канбан виде"
+"Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
+"непосредственно в HTML формате для того, чтобы вставить в виды kanban."
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,id:0
@@ -335,12 +351,12 @@ msgstr "Если отмечено, новые сообщения требуют 
 #. module: crm_helpdesk
 #: selection:crm.helpdesk,state:0
 msgid "In Progress"
-msgstr "В работе"
+msgstr "В процессе"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Подписан"
+msgstr "Является подписчиком"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,date_action_last:0
@@ -350,12 +366,12 @@ msgstr "Последнее действие"
 #. module: crm_helpdesk
 #: field:crm.helpdesk,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Дата последнего сообщения"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: crm_helpdesk
 #: selection:crm.helpdesk,priority:0
@@ -445,7 +461,7 @@ msgstr "Обычный"
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 msgid "Notes"
-msgstr "Примечания"
+msgstr "Заметки"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -529,12 +545,12 @@ msgstr "Ссылки"
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "Request Date by Month"
-msgstr ""
+msgstr "Даты запросов по месяцам"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "Request Month"
-msgstr ""
+msgstr "Запрос месяца"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -553,6 +569,8 @@ msgid ""
 "Responsible sales team. Define Responsible user and Email account for mail "
 "gateway."
 msgstr ""
+"Ответственная группа сбыта. Определить ответственного пользователя и учетную "
+"запись электронной почты для почтового шлюза."
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -605,6 +623,10 @@ msgid ""
 "        \n"
 "If the case needs to be reviewed then the status is set to 'Pending'."
 msgstr ""
+"Статус \"Черновик\" устанавливается, когда дело создано. ↵ \n"
+"Если дело в процессе, устанавливается статус \"Открыто\". ↵ \n"
+"Когда дело закончится, устанавливается статус \"Готово\". ↵ \n"
+"Если дело нуждается в пересмотре, то, устанавливается статус \"В ожидании\"."
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,email_cc:0
@@ -620,7 +642,7 @@ msgstr ""
 #. module: crm_helpdesk
 #: field:crm.helpdesk,message_unread:0
 msgid "Unread Messages"
-msgstr "Непрочитанные"
+msgstr "Непрочитанные сообщения"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,write_date:0
@@ -635,17 +657,17 @@ msgstr "Пользователь"
 #. module: crm_helpdesk
 #: field:crm.helpdesk,email_cc:0
 msgid "Watchers Emails"
-msgstr "Адреса наблюдателей"
+msgstr "Электронные адреса наблюдателей"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,website_message_ids:0
 msgid "Website Messages"
-msgstr ""
+msgstr "Сообщения сайта"
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,website_message_ids:0
 msgid "Website communication history"
-msgstr ""
+msgstr "История переписки сайта"
 
 #. module: crm_helpdesk
 #: code:addons/crm_helpdesk/crm_helpdesk.py:117
@@ -654,6 +676,8 @@ msgid ""
 "You can not escalate, you are already at the top level regarding your sales-"
 "team category."
 msgstr ""
+"Вы не можете повысить свой уровень, вы уже на высшем уровне в вашей "
+"категории команд продаж."
 
 #~ msgid "# of Cases"
 #~ msgstr "кол-во вопросов"

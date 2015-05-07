@@ -1,0 +1,109 @@
+# Russian translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-22 23:05+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
+"website_event_sale/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-22 08:28+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: website_event_sale
+#: code:addons/website_event_sale/models/sale_order.py:39
+#, python-format
+msgid "Error!"
+msgstr "Ошибка!"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "Free"
+msgstr "Свободен"
+
+#. module: website_event_sale
+#: view:website:website_event.index
+msgid "Only"
+msgstr "Только"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "Order Now"
+msgstr "Заказать сейчас"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "Price"
+msgstr "Цена"
+
+#. module: website_event_sale
+#: model:ir.model,name:website_event_sale.model_product_product
+msgid "Product"
+msgstr "Продукт"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "Quantity"
+msgstr "Количество"
+
+#. module: website_event_sale
+#: view:website:website_event.index
+msgid "Remaining"
+msgstr "Оставшиеся"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "Sales End"
+msgstr "Конец продажи"
+
+#. module: website_event_sale
+#: model:ir.model,name:website_event_sale.model_sale_order
+msgid "Sales Order"
+msgstr "Заказ на продажу"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+#: view:website:website_event.index
+msgid "Sold Out"
+msgstr "Распродано"
+
+#. module: website_event_sale
+#: code:addons/website_event_sale/controllers/main.py:66
+#, python-format
+msgid "Subscription"
+msgstr "Подписка"
+
+#. module: website_event_sale
+#: code:addons/website_event_sale/models/sale_order.py:39
+#, python-format
+msgid "The ticket doesn't match with this product."
+msgstr "Билет не подходит к этому товаром."
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "Ticket Type"
+msgstr "Тип билета"
+
+#. module: website_event_sale
+#: model:ir.model,name:website_event_sale.model_website
+msgid "Website"
+msgstr "Вебсайт"
+
+#. module: website_event_sale
+#: view:website:website_event.event_description_full
+msgid "left"
+msgstr "слева"

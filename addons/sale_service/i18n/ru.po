@@ -1,30 +1,33 @@
-# Translation of OpenERP Server.
-# This file contains the translation of the following modules:
-#	* project_mrp
+# Russian translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 6.0dev\n"
-"Report-Msgid-Bugs-To: support@openerp.com\n"
-"POT-Creation-Date: 2012-12-21 17:06+0000\n"
-"PO-Revision-Date: 2012-11-29 09:49+0000\n"
-"Last-Translator: Chertykov Denis <chertykov@gmail.com>\n"
-"Language-Team: \n"
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-08-14 13:08+0000\n"
+"PO-Revision-Date: 2014-10-22 23:27+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
+"sale_service/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-22 07:02+0000\n"
-"X-Generator: Launchpad (build 16985)\n"
+"X-Launchpad-Export-Date: 2015-01-22 08:20+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
 
 #. module: project_mrp
 #: model:process.node,note:project_mrp.process_node_procuretasktask0
 msgid "For each product, on type service and on order"
-msgstr ""
+msgstr "Для каждого товара, по типу услуг и по заказу"
 
 #. module: project_mrp
 #: model:process.transition,note:project_mrp.process_transition_createtask0
 msgid "Product type is service, then its creates the task."
-msgstr ""
+msgstr "Тип товара - услуга, затем создается задача."
 
 #. module: project_mrp
 #: code:addons/project_mrp/project_procurement.py:92
@@ -35,12 +38,12 @@ msgstr "Задача создана"
 #. module: project_mrp
 #: model:process.node,note:project_mrp.process_node_saleordertask0
 msgid "In case you sell services on sales order"
-msgstr ""
+msgstr "В случае, если Вы продаете услуги по заказу на продажу"
 
 #. module: project_mrp
 #: model:process.node,note:project_mrp.process_node_mrptask0
 msgid "A task is created to provide the service."
-msgstr ""
+msgstr "Для предоставления услуги создана задача."
 
 #. module: project_mrp
 #: model:ir.model,name:project_mrp.model_product_product
@@ -50,27 +53,27 @@ msgstr "Товар"
 #. module: project_mrp
 #: model:process.node,name:project_mrp.process_node_saleordertask0
 msgid "Sales Order Task"
-msgstr ""
+msgstr "Задача заказа на продажу"
 
 #. module: project_mrp
 #: model:process.transition,note:project_mrp.process_transition_procuretask0
 msgid "if product type is 'service' then it creates the task."
-msgstr ""
+msgstr "если тип товара - 'услуга', создается задача."
 
 #. module: project_mrp
 #: model:process.transition,name:project_mrp.process_transition_ordertask0
 msgid "Order Task"
-msgstr ""
+msgstr "Задача заказа"
 
 #. module: project_mrp
 #: model:process.transition,name:project_mrp.process_transition_procuretask0
 msgid "Procurement Task"
-msgstr ""
+msgstr "Задача поставки"
 
 #. module: project_mrp
 #: field:procurement.order,sale_line_id:0
 msgid "Sales order line"
-msgstr ""
+msgstr "Строка заказа на продажу"
 
 #. module: project_mrp
 #: model:ir.model,name:project_mrp.model_project_task
@@ -78,7 +81,7 @@ msgstr ""
 #: model:process.node,name:project_mrp.process_node_procuretasktask0
 #: field:procurement.order,task_id:0
 msgid "Task"
-msgstr "Задание"
+msgstr "Задача"
 
 #. module: project_mrp
 #: view:product.product:0
@@ -89,63 +92,67 @@ msgid ""
 "                        in the project related to the contract of the sales "
 "order."
 msgstr ""
+"будет \n"
+"                        создана для выполнения запланированной работы. Эта "
+"задача появится\n"
+"                        в проекте, связанном с контрактом заказа на продажу."
 
 #. module: project_mrp
 #: view:product.product:0
 msgid "When you sell this service to a customer,"
-msgstr ""
+msgstr "Когда Вы продаете эту услугу клиенту,"
 
 #. module: project_mrp
 #: field:product.product,project_id:0
 msgid "Project"
-msgstr ""
+msgstr "Проект"
 
 #. module: project_mrp
 #: model:ir.model,name:project_mrp.model_procurement_order
 #: field:project.task,procurement_id:0
 msgid "Procurement"
-msgstr ""
+msgstr "Поставка"
 
 #. module: project_mrp
 #: view:product.product:0
 msgid "False"
-msgstr ""
+msgstr "Неверно"
 
 #. module: project_mrp
 #: code:addons/project_mrp/project_procurement.py:86
 #, python-format
 msgid "Task created."
-msgstr ""
+msgstr "Создана задача."
 
 #. module: project_mrp
 #: model:process.transition,note:project_mrp.process_transition_ordertask0
 msgid "If procurement method is Make to order and supply method is produce"
-msgstr ""
+msgstr "Если метод закупки - Сделать заказ, и метод поставки - Выработать"
 
 #. module: project_mrp
 #: field:project.task,sale_line_id:0
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Позиция заказа на продажу"
 
 #. module: project_mrp
 #: model:process.transition,name:project_mrp.process_transition_createtask0
 msgid "Create Task"
-msgstr ""
+msgstr "Создать задачу"
 
 #. module: project_mrp
 #: model:ir.model,name:project_mrp.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Заказ на продажу"
 
 #. module: project_mrp
 #: view:project.task:0
 msgid "Order Line"
-msgstr ""
+msgstr "Строка заказа"
 
 #. module: project_mrp
 #: view:product.product:0
 msgid "a task"
-msgstr ""
+msgstr "задача"
 
 #~ msgid "Error ! Task end-date must be greater then task start-date"
 #~ msgstr ""

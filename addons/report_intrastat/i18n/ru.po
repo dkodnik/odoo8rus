@@ -7,10 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2014-08-14 16:10+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-10-03 13:15+0300\n"
+"Last-Translator: user2 <user2@starlight-biz.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/report_intrastat/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +37,7 @@ msgstr "Август"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Base"
-msgstr "База"
+msgstr "Базовый"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -60,12 +62,12 @@ msgstr "Код страны"
 #. module: report_intrastat
 #: field:report.intrastat.code,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: report_intrastat
 #: field:report.intrastat.code,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: report_intrastat
 #: field:report.intrastat,currency_id:0
@@ -86,7 +88,7 @@ msgstr "Описание"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Discount (%)"
-msgstr ""
+msgstr "Скидка (%)"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -117,7 +119,7 @@ msgstr ""
 #: field:report.intrastat,id:0
 #: field:report.intrastat.code,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: report_intrastat
 #: selection:report.intrastat,type:0
@@ -196,12 +198,12 @@ msgstr "Июнь"
 #. module: report_intrastat
 #: field:report.intrastat.code,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: report_intrastat
 #: field:report.intrastat.code,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
@@ -241,12 +243,12 @@ msgstr ""
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Payment Term:"
-msgstr ""
+msgstr "Условия оплаты:"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_product_template
 msgid "Product Template"
-msgstr "Шаблон ТМЦ"
+msgstr "Шаблон продукта"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -256,7 +258,7 @@ msgstr "Количество"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Refund"
-msgstr "Возвраты"
+msgstr "Возврат"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
@@ -296,12 +298,12 @@ msgstr "Налоги"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Total"
-msgstr ""
+msgstr "Итоговая сумма"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Total Without Taxes"
-msgstr ""
+msgstr "Всего без налогов"
 
 #. module: report_intrastat
 #: field:report.intrastat,type:0
@@ -316,7 +318,7 @@ msgstr "Цена за ед."
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Unit of measure"
-msgstr ""
+msgstr "Единица измерения"
 
 #. module: report_intrastat
 #: field:report.intrastat,value:0

@@ -41,7 +41,7 @@ msgstr ""
 #. module: account_test
 #: field:accounting.assert.test,active:0
 msgid "Active"
-msgstr ""
+msgstr "Активный"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_03
@@ -141,12 +141,12 @@ msgstr ""
 #. module: account_test
 #: field:accounting.assert.test,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: account_test
 #: field:accounting.assert.test,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: account_test
 #: view:accounting.assert.test:account_test.account_assert_form
@@ -156,33 +156,33 @@ msgstr "Описание"
 #. module: account_test
 #: view:website:account_test.report_accounttest
 msgid "Description:"
-msgstr ""
+msgstr "Описание:"
 
 #. module: account_test
 #: view:accounting.assert.test:account_test.account_assert_form
 msgid "Expression"
-msgstr ""
+msgstr "Выражение"
 
 #. module: account_test
 #: field:accounting.assert.test,id:0
 #: field:report.account_test.report_accounttest,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_test
 #: field:accounting.assert.test,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_test
 #: field:accounting.assert.test,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: account_test
 #: view:website:account_test.report_accounttest
 msgid "Name:"
-msgstr ""
+msgstr "Название:"
 
 #. module: account_test
 #: view:accounting.assert.test:account_test.account_assert_form
@@ -197,7 +197,7 @@ msgstr "Код на Python"
 #. module: account_test
 #: field:accounting.assert.test,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Последовательность"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_01

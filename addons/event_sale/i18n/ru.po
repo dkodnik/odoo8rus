@@ -1,4 +1,4 @@
-# Russian translation for openobject-addons
+# Spanish translation for openobject-addons
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the openobject-addons package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-20 22:29+0300\n"
-"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 13:09+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.starlight-"
-"biz.com//projects/odoo/event/ru/>\n"
-"Language: ru\n"
+"biz.com//projects/odoo/event_sale/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:40+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:37+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: event_sale
 #: field:event.event.ticket,seats_available:0
@@ -62,14 +62,18 @@ msgstr "Значок внутри слева"
 
 #. module: event_sale
 #: help:sale.order.line,event_id:0
-msgid "Choose an event and it will automatically create a registration for this event."
+msgid ""
+"Choose an event and it will automatically create a registration for this "
+"event."
 msgstr ""
 "Выберите событие и автоматически создастся регистрационная запись для этого "
 "события."
 
 #. module: event_sale
 #: help:sale.order.line,event_ticket_id:0
-msgid "Choose an event ticket and it will automatically create a registration for this event ticket."
+msgid ""
+"Choose an event ticket and it will automatically create a registration for "
+"this event ticket."
 msgstr ""
 "Выберите билет на событие и автоматически создастся регистрационная запись "
 "для этого билета на событие."
@@ -91,7 +95,9 @@ msgstr "Создан"
 
 #. module: event_sale
 #: help:product.template,event_ok:0
-msgid "Determine if a product needs to create automatically an event registration at the confirmation of a sales order line."
+msgid ""
+"Determine if a product needs to create automatically an event registration "
+"at the confirmation of a sales order line."
 msgstr ""
 "Определите, нужно ли автоматически создать регистрационную запись события "
 "для товара при подтверждении позиции заказа на продажу."
@@ -184,7 +190,7 @@ msgstr "Максимальное количество доступных пос�
 #. module: event_sale
 #: field:event.event.ticket,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: event_sale
 #: constraint:event.event.ticket:0
@@ -215,7 +221,7 @@ msgstr "Цена"
 #. module: event_sale
 #: field:event.event.ticket,price_reduce:0
 msgid "Price Reduce"
-msgstr "Уменьшить цену"
+msgstr ""
 
 #. module: event_sale
 #: field:event.event.ticket,product_id:0
@@ -250,7 +256,9 @@ msgstr "Позиция заказа на продажу"
 
 #. module: event_sale
 #: help:product.template,event_type_id:0
-msgid "Select event types so when we use this product in sales order lines, it will filter events of this type only."
+msgid ""
+"Select event types so when we use this product in sales order lines, it will "
+"filter events of this type only."
 msgstr ""
 "Выберите типы события так, что когда мы будем использовать этот товар в "
 "строках заказа на продажу, он отфильтрует события только этого типа."
@@ -282,7 +290,9 @@ msgstr "Техническое обучение"
 #. module: event_sale
 #: code:addons/event_sale/event_sale.py:123
 #, python-format
-msgid "The registration has been created for event <i>%s</i> from the Sale Order %s. "
+msgid ""
+"The registration has been created for event <i>%s</i> from the Sale Order "
+"%s. "
 msgstr ""
 "Была создана регистрационная запись для события <i>%s</i> из заказа на "
 "продажу %s. "
@@ -290,10 +300,12 @@ msgstr ""
 #. module: event_sale
 #: code:addons/event_sale/event_sale.py:121
 #, python-format
-msgid "The registration has been created for event <i>%s</i> with the ticket <i>%s</i> from the Sale Order %s. "
+msgid ""
+"The registration has been created for event <i>%s</i> with the ticket "
+"<i>%s</i> from the Sale Order %s. "
 msgstr ""
-"Была создана регистрационная запись для события <i>%s</i> с билетом <i>%s</"
-"i> из заказа на продажу %s. "
+"Была создана регистрационная запись для события <i>%s</i> с билетом "
+"<i>%s</i> из заказа на продажу %s. "
 
 #. module: event_sale
 #: view:event.registration:event_sale.view_event_registration_ticket_search
@@ -324,7 +336,10 @@ msgstr "VIP"
 
 #. module: event_sale
 #: help:event.event.ticket,seats_max:0
-msgid "You can for each event define a maximum registration level. If you have too much registrations you are not able to confirm your event. (put 0 to ignore this rule )"
+msgid ""
+"You can for each event define a maximum registration level. If you have too "
+"much registrations you are not able to confirm your event. (put 0 to ignore "
+"this rule )"
 msgstr ""
 "Вы можете для каждого события определить максимальный регистрационный "
 "уровень. Если у вас слишком много регистрационных записей, вы не можете "

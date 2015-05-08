@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:59+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"fleet/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:09+0000\n"
+"PO-Revision-Date: 2015-04-26 13:10+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/fleet/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:42+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:37+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: fleet
 #: code:addons/fleet/fleet.py:387
@@ -393,7 +393,7 @@ msgstr "Замена батареи"
 #. module: fleet
 #: selection:fleet.service.type,category:0
 msgid "Both"
-msgstr "Оба"
+msgstr "И то, и другое"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_11
@@ -808,7 +808,8 @@ msgstr "Автомобиль сотрудника"
 #: code:addons/fleet/fleet.py:47
 #, python-format
 msgid "Emptying the odometer value of a vehicle is not allowed."
-msgstr "Сброс значений счетчика пробега транспортного средства не разрешается."
+msgstr ""
+"Сброс значений счетчика пробега транспортного средства не разрешается."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_18
@@ -1018,7 +1019,7 @@ msgstr "ID"
 #. module: fleet
 #: help:fleet.vehicle,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Если отмечено, новые сообщения требуют вашего внимания."
+msgstr "Если проверенные новые сообщения требуют вашего внимания."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_29
@@ -1224,7 +1225,7 @@ msgstr ""
 #. module: fleet
 #: field:fleet.vehicle.model.brand,image_medium:0
 msgid "Medium-sized photo"
-msgstr "Фото среднего размера"
+msgstr "Средний размер фото"
 
 #. module: fleet
 #: field:fleet.vehicle,message_ids:0
@@ -1290,12 +1291,12 @@ msgstr "Модели"
 #. module: fleet
 #: view:fleet.vehicle.cost:fleet.fleet_vehicle_costs_search
 msgid "Month"
-msgstr "Месяц"
+msgstr "Помесячно"
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
 msgid "Monthly"
-msgstr "Ежемесячно"
+msgstr "Помесячно"
 
 #. module: fleet
 #: field:fleet.service.type,name:0
@@ -1307,7 +1308,7 @@ msgstr "Ежемесячно"
 #: field:fleet.vehicle.state,name:0
 #: field:fleet.vehicle.tag,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: fleet
 #: field:fleet.vehicle,contract_renewal_name:0
@@ -1756,7 +1757,7 @@ msgstr "Закончено"
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
 #: field:fleet.vehicle.log.contract,notes:0
 msgid "Terms and Conditions"
-msgstr "Правила и условия"
+msgstr "Сроки и условия"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_43

@@ -1,23 +1,21 @@
 # Russian translation for openobject-addons
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 22:58+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"website_mail/ru/>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2015-01-21 14:09+0000\n"
+"PO-Revision-Date: 2015-04-26 08:16+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:28+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:43+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
@@ -46,8 +44,10 @@ msgstr "Хороший подзаголовок"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "A great way to catch your reader's attention is to tell a story.\n"
-"                                    Everything you consider writing can be told as a story."
+msgid ""
+"A great way to catch your reader's attention is to tell a story.\n"
+"                                    Everything you consider writing can be "
+"told as a story."
 msgstr ""
 "Хороший способ привлечь внимание ваших читателей - рассказать историю.\n"
 "                                    Все, о чем вы считаете необходимым "
@@ -78,7 +78,7 @@ msgstr "Назад"
 #. module: website_mail
 #: view:website:website_mail.email_designer
 msgid "Back to the mass mailing"
-msgstr "Вернуться к массовой рассылке"
+msgstr ""
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
@@ -117,8 +117,10 @@ msgstr "Кнопка"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "Choose a vibrant image and write an inspiring paragraph\n"
-"                                about it. It does not have to be long, but it should\n"
+msgid ""
+"Choose a vibrant image and write an inspiring paragraph\n"
+"                                about it. It does not have to be long, but "
+"it should\n"
 "                                reinforce your image."
 msgstr ""
 "Выберите яркое изображение и напишите вдохновляющую статью\n"
@@ -138,12 +140,18 @@ msgstr "Сравнения"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "Consider telling\n"
-"                                    a great story that provides personality. Writing a story \n"
-"                                    with personality for potential clients will asist with \n"
-"                                    making a relationship connection. This shows up in small\n"
-"                                    quirks like word choices or phrases. Write from your point \n"
-"                                    of view, not from someone else's experience."
+msgid ""
+"Consider telling\n"
+"                                    a great story that provides personality. "
+"Writing a story \n"
+"                                    with personality for potential clients "
+"will asist with \n"
+"                                    making a relationship connection. This "
+"shows up in small\n"
+"                                    quirks like word choices or phrases. "
+"Write from your point \n"
+"                                    of view, not from someone else's "
+"experience."
 msgstr ""
 "Подумайте о написании\n"
 "                                    интересной истории, которая была бы "
@@ -231,7 +239,8 @@ msgstr "От:"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "Great stories are for everyone even when only written for\n"
+msgid ""
+"Great stories are for everyone even when only written for\n"
 "                                    just one person."
 msgstr ""
 "Замечательные истории - для всех, даже когда написаны только\n"
@@ -244,9 +253,12 @@ msgstr "У замечательных историй есть индивидуа
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "If you try to write with a wide general\n"
-"                                    audience in mind, your story will ring false and be bland. \n"
-"                                    No one will be interested. Write for one person. If it’s genuine\n"
+msgid ""
+"If you try to write with a wide general\n"
+"                                    audience in mind, your story will ring "
+"false and be bland. \n"
+"                                    No one will be interested. Write for one "
+"person. If it’s genuine\n"
 "                                    for the one, it’s genuine for the rest."
 msgstr ""
 "Если вы попробуете написать историю для широкой общей\n"
@@ -334,7 +346,8 @@ msgstr "Разделитель"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "Start with the customer – find out what they want\n"
+msgid ""
+"Start with the customer – find out what they want\n"
 "                                                    and give it to them."
 msgstr ""
 "Начните работу с клиентами – узнайте, чего они хотят,\n"
@@ -373,7 +386,9 @@ msgstr "Спасибо за подписку!"
 #. module: website_mail
 #: code:addons/website_mail/models/mail_message.py:88
 #, python-format
-msgid "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
+msgid ""
+"The requested operation cannot be completed due to security restrictions. "
+"Please contact your system administrator.\n"
 "\n"
 "(Document type: %s, Operation: %s)"
 msgstr ""
@@ -444,9 +459,12 @@ msgstr "Вес: 1,2 унций"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid "Write one or two paragraphs describing your product,\n"
-"                                                    services or a specific feature. To be successful\n"
-"                                                    your content needs to be useful to your readers."
+msgid ""
+"Write one or two paragraphs describing your product,\n"
+"                                                    services or a specific "
+"feature. To be successful\n"
+"                                                    your content needs to be "
+"useful to your readers."
 msgstr ""
 "Напишите один или два параграфа с описанием вашего товара,\n"
 "                                                    услуг или особых "

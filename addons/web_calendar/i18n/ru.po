@@ -7,17 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openerp-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:17+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"web_calendar/ru/>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-03-10 09:00+0000\n"
+"Last-Translator: Chertykov Denis <chertykov@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:55+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-03-11 05:49+0000\n"
+"X-Generator: Launchpad (build 17389)\n"
 
 #. module: web_calendar
 #. openerp-web
@@ -66,7 +64,7 @@ msgstr "Создать"
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:66
 #, python-format
 msgid "Create event"
-msgstr "Создать событие"
+msgstr "Создать мероприятие"
 
 #. module: web_calendar
 #. openerp-web
@@ -102,21 +100,21 @@ msgstr "Удалить"
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:67
 #, python-format
 msgid "Edit Event"
-msgstr "Редактировать событие"
+msgstr "Изменить мероприятие"
 
 #. module: web_calendar
 #. openerp-web
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:60
 #, python-format
 msgid "Event summary:"
-msgstr "Сводка событий:"
+msgstr "Мероприятие - сводка:"
 
 #. module: web_calendar
 #. openerp-web
 #: code:addons/web_calendar/static/src/js/web_calendar.js:1205
 #, python-format
 msgid "Missing required fields %s"
-msgstr "Не хватает требуемых полей %s"
+msgstr "Отсутствуют необходимые поля %s"
 
 #. module: web_calendar
 #. openerp-web

@@ -1,38 +1,39 @@
 # Russian translation for openobject-addons
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:04+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"website_forum/ru/>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 08:16+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:28+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:43+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
 
 #. module: website_forum
 #: model:email.template,body_html:website_forum.validation_email
-msgid "\n"
+msgid ""
+"\n"
 "<p>\n"
 "    Hello ${object.name},\n"
 "</p>\n"
 "<p>\n"
-"    You have been invited to validate your email in order to get access to \"${object.company_id.name}\" Q/A Forums.\n"
+"    You have been invited to validate your email in order to get access to "
+"\"${object.company_id.name}\" Q/A Forums.\n"
 "</p>\n"
 "<p>\n"
 "    To validate your email, please click on the following link:\n"
 "</p>\n"
 "<ul>\n"
-"    <li><a href=\"${ctx.get('token_url')}\">Validate my account for \"${object.company_id.name}\" Q/A Forums</a></li>\n"
+"    <li><a href=\"${ctx.get('token_url')}\">Validate my account for "
+"\"${object.company_id.name}\" Q/A Forums</a></li>\n"
 "</ul>\n"
 "<p>\n"
 "    Thanks,\n"
@@ -79,27 +80,36 @@ msgstr "-1"
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:374
 #, python-format
-msgid "<p>A new answer for <i>%s</i> has been posted. <a href=\"%s/forum/%s/question/%s\">Click here to access the post.</a></p>"
+msgid ""
+"<p>A new answer for <i>%s</i> has been posted. <a "
+"href=\"%s/forum/%s/question/%s\">Click here to access the post.</a></p>"
 msgstr ""
-"<p>Новый ответ для <i>%s</i> был опубликован. <a href=\"%s/forum/%s/question/"
-"%s\">Нажмите здесь, чтобы перейти к публикации.</a></p>"
+"<p>Новый ответ для <i>%s</i> был опубликован. <a "
+"href=\"%s/forum/%s/question/%s\">Нажмите здесь, чтобы перейти к "
+"публикации.</a></p>"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:380
 #, python-format
-msgid "<p>A new question <i>%s</i> has been asked on %s. <a href=\"%s/forum/%s/question/%s\">Click here to access the question.</a></p>"
+msgid ""
+"<p>A new question <i>%s</i> has been asked on %s. <a "
+"href=\"%s/forum/%s/question/%s\">Click here to access the question.</a></p>"
 msgstr ""
-"<p>Новый вопрос <i>%s</i> был задан по %s. <a href=\"%s/forum/%s/question/%s"
-"\">Нажмите здесь, чтобы перейти к вопросу.</a></p>"
+"<p>Новый вопрос <i>%s</i> был задан по %s. <a "
+"href=\"%s/forum/%s/question/%s\">Нажмите здесь, чтобы перейти к "
+"вопросу.</a></p>"
 
 #. module: website_forum
 #: model:forum.forum,description:website_forum.forum_help
-msgid "<p>This community is for professionals and enthusiasts of our products and services.</p>"
+msgid ""
+"<p>This community is for professionals and enthusiasts of our products and "
+"services.</p>"
 msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.tag
-msgid "A tag is a label that categorizes your question with other,\n"
+msgid ""
+"A tag is a label that categorizes your question with other,\n"
 "            similar questions. Using the right tags makes it easier for\n"
 "            others to find and answer your question."
 msgstr ""
@@ -223,7 +233,7 @@ msgstr "Задано:"
 #. module: website_forum
 #: field:forum.forum,karma_gen_question_new:0
 msgid "Asking a question"
-msgstr "Задаваемый вопрос"
+msgstr ""
 
 #. module: website_forum
 #: view:forum.post:website_forum.view_forum_post_search
@@ -255,7 +265,8 @@ msgstr "Значки"
 
 #. module: website_forum
 #: view:website:website_forum.badge
-msgid "Besides gaining reputation with your questions and answers,\n"
+msgid ""
+"Besides gaining reputation with your questions and answers,\n"
 "            you receive badges for being especially helpful. Badges\n"
 "            appear on your profile page, and your posts."
 msgstr ""
@@ -321,7 +332,7 @@ msgstr "Можно поставить плюс"
 #. module: website_forum
 #: field:forum.forum,karma_retag:0
 msgid "Change question tags"
-msgstr "Изменить теги вопроса"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.user_badges
@@ -341,15 +352,15 @@ msgstr "Город"
 
 #. module: website_forum
 #: view:website:website_forum.header
-msgid "Click here to send a verification email allowing you to participate to the forum."
+msgid ""
+"Click here to send a verification email allowing you to participate to the "
+"forum."
 msgstr ""
-"Нажмите здесь, чтобы отправить вам письмо с инструкцией для подтверждением, "
-"чтобы активировать аккаунт для форума."
 
 #. module: website_forum
 #: field:forum.forum,karma_editor_clickable_link:0
 msgid "Clickable links (Editor)"
-msgstr "Кликабельные ссылки (редактор)"
+msgstr ""
 
 #. module: website_forum
 #: selection:forum.post,state:0
@@ -359,12 +370,12 @@ msgstr "Закрыть"
 #. module: website_forum
 #: field:forum.forum,karma_close_all:0
 msgid "Close all posts"
-msgstr "Закрыть все публикации"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,karma_close_own:0
 msgid "Close its own posts"
-msgstr "Закрыть свои публикации"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.close_question
@@ -390,12 +401,12 @@ msgstr "Комментарии"
 #. module: website_forum
 #: field:forum.forum,karma_comment_all:0
 msgid "Comment all posts"
-msgstr "Комментарии всех публикаций"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,karma_comment_own:0
 msgid "Comment its own posts"
-msgstr "Комментарии своих публикаций"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.post_comment
@@ -431,10 +442,10 @@ msgstr "Заполнил собственную биографию"
 
 #. module: website_forum
 #: view:website:website_forum.header
-msgid "Congratulations! Your email has just been validated. You may now participate to our forums."
+msgid ""
+"Congratulations! Your email has just been validated. You may now participate "
+"to our forums."
 msgstr ""
-"Поздравляем! Ваш адрес электронной почты только-что подтвержден. Теперь вы можете принять "
-"участие в наших форумах."
 
 #. module: website_forum
 #: view:forum.post:website_forum.view_forum_post_search
@@ -445,12 +456,12 @@ msgstr "Содержание"
 #. module: website_forum
 #: field:forum.forum,karma_comment_convert_all:0
 msgid "Convert all answers to comments and vice versa"
-msgstr "Конвертировать все ответы на комментарии и наоборот"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,karma_comment_convert_own:0
 msgid "Convert its own answers to comments and vice versa"
-msgstr "Конвертировать свои ответы на комментарии и наоборот"
+msgstr ""
 
 #. module: website_forum
 #: help:forum.post,is_correct:0
@@ -510,12 +521,12 @@ msgstr "Дата последнего сообщения размещенног�
 #. module: website_forum
 #: field:forum.forum,karma_unlink_all:0
 msgid "Delete all posts"
-msgstr "Удалить все публикации"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,karma_unlink_own:0
 msgid "Delete its own posts"
-msgstr "Удалить свои публикации"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,description:0
@@ -532,7 +543,7 @@ msgstr "Упорядочено"
 #. module: website_forum
 #: field:forum.forum,karma_downvote:0
 msgid "Downvote"
-msgstr "Голос вниз"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
@@ -552,7 +563,7 @@ msgstr "Редактировать ваш предыдущий ответ"
 #. module: website_forum
 #: field:forum.forum,karma_edit_all:0
 msgid "Edit all posts"
-msgstr "Редактировать все публикации"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
@@ -562,7 +573,7 @@ msgstr "Редактировать ответ"
 #. module: website_forum
 #: field:forum.forum,karma_edit_own:0
 msgid "Edit its own posts"
-msgstr "Редактировать свои публикации"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
@@ -648,7 +659,7 @@ msgstr "Фильтр включен"
 #. module: website_forum
 #: field:forum.forum,karma_flag:0
 msgid "Flag a post as offensive"
-msgstr "Флаг, пост как оскорбительный"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.forum_index
@@ -792,7 +803,9 @@ msgstr "Помощь"
 #. module: website_forum
 #: help:forum.forum,message_summary:0
 #: help:forum.post,message_summary:0
-msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
 msgstr ""
 "Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
 "непосредственно в HTML формате для того, чтобы вставить в виды kanban."
@@ -814,7 +827,8 @@ msgstr "Если проверенные новые сообщения требу
 
 #. module: website_forum
 #: view:website:website_forum.close_question
-msgid "If you close this question, it will be hidden for most users. Only\n"
+msgid ""
+"If you close this question, it will be hidden for most users. Only\n"
 "            users having a high karma can see closed questions to moderate\n"
 "            them."
 msgstr ""
@@ -838,7 +852,7 @@ msgstr "Является подписчиком"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "It appears your email has not been verified."
-msgstr "Похоже ваша электронная почта не была подтверждена."
+msgstr ""
 
 #. module: website_forum
 #: field:res.users,karma:0
@@ -849,12 +863,12 @@ msgstr "Карма"
 #. module: website_forum
 #: view:forum.forum:website_forum.view_forum_forum_form
 msgid "Karma Gains"
-msgstr "Карма увеличение"
+msgstr ""
 
 #. module: website_forum
 #: view:forum.forum:website_forum.view_forum_forum_form
 msgid "Karma Requirements"
-msgstr "Требования к карме"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.post,karma_accept:0
@@ -941,7 +955,7 @@ msgstr "Последнее обновление:"
 #. module: website_forum
 #: field:forum.forum,karma_editor_link_files:0
 msgid "Linking files (Editor)"
-msgstr "Ссылки на файлы (редактор)"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,message_ids:0
@@ -985,7 +999,7 @@ msgstr "Мои голоса"
 #: view:forum.post:website_forum.view_forum_post_form
 #: field:forum.tag,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: website_forum
 #: model:mail.message.subtype,description:website_forum.mt_answer_new
@@ -1110,7 +1124,9 @@ msgstr "Пожалуйста, введите описательный вопро
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
-msgid "Please enter a valid email address in order to receive notifications from answers or comments."
+msgid ""
+"Please enter a valid email address in order to receive notifications from "
+"answers or comments."
 msgstr ""
 "Пожалуйста, введите действительный адрес электронной почты, чтобы получать "
 "уведомления об ответах или комментариях."
@@ -1181,12 +1197,12 @@ msgstr "Опубликовать ваш вопрос"
 #: field:forum.tag,post_ids:0
 #: model:ir.ui.menu,name:website_forum.menu_forum_posts
 msgid "Posts"
-msgstr "Публикации"
+msgstr "Посты"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Public profile"
-msgstr "Публичный профиль"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_25
@@ -1216,7 +1232,7 @@ msgstr "Вопрос отредактирован"
 #. module: website_forum
 #: field:forum.forum,karma_gen_question_downvote:0
 msgid "Question downvoted"
-msgstr "Вопрос вниз-проголосовали"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.404
@@ -1231,7 +1247,7 @@ msgstr "Инструменты вопроса"
 #. module: website_forum
 #: field:forum.forum,karma_gen_question_upvote:0
 msgid "Question upvoted"
-msgstr "Вопрос вверх-проголосовали"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.close_question
@@ -1292,7 +1308,7 @@ msgstr "Ученый"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "Search"
-msgstr "Поиск"
+msgstr "Искать"
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -1404,7 +1420,7 @@ msgstr "Вопрос был закрыт"
 #. module: website_forum
 #: help:forum.post.vote,recipient_id:0
 msgid "The user receiving the vote"
-msgstr "Пользователь, получающий голос"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.private_profile
@@ -1419,7 +1435,7 @@ msgstr "Заголовок"
 #. module: website_forum
 #: field:forum.post.vote,recipient_id:0
 msgid "To"
-msgstr "В"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -1434,12 +1450,12 @@ msgstr "Не отвечено"
 #. module: website_forum
 #: field:forum.forum,karma_comment_unlink_all:0
 msgid "Unlink all comments"
-msgstr "Удалить ссылку всех комментариев"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,karma_comment_unlink_own:0
 msgid "Unlink its own comments"
-msgstr "Удалить ссылку своих комментариев"
+msgstr ""
 
 #. module: website_forum
 #: field:forum.forum,message_unread:0
@@ -1465,7 +1481,7 @@ msgstr "Обновлено"
 #. module: website_forum
 #: field:forum.forum,karma_upvote:0
 msgid "Upvote"
-msgstr "Голос вверх"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.goal.definition,name:website_forum.definition_student
@@ -1545,21 +1561,21 @@ msgstr "История переписки сайта"
 #: field:forum.post,website_meta_description:0
 #: field:forum.tag,website_meta_description:0
 msgid "Website meta description"
-msgstr "Мета-сайта: описание"
+msgstr "Сайт мета-описание"
 
 #. module: website_forum
 #: field:forum.forum,website_meta_keywords:0
 #: field:forum.post,website_meta_keywords:0
 #: field:forum.tag,website_meta_keywords:0
 msgid "Website meta keywords"
-msgstr "Мета-сайта: ключевые слова"
+msgstr "Сайт мета ключевые слова"
 
 #. module: website_forum
 #: field:forum.forum,website_meta_title:0
 #: field:forum.post,website_meta_title:0
 #: field:forum.tag,website_meta_title:0
 msgid "Website meta title"
-msgstr "Мета-сайта: название"
+msgstr "Сайт мета название"
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -1606,7 +1622,8 @@ msgstr "значки:"
 
 #. module: website_forum
 #: view:website:website_forum.ask_question
-msgid "be clear and concise, avoid unnecessary introductions (Hi, ... Thanks...)"
+msgid ""
+"be clear and concise, avoid unnecessary introductions (Hi, ... Thanks...)"
 msgstr ""
 "будьте ясны и кратки, избегайте ненужных вступлений (Привет, ... Спасибо...)"
 
@@ -1624,7 +1641,7 @@ msgstr "бронза"
 #: view:website:website_forum.display_post
 #: view:website:website_forum.post_description_full
 msgid "by"
-msgstr "по"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.forum_index
@@ -1726,12 +1743,12 @@ msgstr "не по теме или неактуальный"
 #: view:website:website_forum.post_comment
 #: view:website:website_forum.post_description_full
 msgid "on"
-msgstr "на"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.close_question
 msgid "or"
-msgstr "или"
+msgstr ""
 
 #. module: website_forum
 #: view:website:website_forum.ask_question

@@ -6,16 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2014-08-14 16:10+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"PO-Revision-Date: 2015-04-26 13:09+0000\n"
+"Last-Translator: Olivier Dony (Odoo) <Unknown>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/crm/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:35+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:36+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: crm
 #: field:crm.lead,meeting_count:0
@@ -248,7 +250,7 @@ msgid ""
 "<ul>\n"
 "<li>Name: ${object.name}</li>\n"
 "<li>ID: ${object.id}</li>\n"
-"<li>Description: ${object.description}</li>\n"
+"<li>Description: ${object.description}</field></li>\n"
 "</ul>"
 msgstr ""
 
@@ -396,7 +398,7 @@ msgstr "Доступно для массовой рассылки"
 #. module: crm
 #: selection:crm.case.stage,type:0
 msgid "Both"
-msgstr "Оба"
+msgstr "И то, и другое"
 
 #. module: crm
 #: field:crm.lead,message_bounce:0
@@ -428,7 +430,7 @@ msgstr "CRM анализ кандидатов"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_opportunity_report
 msgid "CRM Opportunity Analysis"
-msgstr ""
+msgstr "Анализ предложений CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_payment_mode
@@ -489,7 +491,7 @@ msgstr "Кампании"
 #: view:crm.merge.opportunity:crm.merge_opportunity_form
 #: view:crm.phonecall2phonecall:crm.phonecall_to_phonecall_view
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: crm
 #: selection:crm.phonecall,state:0
@@ -655,7 +657,7 @@ msgstr "Компания"
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
 msgid "Company Name"
-msgstr "Название компании"
+msgstr "Имя компнии"
 
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
@@ -777,7 +779,7 @@ msgstr "Создать предложение"
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.partner.binding,action:0
 msgid "Create a new customer"
-msgstr "Создать нового клиента"
+msgstr "Создание нового клиента"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,create_uid:0
@@ -902,7 +904,7 @@ msgstr "Дней до поручения"
 #. module: crm
 #: field:crm.lead,day_close:0
 msgid "Days to Close"
-msgstr "Дней до закрытия"
+msgstr "Дни до закрытия"
 
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead2
@@ -981,7 +983,7 @@ msgstr "Описание..."
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor5
 msgid "Design"
-msgstr "Дизайн"
+msgstr "Разработка"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,dst_partner_id:0
@@ -993,7 +995,7 @@ msgstr "Назначенный контакт"
 #: selection:crm.lead2opportunity.partner.mass,action:0
 #: selection:crm.partner.binding,action:0
 msgid "Do not link to a customer"
-msgstr "Не связан с клиентом"
+msgstr "Не ссылается на клиента"
 
 #. module: crm
 #: selection:crm.phonecall.report,state:0
@@ -1027,7 +1029,7 @@ msgstr "Изменить..."
 #: field:crm.lead,email_from:0
 #: field:crm.phonecall,email_from:0
 msgid "Email"
-msgstr "Эл. почта"
+msgstr "Email"
 
 #. module: crm
 #: view:crm.case.section:crm.sales_team_form_view_in_crm
@@ -1141,7 +1143,7 @@ msgstr "Расширенные фильтры..."
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
 msgid "Extra Info"
-msgstr "Доп. информация"
+msgstr "Доп. инфо."
 
 #. module: crm
 #: field:crm.lead,fax:0
@@ -1252,7 +1254,7 @@ msgstr "Произведен"
 #: selection:crm.phonecall,priority:0
 #: selection:crm.phonecall.report,priority:0
 msgid "High"
-msgstr "Высокая"
+msgstr "Высокий"
 
 #. module: crm
 #: help:crm.lead,message_summary:0
@@ -1298,7 +1300,7 @@ msgstr "Идентификаторы"
 #: help:crm.lead,message_unread:0
 #: help:crm.phonecall,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Если установлено, новые сообщения требуют вашего внимания"
+msgstr "Если проверенные новые сообщения требуют вашего внимания."
 
 #. module: crm
 #: help:crm.lead,opt_out:0
@@ -1338,7 +1340,7 @@ msgstr "Включенные ответы"
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor4
 msgid "Information"
-msgstr "Информация"
+msgstr "Сведения"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -1588,7 +1590,7 @@ msgstr ""
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.partner.binding,action:0
 msgid "Link to an existing customer"
-msgstr "Ссылка на существующего клиента"
+msgstr "Ссылка на существующих клиентов"
 
 #. module: crm
 #: help:crm.lead,partner_id:0
@@ -1779,7 +1781,8 @@ msgstr "Объединить с ручным выбором"
 #. module: crm
 #: help:crm.lead2opportunity.partner.mass,deduplicate:0
 msgid "Merge with existing leads/opportunities of each partner"
-msgstr "Объединить с существующими кандидатами/предложениями каждого партнера"
+msgstr ""
+"Объединить с существующими кандидатами/предложениями каждого партнера"
 
 #. module: crm
 #: selection:crm.lead2opportunity.partner,name:0
@@ -1827,7 +1830,7 @@ msgstr "Сообщения"
 #: help:crm.lead,message_ids:0
 #: help:crm.phonecall,message_ids:0
 msgid "Messages and communication history"
-msgstr "Сообщения и история общений"
+msgstr "Сообщения и журнал обращений"
 
 #. module: crm
 #: field:base.partner.merge.line,min_id:0
@@ -1892,7 +1895,7 @@ msgstr "Моя команда"
 #: field:crm.payment.mode,name:0
 #: field:crm.segmentation,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead5
@@ -1915,7 +1918,7 @@ msgstr "Новое письмо"
 #. module: crm
 #: model:crm.tracking.source,name:crm.crm_source_newsletter
 msgid "Newsletter"
-msgstr "Рассылка"
+msgstr "Информационный бюллетень"
 
 #. module: crm
 #: field:crm.lead,date_action_next:0
@@ -1933,7 +1936,7 @@ msgstr "Дата следующего действия"
 #: code:addons/crm/crm_lead.py:1013
 #, python-format
 msgid "No Subject"
-msgstr "Без темы"
+msgstr "Предмет отсутствует"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:770
@@ -2143,7 +2146,7 @@ msgstr "Без уведомлений"
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
 msgid "Option"
-msgstr "Опция"
+msgstr "Параметр"
 
 #. module: crm
 #: selection:crm.segmentation.line,operator:0
@@ -2213,7 +2216,7 @@ msgstr "Название контакта партнёра"
 #: view:crm.segmentation:crm.crm_segmentation-view
 #: model:ir.model,name:crm.model_crm_segmentation
 msgid "Partner Segmentation"
-msgstr "Классификация партнера"
+msgstr "Сегментация партнера"
 
 #. module: crm
 #: view:crm.segmentation.line:crm.crm_segmentation_line-view
@@ -2224,7 +2227,7 @@ msgstr "Позиции классификации партнера"
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation_tree-view
 msgid "Partner Segmentations"
-msgstr "Классификация партнеров"
+msgstr "Сегментация партнеров"
 
 #. module: crm
 #: code:addons/crm/crm_phonecall.py:301
@@ -2454,7 +2457,7 @@ msgstr "Приглашение от"
 #: field:crm.lead2opportunity.partner.mass,action:0
 #: field:crm.partner.binding,action:0
 msgid "Related Customer"
-msgstr "Связанный с клиентамом"
+msgstr "Связанные с клиентами"
 
 #. module: crm
 #: model:email.template,subject:crm.email_template_opportunity_reminder_mail
@@ -2542,7 +2545,7 @@ msgstr "Отдел продаж"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_case_section
 msgid "Sales Teams"
-msgstr "Отделы продаж"
+msgstr "Команды по продажам"
 
 #. module: crm
 #: help:crm.phonecall,section_id:0
@@ -2716,12 +2719,12 @@ msgstr "Выбор"
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
 msgid "Send Email"
-msgstr "Отправить письмо"
+msgstr "Отправить эл. письмо"
 
 #. module: crm
 #: field:crm.case.stage,sequence:0
 msgid "Sequence"
-msgstr "Нумерация"
+msgstr "Последовательность"
 
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor3
@@ -2967,8 +2970,8 @@ msgid ""
 msgstr ""
 "Установлен статус \"Подтверждено\", когда дело создано. \n"
 "Когда вызов закончится, устанавливается состояние, \"удерживается\". \n"
-"Если не звонок больше не осуществляется, статус может быть изменен на \""
-"Отменено\"."
+"Если не звонок больше не осуществляется, статус может быть изменен на "
+"\"Отменено\"."
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -2982,8 +2985,9 @@ msgid ""
 "outbound emails for this record before being sent. Separate multiple email "
 "addresses with a comma"
 msgstr ""
-"Эти эл. адреса будут добавлены в поле \"Копия\" всей входящей и исходящей "
-"почты для этой записи. Разделяйте эл. адреса запятыми."
+"Эти адреса электронной почты будут добавлены в поле Копия всех входящих и "
+"исходящих писем для этой записи перед отправкой. Разделите несколько адресов "
+"электронной почты с запятой"
 
 #. module: crm
 #: help:crm.phonecall,email_from:0
@@ -3137,7 +3141,7 @@ msgstr "Тип используется для разделения кандид
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "Unassigned"
-msgstr "Не назначено"
+msgstr "Не назначенный"
 
 #. module: crm
 #: field:crm.lead,message_unread:0
@@ -3180,7 +3184,7 @@ msgstr "Пользователь"
 #. module: crm
 #: field:crm.lead,user_email:0
 msgid "User Email"
-msgstr "Email пользователя"
+msgstr "Электронный адрес пользователя"
 
 #. module: crm
 #: field:crm.lead,user_login:0
@@ -3246,7 +3250,7 @@ msgstr "Выиграна"
 #. module: crm
 #: field:crm.case.section,resource_calendar_id:0
 msgid "Working Time"
-msgstr "Время работы"
+msgstr "Рабочее время"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:434
@@ -3326,7 +3330,7 @@ msgstr "или"
 #: code:addons/crm/crm_lead.py:1069
 #, python-format
 msgid "unknown"
-msgstr "неизвестный"
+msgstr "неизвестно"
 
 #~ msgid "Planned Revenue"
 #~ msgstr "Планируемая выручка"

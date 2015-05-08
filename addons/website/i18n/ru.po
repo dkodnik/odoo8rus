@@ -6,23 +6,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:09+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"website/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 08:15+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/website/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:29+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:42+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: website
 #: view:website:website.snippets
 msgid "\"OpenERP\""
-msgstr "\"OpenERP\""
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -70,12 +70,12 @@ msgstr ""
 #. module: website
 #: view:website:website.info
 msgid ", author:"
-msgstr ", автор:"
+msgstr ""
 
 #. module: website
 #: view:website:website.info
 msgid ", updated:"
-msgstr ", обнавлено:"
+msgstr ""
 
 #. module: website
 #: view:website:website.sitemap_index_xml
@@ -195,8 +195,9 @@ msgid ""
 "A great way to catch your reader's attention is to tell a story. Everything "
 "you consider writing can be told as a story."
 msgstr ""
-"Отличный способ привлечь внимание вашего читателя в том, чтобы рассказать "
-"историю. Все, что вы хотите рассказать, может быть написано как история."
+"Хороший способ привлечь внимание ваших читателей - рассказать историю.\n"
+"                                    Все, о чем вы считаете необходимым "
+"написать, может быть рассказано как история."
 
 #. module: website
 #: view:website:website.snippets
@@ -304,7 +305,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:212
 #, python-format
 msgid "Alternate Upload"
-msgstr "Альтернативная загрузка"
+msgstr ""
 
 #. module: website
 #: view:website:website.themes
@@ -466,7 +467,7 @@ msgstr "Бизнесмен"
 #. module: website
 #: view:website:website.snippets
 msgid "But"
-msgstr "Но"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -546,7 +547,7 @@ msgstr "Проверить мобильный предпросмотр"
 #. module: website
 #: view:website:website.snippets
 msgid "Check now and discover more today!"
-msgstr "Проверьте сейчас и узнать больше сегодня!"
+msgstr ""
 
 #. module: website
 #: field:website.menu,child_id:0
@@ -579,7 +580,7 @@ msgstr "Круг"
 #. module: website
 #: view:website:website.snippets
 msgid "Click Here"
-msgstr "Нажмите здесь"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -642,17 +643,17 @@ msgstr "Стиль цвета"
 #. module: website
 #: model:ir.model,name:website.model_res_company
 msgid "Companies"
-msgstr "Организации"
+msgstr "Компании"
 
 #. module: website
 #: field:website,company_id:0
 msgid "Company"
-msgstr "Организация"
+msgstr "Компания"
 
 #. module: website
 #: view:website:website.layout
 msgid "Company name"
-msgstr "Название организации"
+msgstr "Название компании"
 
 #. module: website
 #: view:website:website.snippets
@@ -814,7 +815,8 @@ msgstr "Задать настройки"
 msgid ""
 "Customize any block through this menu. Try to change the background of the "
 "banner."
-msgstr "Настройте любой блок через это меню. Попробуйте изменить фон баннера."
+msgstr ""
+"Настройте любой блок через это меню. Попробуйте изменить фон баннера."
 
 #. module: website
 #. openerp-web
@@ -950,7 +952,7 @@ msgstr "Отказаться от выпуска"
 #. module: website
 #: view:website:website.snippets
 msgid "Discover more about Odoo"
-msgstr "Узнайте больше о Odoo"
+msgstr ""
 
 #. module: website
 #: view:website:website.template_partner_comment
@@ -1039,7 +1041,7 @@ msgstr "Дублировать блоки, чтобы добавить боль�
 #: view:website:website.layout
 #: view:website:website.publish_management
 msgid "Edit"
-msgstr "Изменить"
+msgstr "Редактировать"
 
 #. module: website
 #. openerp-web
@@ -1047,24 +1049,24 @@ msgstr "Изменить"
 #: view:website:website.layout
 #, python-format
 msgid "Edit Menu"
-msgstr "Изменить меню"
+msgstr "Редактировать меню"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:48
 #, python-format
 msgid "Edit Menu Entry"
-msgstr "Изменить пункт меню"
+msgstr "Редактировать пункт меню"
 
 #. module: website
 #: view:website:website.layout
 msgid "Edit Top Menu"
-msgstr "Изменить верхнее меню"
+msgstr "Редактировать верхнее меню"
 
 #. module: website
 #: view:website:website.publish_management
 msgid "Edit in backend"
-msgstr "Изменить в базе данных"
+msgstr "Редактировать в базе данных"
 
 #. module: website
 #: view:website:website.page_404
@@ -1072,7 +1074,7 @@ msgid ""
 "Edit the content below this line to adapt the default \"page not found\" "
 "page."
 msgstr ""
-"Изменить содержание под этой строкой, чтобы настроить страницу по "
+"Редактировать содержание под этой строкой, чтобы настроить страницу по "
 "умолчанию \"страница не найдена\"."
 
 #. module: website
@@ -1080,7 +1082,7 @@ msgstr ""
 #: code:addons/website/static/src/js/website.tour.banner.js:20
 #, python-format
 msgid "Edit this page"
-msgstr "Изменить эту страницу"
+msgstr "Редактировать эту страницу"
 
 #. module: website
 #: view:website:website.snippets
@@ -1148,7 +1150,7 @@ msgstr "Очень маленький"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Extra-Large"
-msgstr "Очень большой"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -1219,7 +1221,7 @@ msgstr "Плоско"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Float"
-msgstr "Плавающий"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippet_options
@@ -1344,7 +1346,7 @@ msgstr "Взглянуть на"
 #. module: website
 #: view:website:website.layout
 msgid "Help"
-msgstr "Справка"
+msgstr "Помощь"
 
 #. module: website
 #. openerp-web
@@ -1358,7 +1360,7 @@ msgstr ""
 #. module: website
 #: view:website:website.snippet_options
 msgid "Hide link"
-msgstr "Скрыть ссылку"
+msgstr ""
 
 #. module: website
 #: view:website:website.500
@@ -1453,7 +1455,7 @@ msgstr "Изображение"
 #. module: website
 #: view:website:website.snippets
 msgid "Image Floating"
-msgstr "Плавающее изображение"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -1463,7 +1465,7 @@ msgstr "Галерея изображений"
 #. module: website
 #: view:website:website.snippets
 msgid "Image-Floating"
-msgstr "Плавающее-изображение"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -1502,7 +1504,7 @@ msgstr "Инфо"
 #. module: website
 #: view:website:website.info
 msgid "Information about the"
-msgstr "Информация о"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1531,12 +1533,12 @@ msgstr "Установить язык"
 #. module: website
 #: view:website:website.info
 msgid "Installed Applications"
-msgstr "Установленные приложения"
+msgstr ""
 
 #. module: website
 #: view:website:website.info
 msgid "Installed Modules"
-msgstr "Установленные модули"
+msgstr ""
 
 #. module: website
 #: view:website:website.500
@@ -1619,7 +1621,7 @@ msgstr "Последний раз обновлено"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Left"
-msgstr "Слева"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1692,7 +1694,7 @@ msgstr "Манго"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Margin"
-msgstr "Поле"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1710,7 +1712,7 @@ msgstr "Возможно, вы искали одну из этих популя�
 #. module: website
 #: view:website:website.snippet_options
 msgid "Medium"
-msgstr "Промежуток"
+msgstr ""
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -1837,7 +1839,7 @@ msgstr "Не опубликовано"
 #. module: website
 #: view:website:website.info
 msgid "Note: To hide this page, uncheck it from the top Customize menu."
-msgstr "Примечание: Чтобы скрыть эту страницу, снимите ее из меню сверху \"Настроить\"."
+msgstr ""
 
 #. module: website
 #: view:website:website.layout
@@ -1848,7 +1850,7 @@ msgstr "Odoo"
 #. module: website
 #: view:website:website.info
 msgid "Odoo Version"
-msgstr "Версия Odoo"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -1904,7 +1906,7 @@ msgstr "Ок"
 #. module: website
 #: view:website:website.info
 msgid "Open Source ERP"
-msgstr "Открытый источник ERP"
+msgstr ""
 
 #. module: website
 #: view:website:website.layout
@@ -2048,17 +2050,17 @@ msgstr "Правый родительский элемент"
 #. module: website
 #: model:ir.model,name:website.model_res_partner
 msgid "Partner"
-msgstr "Котрагент"
+msgstr "Партнер"
 
 #. module: website
 #: view:website:website.template_partner_post
 msgid "Partner Detail"
-msgstr "Подробнее о контрагенте"
+msgstr "Подробнее о партнере"
 
 #. module: website
 #: view:website:website.template_partner_comment
 msgid "Partners"
-msgstr "Контрагенты"
+msgstr "Партнеры"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2086,7 +2088,7 @@ msgstr "На базе"
 #: view:website:website.kanban_contain
 #: view:website:website.pager
 msgid "Prev"
-msgstr "Пред."
+msgstr "Пред"
 
 #. module: website
 #. openerp-web
@@ -2263,7 +2265,7 @@ msgstr "Измененный размер содержимого файла"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Right"
-msgstr "Справа"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2423,12 +2425,12 @@ msgstr "Оттенок"
 #. module: website
 #: view:website:website.snippets
 msgid "Share"
-msgstr "Поделиться"
+msgstr "Поделится"
 
 #. module: website
 #: field:ir.ui.view,customize_show:0
 msgid "Show As Optional Inherit"
-msgstr "Показать как дополнительное наследование"
+msgstr ""
 
 #. module: website
 #: view:website:website.layout
@@ -2571,7 +2573,7 @@ msgstr "Нежный и радостный"
 #. module: website
 #: view:website:website.info
 msgid "Technical name:"
-msgstr "Техническое название:"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -2869,7 +2871,7 @@ msgstr "Загрузите изображение со своего компью
 #: code:addons/website/static/src/xml/website.editor.xml:215
 #, python-format
 msgid "Upload image without optimization"
-msgstr "Загрузить изображение без оптимизации"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2997,7 +2999,7 @@ msgstr "Меню сайта"
 #. module: website
 #: field:website.config.settings,website_name:0
 msgid "Website Name"
-msgstr "Название сайта"
+msgstr ""
 
 #. module: website
 #: model:ir.actions.server,name:website.action_partner_post
@@ -3116,7 +3118,7 @@ msgid ""
 "disconnection."
 msgstr ""
 "Когда для запуска точки продаж требуется подключение к Интернету\n"
-"                    она останется в рабочем состоянии даже после полного "
+"                    на останется в рабочем состоянии даже после полного "
 "разъединения."
 
 #. module: website
@@ -3130,13 +3132,6 @@ msgid ""
 "                            partners and other people involved in projects "
 "or business discussions."
 msgstr ""
-"С полностью интегрированным программным обеспечением Odoo, вы можете легко управлять своими\n"
-"                            встречами, расписанием деловых звонков, создавать "
-"повторяющиеся встречи,\n"
-"                            синхронизировать повестки дня и легко поддерживать связь "
-"со своими коллегами,\n"
-"                            партнерами и другими людьми, участвующие в проектах "
-"или деловых переговорах."
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3310,7 +3305,7 @@ msgstr "с описанием содержимого вашей страницы
 #. module: website
 #: view:website:website.snippets
 msgid "don't worry"
-msgstr "не волнуйтесь"
+msgstr ""
 
 #. module: website
 #: view:website:website.500
@@ -3402,7 +3397,7 @@ msgstr "https://youraccount.github.io"
 #. module: website
 #: view:website:website.info
 msgid "instance of Odoo, the"
-msgstr "экземпляр Odoo, в"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets

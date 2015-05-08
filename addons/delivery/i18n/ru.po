@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-19 20:34+0300\n"
-"Last-Translator: user2 <user2@starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 03:01+0000\n"
+"Last-Translator: user2 <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/delivery/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:38+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:36+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: delivery
 #: selection:delivery.grid.line,operator:0
@@ -85,7 +85,7 @@ msgstr ">="
 #: field:delivery.carrier,active:0
 #: field:delivery.grid,active:0
 msgid "Active"
-msgstr "Активен"
+msgstr "Активный"
 
 #. module: delivery
 #: view:sale.order:delivery.view_order_withcarrier_form
@@ -119,7 +119,7 @@ msgstr ""
 #. module: delivery
 #: field:delivery.carrier,available:0
 msgid "Available"
-msgstr ""
+msgstr "Доступно"
 
 #. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
@@ -264,7 +264,7 @@ msgstr "Фиксированный"
 #. module: delivery
 #: field:delivery.carrier,free_if_more_than:0
 msgid "Free If Order Total Amount Is More Than"
-msgstr ""
+msgstr "Бесплатно, если общая сумма заказа больше, чем"
 
 #. module: delivery
 #: code:addons/delivery/delivery.py:151
@@ -395,7 +395,7 @@ msgstr "Максимальное значение"
 #. module: delivery
 #: field:delivery.grid.line,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: delivery
 #: field:stock.picking,weight_net:0
@@ -505,7 +505,7 @@ msgstr ""
 #: field:delivery.grid,sequence:0
 #: field:delivery.grid.line,sequence:0
 msgid "Sequence"
-msgstr "Нумерация"
+msgstr "Последовательность"
 
 #. module: delivery
 #: field:delivery.grid,zip_from:0
@@ -597,7 +597,7 @@ msgstr "Переменный фактор"
 #: selection:delivery.grid.line,variable_factor:0
 #: field:stock.picking,volume:0
 msgid "Volume"
-msgstr "Объем"
+msgstr "Громкость"
 
 #. module: delivery
 #: code:addons/delivery/stock.py:90

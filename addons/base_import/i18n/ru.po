@@ -6,16 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2014-08-14 16:10+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"PO-Revision-Date: 2015-04-26 03:00+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/base_import/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:30+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:35+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: base_import
 #. openerp-web
@@ -31,7 +33,7 @@ msgstr "(%d more)"
 msgid ""
 ". The issue is\n"
 "            usually an incorrect file encoding."
-msgstr ". Дело обычно в неправильной кодировке файла."
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -82,8 +84,8 @@ msgid ""
 "                        data."
 msgstr ""
 "В качестве примера, \n"
-"                         purchase.order_functional_error_line_cant_adpat."
-"CSV \n"
+"                         purchase.order_functional_error_line_cant_adpat.CSV "
+"\n"
 "                         файл некоторых цитат можно импортировать, на основе "
 "демо \n"
 "                         данных."
@@ -155,12 +157,12 @@ msgid ""
 msgstr ""
 "По умолчанию в окне предварительного просмотра Импорт установлены запятые, "
 "как  \n"
-"                         разделители поля и кавычки как разделители "
-"текста. \n"
+"                         разделители поля и кавычки как разделители текста. "
+"\n"
 "                         Если ваш CSV файл не имеет этих  \n"
 "                         Настроек, можно изменить параметры формата файла  \n"
-"                         (отображается под строкой Просмотр CSV файла "
-"после  \n"
+"                         (отображается под строкой Просмотр CSV файла после  "
+"\n"
 "                         выбора файла)."
 
 #. module: base_import
@@ -203,7 +205,7 @@ msgstr "Могу ли я импортировать несколько раз о
 #: code:addons/base_import/static/src/xml/import.xml:20
 #, python-format
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: base_import
 #. openerp-web
@@ -579,8 +581,8 @@ msgid ""
 "                simpler especially when the file has many columns."
 msgstr ""
 "Если файл содержит \n"
-"                 имена столбцов, Odoo можете попробовать автоопределение "
-"для \n"
+"                 имена столбцов, Odoo можете попробовать автоопределение для "
+"\n"
 "                 поля, соответствующего столбцу. Это делает импорт \n"
 "                 проще, особенно, когда файл имеет множество столбцов."
 
@@ -613,8 +615,8 @@ msgstr ""
 "Если вы не установите все поля в файле формата CSV, \n"
 "                         Odoo присвоит значение по умолчанию для каждого \n"
 "неопределенного поля. Но если вы установите \n"
-"                         набор полей с пустыми значениями в файле CSV, "
-"Odoo \n"
+"                         набор полей с пустыми значениями в файле CSV, Odoo "
+"\n"
 "                         установит пустое значение в поле, вместо \n"
 "                         присвоения значения по умолчанию."
 
@@ -637,8 +639,8 @@ msgstr ""
 "приложений, региональные настройки вашего компьютера будут применяться в "
 "качестве разделителя и распределителя. Мы предлагаем вам использовать "
 "OpenOffice или LibreOffice Calc, так как они позволят вам изменить все три "
-"варианта (в диалоговом окне «Сохранить как»> отметьте \"Редактировать "
-"фильтр \n"
+"варианта (в диалоговом окне «Сохранить как»> отметьте \"Редактировать фильтр "
+"\n"
 "Настройки\"> Сохранить)."
 
 #. module: base_import
@@ -819,7 +821,7 @@ msgstr "Модель"
 #. module: base_import
 #: field:base_import.tests.models.preview,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: base_import
 #. openerp-web
@@ -1001,9 +1003,9 @@ msgid ""
 "                        Retailer\" in the same column of your CSV file."
 msgstr ""
 "Теги должны быть разделены запятой без интервала. Например, если вы хотите "
-"вам клиенту быть выложены в обеих Метках \"Производитель\" и \"дистрибьютор"
-"\", то вы будете кодировать его следующим \"производителем, дистрибьютором\" "
-"в том же столбце вашего файла CSV."
+"вам клиенту быть выложены в обеих Метках \"Производитель\" и "
+"\"дистрибьютор\", то вы будете кодировать его следующим \"производителем, "
+"дистрибьютором\" в том же столбце вашего файла CSV."
 
 #. module: base_import
 #. openerp-web
@@ -1293,8 +1295,8 @@ msgid ""
 "                        '/tmp/company.csv' with CSV HEADER;"
 msgstr ""
 "копия (выберите 'company_' || идентификатор как \"Внешний ID\", company_name "
-"как \"Имя\", \"Верно\", как \"является компанией\" от компании) К '/tmp/"
-"company.csv' с CSV заголовком;"
+"как \"Имя\", \"Верно\", как \"является компанией\" от компании) К "
+"'/tmp/company.csv' с CSV заголовком;"
 
 #. module: base_import
 #. openerp-web

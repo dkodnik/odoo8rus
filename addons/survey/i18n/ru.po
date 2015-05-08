@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:08+0000\n"
-"PO-Revision-Date: 2014-10-22 23:19+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"survey/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-04-26 08:15+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/survey/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:28+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:42+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: survey
 #: model:email.template,body_html:survey.email_template_survey
@@ -36,11 +36,13 @@ msgid ""
 "                \n"
 "            "
 msgstr ""
-"<div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-"
-"serif; font-size: 12px; color: rgb(34, 34, 34); \">\n"
+"\n"
+"                \n"
+"                <div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, "
+"Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); \">\n"
 "                    <p>Здравствуйте,</p>\n"
-"                    <p>Мы проводим соцопрос, и ваш ответ для нас очень важен."
-"</p>\n"
+"                    <p>Мы проводим соцопрос, и ваш ответ для нас очень "
+"важен.</p>\n"
 "                    <p><a href=\"__URL__\">Пожалуйста, нажмите здесь, чтобы "
 "перейти к соцопросу</a></p>\n"
 "                    <p>Спасибо за участие!</p>\n"
@@ -82,8 +84,8 @@ msgstr ""
 "клиента, комментарии и предложения по услугам, опросы по поставкам, "
 "периодические оценки сотрудников, кампании по маркетингу и т.п.</p>\n"
 "                <p>Вы можете с легкостью создать свой соцопрос, отправлять "
-"приглашения для его прохождения по электронной почте и анализировать ответы."
-"</p>\n"
+"приглашения для его прохождения по электронной почте и анализировать "
+"ответы.</p>\n"
 "            "
 
 #. module: survey
@@ -316,7 +318,7 @@ msgstr "CRM"
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: survey
 #: field:survey.survey,res_model:0
@@ -372,7 +374,7 @@ msgstr "Цветовая палитра"
 #: selection:survey.mail.compose.message,type:0
 #: view:website:survey.result_comments
 msgid "Comment"
-msgstr "Комментарий"
+msgstr "Комментарии"
 
 #. module: survey
 #: field:survey.question,comment_count_as_answer:0
@@ -382,7 +384,7 @@ msgstr "Поле комментариев - вариант ответа"
 #. module: survey
 #: field:survey.question,comments_message:0
 msgid "Comment Message"
-msgstr "Комментарий сообщения"
+msgstr "Комментарий"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_3
@@ -1113,7 +1115,7 @@ msgstr "Множественный выбор для ряда"
 #. module: survey
 #: field:survey.stage,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: survey
 #: help:survey.mail.compose.message,record_name:0
@@ -1322,7 +1324,7 @@ msgstr "Предыдущая страница"
 #. module: survey
 #: view:survey.survey:survey.survey_form
 msgid "Print Survey"
-msgstr "Печатать опрос"
+msgstr "Печатный опрос"
 
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_form
@@ -1557,7 +1559,7 @@ msgstr "Отправить приглашение снова"
 #: field:survey.question,sequence:0
 #: field:survey.stage,sequence:0
 msgid "Sequence"
-msgstr "Нумерация"
+msgstr "Последовательность"
 
 #. module: survey
 #: sql_constraint:survey.stage:0
@@ -1674,7 +1676,7 @@ msgstr "Предложение"
 #. module: survey
 #: view:website:survey.result_number
 msgid "Sum"
-msgstr "Сумма"
+msgstr "Резюме"
 
 #. module: survey
 #: field:survey.survey,message_summary:0
@@ -2287,12 +2289,12 @@ msgstr "вход"
 #. module: survey
 #: view:website:survey.page
 msgid "on"
-msgstr "на"
+msgstr ""
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "or"
-msgstr "или"
+msgstr ""
 
 #. module: survey
 #: view:website:survey.sfinished

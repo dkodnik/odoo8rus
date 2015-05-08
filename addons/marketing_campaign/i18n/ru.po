@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:50+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"marketing_campaign/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 03:04+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/marketing_campaign/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:55+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:38+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: marketing_campaign
 #: field:campaign.analysis,count:0
@@ -61,31 +61,6 @@ msgstr ""
 "            cконтакта, если потенциальный клиент еще не закрыт и т.д.\n"
 "          </p>\n"
 "        "
-
-#. module: marketing_campaign
-#: model:email.template,body_html:marketing_campaign.email_template_1
-msgid "<p>Hello, you will receive your welcome pack via email shortly.</p>"
-msgstr ""
-"<p>Здравствуйте, вы получите свой комплект информационных материалов для "
-"новых клиентов по электронной почте в ближайшее время.</p>"
-
-#. module: marketing_campaign
-#: model:email.template,body_html:marketing_campaign.email_template_3
-msgid ""
-"<p>Hi, we are delighted to let you know that you have entered the select "
-"circle of our Gold Partners</p>"
-msgstr ""
-"<p>Привет, мы рады сообщить, что вы вошли в избранный круг наших Золотых "
-"партнеров</p>"
-
-#. module: marketing_campaign
-#: model:email.template,body_html:marketing_campaign.email_template_2
-msgid ""
-"<p>Hi, we are delighted to welcome you among our Silver Partners as of today!"
-"</p>"
-msgstr ""
-"<p>Привет, на сегодня мы рады приветствовать вас среди наших Серебряных "
-"партнеров!</p>"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,server_action_id:0
@@ -146,7 +121,7 @@ msgstr "Август"
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,trigger:0
 msgid "Automatic"
-msgstr "Автоматически"
+msgstr "Автоматический"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:500
@@ -228,7 +203,7 @@ msgstr "Кампании"
 #. module: marketing_campaign
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_tree
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
@@ -289,7 +264,7 @@ msgstr "Косметика"
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_tree
 #: field:campaign.analysis,total_cost:0
 msgid "Cost"
-msgstr "Затраты"
+msgstr "Стоимость"
 
 #. module: marketing_campaign
 #: field:campaign.analysis,country_id:0
@@ -420,7 +395,7 @@ msgstr "Шаблоны писем"
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,date_done:0
 msgid "End Date"
-msgstr "Дата окончания"
+msgstr "Конечная дата"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:111
@@ -441,7 +416,7 @@ msgstr "Сообщение об ошибке"
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_search
 #: selection:marketing.campaign.workitem,state:0
 msgid "Exception"
-msgstr "Исключение"
+msgstr "Отклонение"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -515,6 +490,8 @@ msgstr "Группировать по"
 #: model:email.template,body_html:marketing_campaign.email_template_1
 msgid "Hello, you will receive your welcome pack via email shortly."
 msgstr ""
+"<p>Здравствуйте, вы получите свой комплект информационных материалов для "
+"новых клиентов по электронной почте в ближайшее время.</p>"
 
 #. module: marketing_campaign
 #: model:email.template,body_html:marketing_campaign.email_template_3
@@ -522,12 +499,16 @@ msgid ""
 "Hi, we are delighted to let you know that you have entered the select circle "
 "of our Gold Partners"
 msgstr ""
+"<p>Привет, мы рады сообщить, что вы вошли в избранный круг наших Золотых "
+"партнеров</p>"
 
 #. module: marketing_campaign
 #: model:email.template,body_html:marketing_campaign.email_template_2
 msgid ""
 "Hi, we are delighted to welcome you among our Silver Partners as of today!"
 msgstr ""
+"<p>Привет, на сегодня мы рады приветствовать вас среди наших Серебряных "
+"партнеров!</p>"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -552,7 +533,8 @@ msgstr "ID"
 #. module: marketing_campaign
 #: help:marketing.campaign.workitem,date:0
 msgid "If date is not set, this workitem has to be run manually"
-msgstr "Если дата не установлена, этот рабочий элемент нужно запустить вручную"
+msgstr ""
+"Если дата не установлена, этот рабочий элемент нужно запустить вручную"
 
 #. module: marketing_campaign
 #: help:marketing.campaign,unique_field_id:0
@@ -713,7 +695,7 @@ msgstr "Месяц"
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
 msgid "Month(s)"
-msgstr "Месяц (ы)"
+msgstr "Месяц(ев)"
 
 #. module: marketing_campaign
 #: field:marketing.campaign,name:0
@@ -721,7 +703,7 @@ msgstr "Месяц (ы)"
 #: field:marketing.campaign.segment,name:0
 #: field:marketing.campaign.transition,name:0
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,state:0
@@ -903,7 +885,7 @@ msgstr "ID ресурса"
 #. module: marketing_campaign
 #: field:marketing.campaign.workitem,res_name:0
 msgid "Resource Name"
-msgstr "Название ресурса"
+msgstr "Имя ресурса"
 
 #. module: marketing_campaign
 #: field:campaign.analysis,revenue:0
@@ -978,7 +960,7 @@ msgstr ""
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Set to Draft"
-msgstr "Сделать черновиком"
+msgstr "Установить в Черновик"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,signal:0
@@ -1073,7 +1055,8 @@ msgstr "Тест в реальном времени"
 #. module: marketing_campaign
 #: constraint:marketing.campaign.transition:0
 msgid "The To/From Activity of transition must be of the same Campaign "
-msgstr "Действие \"Кому/От кого\" перехода должно быть той же самой кампании "
+msgstr ""
+"Действие \"Кому/От кого\" перехода должно быть той же самой кампании "
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,server_action_id:0
@@ -1226,7 +1209,7 @@ msgstr "Год"
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
 msgid "Year(s)"
-msgstr "Год (а)"
+msgstr "Года(лет)"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:189

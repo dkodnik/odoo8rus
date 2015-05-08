@@ -1,4 +1,4 @@
-# Russian translation for openobject-addons
+# Spanish translation for openobject-addons
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the openobject-addons package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
@@ -6,22 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-10 00:51+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-25 21:35+0000\n"
 "Last-Translator: user2 <user2@starlight-biz.com>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/payment_buckaroo/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:00+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-26 06:01+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: payment_buckaroo
 #: model:payment.acquirer,pre_msg:payment_buckaroo.payment_acquirer_buckaroo
-msgid "<p>You will be redirected to the Buckaroo website after clicking on the payment button.</p>"
+msgid ""
+"<p>You will be redirected to the Buckaroo website after clicking on the "
+"payment button.</p>"
 msgstr ""
 
 #. module: payment_buckaroo
@@ -32,12 +34,12 @@ msgstr ""
 #. module: payment_buckaroo
 #: model:ir.model,name:payment_buckaroo.model_payment_acquirer
 msgid "Payment Acquirer"
-msgstr "Платежи клиентов"
+msgstr ""
 
 #. module: payment_buckaroo
 #: model:ir.model,name:payment_buckaroo.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "Платежная операция"
+msgstr ""
 
 #. module: payment_buckaroo
 #: field:payment.acquirer,brq_secretkey:0
@@ -53,4 +55,3 @@ msgstr ""
 #: field:payment.acquirer,brq_websitekey:0
 msgid "WebsiteKey"
 msgstr ""
-

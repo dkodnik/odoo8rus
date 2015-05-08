@@ -1,23 +1,21 @@
 # Russian translation for openobject-addons
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-02-08 01:06+0000\n"
-"PO-Revision-Date: 2014-10-23 00:02+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"l10n_multilang/ru/>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2015-04-25 11:21+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:52+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-26 05:59+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_fiscal_position_template
@@ -31,8 +29,10 @@ msgstr "Код счета должен быть уникальным для ка
 
 #. module: l10n_multilang
 #: constraint:account.account.template:0
-msgid "Configuration Error!\n"
-"You can not define children to an account with internal type different of \"View\"! "
+msgid ""
+"Configuration Error!\n"
+"You can not define children to an account with internal type different of "
+"\"View\"! "
 msgstr ""
 "Ошибка конфигурации!\n"
 "Невозможно установить дочерние элементы к счету с внутренним типом, "
@@ -90,7 +90,9 @@ msgstr "wizard.multi.charts.accounts"
 
 #. module: l10n_multilang
 #: constraint:account.journal:0
-msgid "Configuration error! The currency chosen should be shared by the default accounts too."
+msgid ""
+"Configuration error! The currency chosen should be shared by the default "
+"accounts too."
 msgstr ""
 "Ошибка конфигурации! Выбранная валюта должна быть также использована в "
 "счетах по умолчанию."
@@ -102,7 +104,11 @@ msgstr "Шаблоны для счетов"
 
 #. module: l10n_multilang
 #: help:account.chart.template,spoken_languages:0
-msgid "State here the languages for which the translations of templates could be loaded at the time of installation of this localization module and copied in the final object when generating them from templates. You must provide the language codes separated by ';'"
+msgid ""
+"State here the languages for which the translations of templates could be "
+"loaded at the time of installation of this localization module and copied in "
+"the final object when generating them from templates. You must provide the "
+"language codes separated by ';'"
 msgstr ""
 "Укажите здесь языки, для которых можно загрузить переводы шаблонов во время "
 "установки этого модуля локализации и скопировать их в финальный объект при "
@@ -116,13 +122,15 @@ msgstr "Ошибка ! Невозможно создать рекурсивны�
 
 #. module: l10n_multilang
 #: constraint:account.account:0
-msgid "Configuration Error! \n"
-"You can not select an account type with a deferral method different of \"Unreconciled\" for accounts with internal type \"Payable/Receivable\"! "
+msgid ""
+"Configuration Error! \n"
+"You can not select an account type with a deferral method different of "
+"\"Unreconciled\" for accounts with internal type \"Payable/Receivable\"! "
 msgstr ""
 "Ошибка конфигурации! \n"
 "Невозможно выбрать тип счета с методом отсрочки, отличающимся от "
-"\"Невыверенных\" для счетов с внутренним типом \"Подлежащие оплате/"
-"Подлежащие получению\"! "
+"\"Невыверенных\" для счетов с внутренним типом \"Подлежащие "
+"оплате/Подлежащие получению\"! "
 
 #. module: l10n_multilang
 #: sql_constraint:account.journal:0
@@ -146,8 +154,10 @@ msgstr "Состояние бюджета"
 
 #. module: l10n_multilang
 #: constraint:account.account:0
-msgid "Configuration Error! \n"
-"You can not define children to an account with internal type different of \"View\"! "
+msgid ""
+"Configuration Error! \n"
+"You can not define children to an account with internal type different of "
+"\"View\"! "
 msgstr ""
 "Ошибка конфигурации!\n"
 "Невозможно установить дочерние элементы к счету с внутренним типом, "

@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_cancel
 #: view:account.bank.statement:account_cancel.bank_statement_cancel_form_inherit
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменена"
 
 #. module: account_cancel
 #: view:account.invoice:account_cancel.invoice_form_cancel_inherit

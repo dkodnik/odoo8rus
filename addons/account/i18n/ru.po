@@ -8,15 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2014-08-14 16:10+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-25 11:22+0000\n"
+"Last-Translator: Sergei Kostigoff <sergei.kostigoff@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:13+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-26 05:55+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
 
 #. module: account
 #: model:email.template,body_html:account.email_template_edi_invoice
@@ -126,14 +125,14 @@ msgstr " Централизация"
 #. module: account
 #: field:analytic.entries.report,nbr:0
 msgid "# Entries"
-msgstr "# Проводок"
+msgstr "Кол-во записей"
 
 #. module: account
 #: field:account.chart.template,code_digits:0
 #: field:account.config.settings,code_digits:0
 #: field:wizard.multi.charts.accounts,code_digits:0
 msgid "# of Digits"
-msgstr "кол-во цифр"
+msgstr "Кол-во цифр"
 
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_tree
@@ -143,7 +142,7 @@ msgstr "# записей"
 #. module: account
 #: field:account.invoice.report,nbr:0
 msgid "# of Invoices"
-msgstr ""
+msgstr "кол-во счетов"
 
 #. module: account
 #: field:account.entries.report,nbr:0
@@ -170,7 +169,7 @@ msgstr ""
 #: code:addons/account/account.py:1861
 #, python-format
 msgid "%s (Copy)"
-msgstr ""
+msgstr "%s (Копия)"
 
 #. module: account
 #: code:addons/account/account.py:635
@@ -191,12 +190,13 @@ msgid ""
 "(If you do not select a specific fiscal year, all open fiscal years will be "
 "selected.)"
 msgstr ""
+"(Если Вы не выберете конкретный финансовый год, будут выбраны все открытые)"
 
 #. module: account
 #: view:account.tax.chart:account.view_account_tax_chart
 msgid ""
 "(If you do not select a specific period, all open periods will be selected)"
-msgstr ""
+msgstr "(Если Вы не выберете конкретный период, будут выбраны все открытые)"
 
 #. module: account
 #: view:account.state.open:account.view_account_state_open
@@ -259,12 +259,12 @@ msgstr "30% аванс, остаток в 30 дней"
 #. module: account
 #: view:website:account.report_generalledger
 msgid ": General ledger"
-msgstr "Главная бух.книга"
+msgstr ": Главная книга"
 
 #. module: account
 #: view:website:account.report_trialbalance
 msgid ": Trial Balance"
-msgstr "Пробный баланс"
+msgstr ": Пробный Баланс"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_period
@@ -338,6 +338,19 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"               Щелкните, чтобы добавить счет.\n"
+"              </p><p>\n"
+"                При выполнении мульти-валютных операций, вы можете потерять "
+"или получить\n"
+"                некоторые суммы в связи с изменением валютного курса. Это "
+"меню дает\n"
+"                Вы прогноз прибыли или убытка, если эти\n"
+"                операции закончились сегодня. Установлен только для "
+"имеющегося счета на\n"
+"                вторичной валюте .\n"
+"              </p>\n"
+"            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
@@ -420,6 +433,17 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Щелкните, чтобы создать новую наличную регистрацию.\n"
+"              </p><p>\n"
+"               Кассовый аппарат позволяет Вам управлять наличными записями в "
+"журналах наличных денег. \n"
+"               Эта особенность обеспечивает легкий способ развить платежи "
+"наличных денег.\n"
+"               Вы можете записать монеты, которые находятся в вашем сейфе, \n"
+"               и записывать, когда деньги приходят или уходят.\n"
+"              </p>\n"
+"            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_statement_operation_template
@@ -451,6 +475,17 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Щелкните, чтобы определить новый тип счета.\n"
+"              </p><p>\n"
+"                Тип счета используется, чтобы определить, как счет "
+"используется в\n"
+"                каждом журнале. Метод задержки типа счета определяет\n"
+"                процесс для ежегодного закрытия. Отчеты, такие как Баланс\n"
+"                и отчет о прибыли и убытках  используют категорию\n"
+"                (прибыль/убыток или баланс).\n"
+"              </p>\n"
+"            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_subscription_form
@@ -2171,7 +2206,7 @@ msgstr "Может быть видимым?"
 #: view:validate.account.move:account.validate_account_move_view
 #: view:validate.account.move.lines:account.validate_account_move_line_view
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -2285,6 +2320,10 @@ msgid ""
 "amount greater than the total invoiced amount. In order to avoid rounding "
 "issues, the latest line of your payment term must be of type 'balance'."
 msgstr ""
+"Не могу создать счёт.\n"
+"Соответствующее счёту условие оплаты видимо указано неверно, т.к. его "
+"вычисленное значение больше чем общая сумма счёта. Дабы избежать ошибок при "
+"округлении последняя строка условия оплаты должна иметь тип 'баланс'."
 
 #. module: account
 #: code:addons/account/account_invoice.py:453
@@ -2964,7 +3003,7 @@ msgstr ""
 #: view:account.config.settings:account.view_account_config_settings
 #: model:ir.ui.menu,name:account.menu_finance_configuration
 msgid "Configuration"
-msgstr "Настройки"
+msgstr "Настройка"
 
 #. module: account
 #: code:addons/account/wizard/pos_box.py:57
@@ -5377,6 +5416,14 @@ msgid ""
 "should choose 'Round per line' because you certainly want the sum of your "
 "tax-included line subtotals to be equal to the total amount with taxes."
 msgstr ""
+"Если выбрать 'Округлять построчно', то сначала по каждому налогу вычисляется "
+"и округляется значение налога в каждой строке заказа/счета, а затем эти "
+"округленные значения суммируются для вычисления общей суммы этого налога. "
+"Если выбрать 'Округлять итог', то округляется сумма значений для каждого "
+"налога, вычисленных для каждой строки заказа/счета. В случае продажи с "
+"включенным налогом следует выбирать 'Округлять построчно', для того, чтобы "
+"сумма построчных значений с включенными налогами равнялась общей сумме "
+"заказа/счета вместе с налогами."
 
 #. module: account
 #: help:account.partner.ledger,initial_balance:0
@@ -5530,7 +5577,7 @@ msgstr "Категория счета доходов"
 #. module: account
 #: model:account.account.type,name:account.account_type_income_view1
 msgid "Income View"
-msgstr ""
+msgstr "Вид Поступления"
 
 #. module: account
 #: help:account.tax,include_base_amount:0
@@ -5695,7 +5742,7 @@ msgstr ""
 #: field:account.invoice.tax,invoice_id:0
 #: model:ir.model,name:account.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Позиция счета"
+msgstr "Строка счета на оплату"
 
 #. module: account
 #: view:account.invoice:account.invoice_form
@@ -5841,7 +5888,7 @@ msgstr "Счета созданные за прошедшие 15 дней"
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_report
 msgid "Invoices Statistics"
-msgstr "Статистика по счетам"
+msgstr "Статистика счетов"
 
 #. module: account
 #: model:ir.ui.menu,name:account.periodical_processing_invoicing
@@ -6558,7 +6605,7 @@ msgstr "Основная нумерация должна отличаться о
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
 msgid "Main Title 1 (bold, underlined)"
-msgstr ""
+msgstr "Основной заголовок 1 (полужирный, с подчёркиванием)"
 
 #. module: account
 #: help:account.config.settings,currency_id:0
@@ -6980,7 +7027,7 @@ msgstr "Кол-во цифр в коде счета"
 #: selection:account.tax,type:0
 #: selection:account.tax.template,type:0
 msgid "None"
-msgstr "Ничего"
+msgstr "Ни одного"
 
 #. module: account
 #: selection:account.move.line,centralisation:0
@@ -7316,7 +7363,7 @@ msgstr "Создать дополнительно"
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
 msgid "Options"
-msgstr "Параметры"
+msgstr "Опции"
 
 #. module: account
 #: view:account.invoice:account.invoice_form
@@ -7876,7 +7923,7 @@ msgstr ""
 #. module: account
 #: view:account.move:account.view_move_form
 msgid "Post"
-msgstr "Провести"
+msgstr "Опубликовать"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_validate_account_move
@@ -8525,7 +8572,7 @@ msgstr ""
 #: field:account.tax,ref_tax_code_id:0
 #: field:account.tax.template,ref_tax_code_id:0
 msgid "Refund Tax Code"
-msgstr ""
+msgstr "Код налогового возмещения"
 
 #. module: account
 #: field:account.tax,ref_tax_sign:0
@@ -9037,7 +9084,7 @@ msgstr ""
 #. module: account
 #: view:account.invoice:account.invoice_form
 msgid "Send by Email"
-msgstr "Отправить по эл.почте"
+msgstr "Отправить по Email"
 
 #. module: account
 #: field:account.config.settings,module_product_email_template:0
@@ -9145,6 +9192,9 @@ msgid ""
 "lines for invoices. Leave empty if you don't want to use an analytic account "
 "on the invoice tax lines by default."
 msgstr ""
+"Установите счет аналитики, который будет использоваться в строках налогов в "
+"счете. Оставьте пустым, если не хотите использовать счет аналитики в строках "
+"налогов в счете по умолчанию."
 
 #. module: account
 #: help:account.tax,account_analytic_paid_id:0
@@ -9153,6 +9203,9 @@ msgid ""
 "lines for refunds. Leave empty if you don't want to use an analytic account "
 "on the invoice tax lines by default."
 msgstr ""
+"Установить счет аналитики, который будет использоваться по умолчанию в "
+"строках налогов счета на возврат. Оставьте пустым, если не хотите "
+"использовать это по умолчанию."
 
 #. module: account
 #: help:account.chart.template,visible:0
@@ -9481,7 +9534,7 @@ msgstr ""
 #: field:account.bank.statement,message_summary:0
 #: field:account.invoice,message_summary:0
 msgid "Summary"
-msgstr "Описание"
+msgstr "Резюме"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
@@ -10303,8 +10356,8 @@ msgstr "Не ни одной компании без плана счетов. М
 #. module: account
 #: code:addons/account/account_cash_statement.py:315
 #, python-format
-msgid "There is no %s Account on the journal %s."
-msgstr "Нет счета %s в журнале %s."
+msgid "There is no Loss Account on the journal %s."
+msgstr "Нет счета убытка в журнале %s."
 
 #. module: account
 #: code:addons/account/account_cash_statement.py:320
@@ -11038,7 +11091,7 @@ msgstr "Оборотно-сальдовая ведомость"
 #. module: account
 #: selection:account.tax.template,applicable_type:0
 msgid "True"
-msgstr "Истина"
+msgstr "Верно"
 
 #. module: account
 #: view:account.analytic.account:account.view_account_analytic_account_search
@@ -11100,13 +11153,13 @@ msgstr ""
 #. module: account
 #: view:account.journal:account.view_account_journal_form
 msgid "Unit Of Currency Definition"
-msgstr ""
+msgstr "Определение валютной единицы"
 
 #. module: account
 #: field:account.invoice.line,price_unit:0
 #: view:website:account.report_invoice_document
 msgid "Unit Price"
-msgstr "Цена за ед."
+msgstr "Цена единицы"
 
 #. module: account
 #: field:account.cashbox.line,pieces:0
@@ -11325,7 +11378,7 @@ msgstr ""
 #. module: account
 #: field:account.fiscal.position,vat_required:0
 msgid "VAT required"
-msgstr ""
+msgstr "требуется НДС"
 
 #. module: account
 #: selection:account.entries.report,move_line_state:0
@@ -11970,6 +12023,8 @@ msgid ""
 "which is set after generating opening entries from 'Generate Opening "
 "Entries'."
 msgstr ""
+"Вы должны установить 'Журнал записей конца года' для  в течение этого "
+"бюджетного года, который установлен после создания вводных записей."
 
 #. module: account
 #. openerp-web

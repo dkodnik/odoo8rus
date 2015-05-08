@@ -6,18 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:08+0000\n"
-"PO-Revision-Date: 2014-10-01 20:35+0300\n"
-"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-04-26 03:03+0000\n"
+"Last-Translator: user3 <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/hr_holidays/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:48+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:37+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.open_ask_holidays
@@ -62,7 +63,7 @@ msgstr ""
 #. module: hr_holidays
 #: field:hr.holidays.status,active:0
 msgid "Active"
-msgstr "Активно"
+msgstr "Активный"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.allocation_company_new
@@ -133,7 +134,7 @@ msgstr "Применить двойное утверждение"
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_evaluation_report_graph
 msgid "Appraisal Analysis"
-msgstr "Оценка анализа"
+msgstr "Оценочный анализ"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.allocation_company_new
@@ -199,7 +200,7 @@ msgstr ""
 #: view:hr.holidays.summary.dept:hr_holidays.view_hr_holidays_summary_dept
 #: view:hr.holidays.summary.employee:hr_holidays.view_hr_holidays_summary_employee
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: hr_holidays
 #: selection:hr.employee,current_leave_state:0
@@ -529,7 +530,7 @@ msgstr "Типы отгулов"
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_employee_holiday_request
 #: model:ir.ui.menu,name:hr_holidays.menu_open_ask_holidays
 msgid "Leaves"
-msgstr "Отгулы"
+msgstr "Отпуска"
 
 #. module: hr_holidays
 #: field:hr.holidays.status,leaves_taken:0
@@ -580,7 +581,7 @@ msgstr "Отгулы по типу"
 #. module: hr_holidays
 #: model:hr.holidays.status,name:hr_holidays.holiday_status_cl
 msgid "Legal Leaves 2015"
-msgstr "Законные выходные 2015"
+msgstr "Официальные выходные 2015"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -949,7 +950,8 @@ msgstr ""
 #. module: hr_holidays
 #: help:hr.holidays,manager_id:0
 msgid "This area is automatically filled by the user who validate the leave"
-msgstr "Поле автоматически заполняется пользователем, который утверждает отгул"
+msgstr ""
+"Поле автоматически заполняется пользователем, который утверждает отгул"
 
 #. module: hr_holidays
 #: help:hr.holidays,manager_id2:0
@@ -966,8 +968,8 @@ msgid ""
 "This color will be used in the leaves summary located in Reporting\\Leaves "
 "by Department."
 msgstr ""
-"Этот цвет будет использован в отчете по отгулам, размещенном в отчетах/"
-"отгулах подразделением."
+"Этот цвет будет использован в отчете по отгулам, размещенном в "
+"отчетах/отгулах подразделением."
 
 #. module: hr_holidays
 #: help:hr.holidays.status,leaves_taken:0
@@ -1141,7 +1143,8 @@ msgstr ""
 #: code:addons/hr_holidays/wizard/hr_holidays_summary_department.py:44
 #, python-format
 msgid "You have to select at least one Department. And try again."
-msgstr "Вы должны выбрать как минимум одно подразделение. И попробовать снова."
+msgstr ""
+"Вы должны выбрать как минимум одно подразделение. И попробовать снова."
 
 #. module: hr_holidays
 #: view:hr.employee:hr_holidays.view_employee_form_leave_inherit

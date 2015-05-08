@@ -6,26 +6,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:25+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"sales_team/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 08:14+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/sales_team/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:20+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:42+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: sales_team
 #: model:ir.actions.act_window,help:sales_team.crm_case_section_act
 #: model:ir.actions.act_window,help:sales_team.crm_case_section_salesteams_act
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                    Click here to define a new sales team.\n"
 "                </p><p>\n"
-"                    Use sales team to organize your different salespersons or\n"
+"                    Use sales team to organize your different salespersons "
+"or\n"
 "                    departments into separate teams. Each team will work in\n"
 "                    its own list of opportunities.\n"
 "                </p>\n"
@@ -57,7 +59,7 @@ msgstr ""
 #. module: sales_team
 #: field:crm.case.section,child_ids:0
 msgid "Child Teams"
-msgstr "Подчиненная команда"
+msgstr "Подотделы"
 
 #. module: sales_team
 #: field:crm.case.section,code:0
@@ -77,7 +79,7 @@ msgstr "Создано"
 #. module: sales_team
 #: field:crm.case.section,create_date:0
 msgid "Created on"
-msgstr "Создан"
+msgstr "Создано"
 
 #. module: sales_team
 #: help:crm.case.section,message_last_post:0
@@ -87,7 +89,7 @@ msgstr "Дата последнего сообщения размещенног�
 #. module: sales_team
 #: field:res.users,default_section_id:0
 msgid "Default Sales Team"
-msgstr "Команда по продажам по умолчанию"
+msgstr "Отдел продаж по умолчанию"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_view_kanban
@@ -107,11 +109,13 @@ msgstr "Прямые продажи"
 #. module: sales_team
 #: constraint:crm.case.section:0
 msgid "Error ! You cannot create recursive Sales team."
-msgstr "Ошибка ! Вы не можете создать оборотную Команду по продажам."
+msgstr "Ошибка ! Вы не можете создать рекурсивные отделы продаж."
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_view_form
-msgid "Follow this salesteam to automatically track the events associated to users of this team."
+msgid ""
+"Follow this salesteam to automatically track the events associated to users "
+"of this team."
 msgstr ""
 "Подпишитесь на эту команду по продажам, чтобы автоматически отслеживать "
 "события, связанные с пользователями этой команды."
@@ -124,11 +128,13 @@ msgstr "Подписчики"
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_search
 msgid "Group By..."
-msgstr "Группировка по..."
+msgstr "Группировать по ..."
 
 #. module: sales_team
 #: help:crm.case.section,message_summary:0
-msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
 msgstr ""
 "Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
 "непосредственно в HTML формате для того, чтобы вставить в виды kanban."
@@ -141,14 +147,16 @@ msgstr "ID"
 #. module: sales_team
 #: help:crm.case.section,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Если проверенные новые сообщения требуют вашего внимания."
+msgstr "Если установлено, новые сообщения требуют вашего внимания"
 
 #. module: sales_team
 #: help:crm.case.section,active:0
-msgid "If the active field is set to true, it will allow you to hide the sales team without removing it."
+msgid ""
+"If the active field is set to true, it will allow you to hide the sales team "
+"without removing it."
 msgstr ""
-"Если в активном поле установлено значение Верно, Вы сможете скрыть Команду "
-"по продажам, не удаляя ее."
+"Если в поле 'Активно' установлено значение Истина, вы сможете скрыть отдел "
+"продаж, не удаляя его."
 
 #. module: sales_team
 #: model:crm.case.section,name:sales_team.crm_case_section_1
@@ -178,7 +186,7 @@ msgstr "Последний раз обновлено"
 #. module: sales_team
 #: view:sale.config.settings:sales_team.view_sale_config_settings
 msgid "Manage Sales Teams"
-msgstr "Команда по продажам"
+msgstr "Управлять отделами продаж"
 
 #. module: sales_team
 #: model:crm.case.section,name:sales_team.crm_case_section_2
@@ -193,12 +201,12 @@ msgstr "Сообщения"
 #. module: sales_team
 #: help:crm.case.section,message_ids:0
 msgid "Messages and communication history"
-msgstr "Сообщения и журнал обращений"
+msgstr "Сообщения и история общения"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_search
 msgid "My Salesteams"
-msgstr "Мои Команды по продажам"
+msgstr "Мой отдел продаж"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_view_form
@@ -218,7 +226,7 @@ msgstr "Основные Команды по продажам"
 #. module: sales_team
 #: field:crm.case.section,parent_id:0
 msgid "Parent Team"
-msgstr "Основная команда"
+msgstr "Главный отдел"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_partner
@@ -250,12 +258,12 @@ msgstr "Отдел продаж"
 #: model:ir.ui.menu,name:sales_team.menu_sales_team_act
 #: view:sale.config.settings:sales_team.view_sale_config_settings
 msgid "Sales Teams"
-msgstr "Команды по продажам"
+msgstr "Отделы продаж"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_view_kanban
 msgid "Sales Teams Settings"
-msgstr "Настройки Отдела продаж"
+msgstr "Настройки отделов продаж"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_view_form
@@ -270,7 +278,7 @@ msgstr "Отдел продаж"
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_search
 msgid "Salesteams Search"
-msgstr "Поиск по отделу продаж"
+msgstr "Поиск отдела продаж"
 
 #. module: sales_team
 #: field:crm.case.section,message_summary:0
@@ -292,11 +300,13 @@ msgstr "Сотрудники отдела"
 #. module: sales_team
 #: sql_constraint:crm.case.section:0
 msgid "The code of the sales team must be unique !"
-msgstr "Код отдела по продажам должен быть уникальным !"
+msgstr "Код отдела продаж должен быть уникальным !"
 
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
-msgid "The email address put in the 'Reply-To' of all emails sent by Odoo about cases in this sales team"
+msgid ""
+"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"cases in this sales team"
 msgstr ""
 "Адрес электронной почты вставлен в поле 'Ответить' всех электронных писем, "
 "отправленных Odoo об открытых делах в этом отделе по продажам"
@@ -313,7 +323,8 @@ msgstr "Пользователи"
 
 #. module: sales_team
 #: help:crm.case.section,change_responsible:0
-msgid "When escalating to this team override the salesman with the team leader."
+msgid ""
+"When escalating to this team override the salesman with the team leader."
 msgstr ""
 "При возникновении претензий к этому отделу переопределить продавца с начальником "
 "отдела."
@@ -321,7 +332,7 @@ msgstr ""
 #. module: sales_team
 #: field:crm.case.section,working_hours:0
 msgid "Working Hours"
-msgstr "Рабочие часы"
+msgstr "Рабочее время"
 
 #. module: sales_team
 #: field:crm.case.section,complete_name:0

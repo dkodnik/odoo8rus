@@ -6,23 +6,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:53+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"product/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 22:22+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/product/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:08+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:40+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: product
 #: field:product.template,product_variant_count:0
 msgid "# of Product Variants"
-msgstr "# вариантов товара"
+msgstr "кол-во вариантов продукта"
 
 #. module: product
 #: code:addons/product/product.py:757
@@ -34,7 +34,7 @@ msgstr "%s (копия)"
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_1
 msgid "16 GB"
-msgstr "16 Гб"
+msgstr "16 ГБ"
 
 #. module: product
 #: model:product.template,description_sale:product.product_product_3_product_template
@@ -44,10 +44,10 @@ msgid ""
 "512MB RAM\n"
 "HDD SH-1"
 msgstr ""
-"17\" ЖК-монитор\n"
+"17\" LCD Монитор\n"
 "Процессор AMD 8-Core\n"
-"512Мб ОЗУ\n"
-"Жесткий диск SH-1"
+"512MB RAM\n"
+"HDD SH-1"
 
 #. module: product
 #: model:product.template,description:product.product_product_25_product_template
@@ -78,7 +78,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
 msgid "2.4 GHz"
-msgstr "2,4 ГГц"
+msgstr "2.4 ГГц"
 
 #. module: product
 #: model:product.template,description_sale:product.product_product_8_product_template
@@ -1048,8 +1048,8 @@ msgid ""
 "Customer Invoice/Refund"
 msgstr ""
 "Описание товара, о котором вы хотите сообщить вашим клиентам. Это описание "
-"будет скопировано в каждый заказ на продажу, заказу на поставку и счет/"
-"возврат клиента"
+"будет скопировано в каждый заказ на продажу, заказу на поставку и "
+"счет/возврат клиента"
 
 #. module: product
 #: help:product.template,description_purchase:0
@@ -1068,7 +1068,7 @@ msgid ""
 "A precise description of the Product, used only for internal information "
 "purposes."
 msgstr ""
-"Точное описание товара, используемое только во внутренних информационных "
+"Точное описание продукта, используемое только во внутренних информационных "
 "целях."
 
 #. module: product
@@ -1084,7 +1084,7 @@ msgstr "Дополнительные"
 #: field:product.template,active:0
 #: field:product.uom,active:0
 msgid "Active"
-msgstr "Активно"
+msgstr "Активный"
 
 #. module: product
 #: model:product.category,name:product.product_category_all
@@ -1264,7 +1264,7 @@ msgstr "Вычислить цену  за единицу продукции ос
 #. module: product
 #: field:product.template,rental:0
 msgid "Can be Rent"
-msgstr "Может быть аренда"
+msgstr "Может быть арендован"
 
 #. module: product
 #: view:product.template:product.product_template_search_view
@@ -1275,7 +1275,7 @@ msgstr "Можно продавать"
 #. module: product
 #: view:product.price_list:product.view_product_price_list
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: product
 #: code:addons/product/product.py:214
@@ -1372,7 +1372,7 @@ msgstr "Системный блок"
 #. module: product
 #: model:product.public.category,name:product.Computer_all_in_one
 msgid "Computer all-in-one"
-msgstr "Компьютер всё в одном"
+msgstr "Компьютер всё-в-одном"
 
 #. module: product
 #: model:product.category,name:product.product_category_4
@@ -1488,7 +1488,7 @@ msgstr "Создано"
 #: field:product.uom,create_date:0
 #: field:product.uom.categ,create_date:0
 msgid "Created on"
-msgstr "Создан"
+msgstr "Создано"
 
 #. module: product
 #: model:ir.model,name:product.model_res_currency
@@ -1583,7 +1583,7 @@ msgstr "Описание для поставщиков"
 #. module: product
 #: help:product.attribute.value,sequence:0
 msgid "Determine the display order"
-msgstr "Определите заказ на подготовку"
+msgstr "Определить порядок отображения заказа"
 
 #. module: product
 #: model:product.public.category,name:product.devices
@@ -1624,7 +1624,7 @@ msgstr "Конец жизненного цикла"
 #. module: product
 #: constraint:product.category:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "Ошибка ! Нельзя создавать рекурсивные категории."
+msgstr "Ошибка! Вы не можете создавать рекурсивные категории."
 
 #. module: product
 #: code:addons/product/product.py:181
@@ -1777,7 +1777,7 @@ msgstr "Дает порядок последовательности при вы
 msgid ""
 "Gives the sequence order when displaying a list of product categories."
 msgstr ""
-"Дает порядок последовательности при выводе списка категорий продуктов."
+"Дает последовательный порядок при отображении списка категорий товара."
 
 #. module: product
 #: model:product.template,name:product.product_product_44_product_template
@@ -1841,7 +1841,7 @@ msgstr "USB наушники"
 #. module: product
 #: model:product.template,description:product.product_product_33_product_template
 msgid "Headset for laptop PC with USB connector."
-msgstr "Наушники для переносных компьютеров с USB-разъемом."
+msgstr "Гарнитура для ноутбука с разъемом USB."
 
 #. module: product
 #: model:product.template,name:product.product_product_32_product_template
@@ -2072,7 +2072,7 @@ msgstr "Является подписчиком"
 #: field:product.product,is_product_variant:0
 #: field:product.template,is_product_variant:0
 msgid "Is product variant"
-msgstr ""
+msgstr "Вариант продукта"
 
 #. module: product
 #: view:product.pricelist.version:product.product_pricelist_version_form_view
@@ -2747,18 +2747,18 @@ msgstr "Продукт"
 #. module: product
 #: model:ir.model,name:product.model_product_attribute
 msgid "Product Attribute"
-msgstr "Свойство продукта"
+msgstr "Атрибуты продукта"
 
 #. module: product
 #: field:product.attribute.line,value_ids:0
 #: field:product.attribute.price,value_id:0
 msgid "Product Attribute Value"
-msgstr "Значение свойства продукта"
+msgstr "Значение атрибута продукта"
 
 #. module: product
 #: field:product.template,attribute_line_ids:0
 msgid "Product Attributes"
-msgstr "Свойства продукта"
+msgstr "Атрибуты продукта"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_category_action_form
@@ -2773,7 +2773,7 @@ msgstr "Категории продуктов"
 #. module: product
 #: model:ir.ui.menu,name:product.prod_config_main
 msgid "Product Categories & Attributes"
-msgstr "Категории и свойства продукта"
+msgstr "Атрибуты и категории продукта"
 
 #. module: product
 #: model:ir.model,name:product.model_product_category
@@ -2795,7 +2795,7 @@ msgstr "Менеджер продукции"
 #. module: product
 #: view:product.template:product.product_template_form_view
 msgid "Product Name"
-msgstr "Наименование продукта"
+msgstr "Название продукта"
 
 #. module: product
 #: model:ir.model,name:product.model_product_template
@@ -3136,7 +3136,7 @@ msgstr "Программное обеспечение"
 #. module: product
 #: model:product.public.category,name:product.Speakers
 msgid "Speakers"
-msgstr "Выступающие"
+msgstr "Колонки"
 
 #. module: product
 #: help:product.pricelist.item,categ_id:0
@@ -3219,7 +3219,7 @@ msgstr "Складируемая продукция"
 #: field:product.product,message_summary:0
 #: field:product.template,message_summary:0
 msgid "Summary"
-msgstr "Итого"
+msgstr "Резюме"
 
 #. module: product
 #: field:product.supplierinfo,name:0
@@ -3310,6 +3310,8 @@ msgid ""
 "The computed price is expressed in the default Unit of Measure of the "
 "product."
 msgstr ""
+"Эта цена - цена за единицу измерения поставщика, если задана. Иначе цена за "
+"единицу измерения по умолчанию."
 
 #. module: product
 #: help:product.uom,rounding:0
@@ -3449,8 +3451,7 @@ msgid ""
 "This field holds the image used as image for the product variant, limited to "
 "1024x1024px."
 msgstr ""
-"Это поле содержит изображение, используемое в качестве изображения для "
-"варианта товара, размер ограничен до 1024x1024 пикселей."
+"Это поле содержит изображение варианта продукта, размер ограничен до 1024x1024px."
 
 #. module: product
 #: help:product.template,image:0
@@ -3807,7 +3808,7 @@ msgstr "см"
 #. module: product
 #: view:product.template:product.product_template_form_view
 msgid "describe the product characteristics..."
-msgstr "опишите характеристики товара..."
+msgstr "описание характеристик продукта..."
 
 #. module: product
 #: view:product.uom:product.product_uom_form_view
@@ -3822,12 +3823,12 @@ msgstr "прим.: 1 * (эта единица) = коэффициент * (ба�
 #. module: product
 #: model:product.uom,name:product.product_uom_floz
 msgid "fl oz"
-msgstr "fl oz"
+msgstr "жидкая унция"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_foot
 msgid "foot(ft)"
-msgstr "фут(ов)"
+msgstr "фут(ft)"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_gal
@@ -3876,7 +3877,7 @@ msgstr "км"
 #. module: product
 #: model:product.uom,name:product.product_uom_lb
 msgid "lb(s)"
-msgstr "фунт(ов)"
+msgstr "фунт"
 
 #. module: product
 #: view:product.product:product.product_normal_form_view

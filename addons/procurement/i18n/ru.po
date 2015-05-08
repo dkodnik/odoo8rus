@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-03 12:49+0300\n"
-"Last-Translator: user2 <user2@starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 03:05+0000\n"
+"Last-Translator: user2 <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/procurement/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:06+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:40+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_exceptions
@@ -78,17 +78,17 @@ msgstr "Действие"
 #. module: procurement
 #: field:procurement.rule,active:0
 msgid "Active"
-msgstr "Активно"
+msgstr "Активный"
 
 #. module: procurement
 #: selection:procurement.group,move_type:0
 msgid "All at once"
-msgstr ""
+msgstr "Все сразу"
 
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
@@ -104,12 +104,12 @@ msgstr "Отменено"
 #: code:addons/procurement/procurement.py:156
 #, python-format
 msgid "Cannot delete Procurement Order(s) which are in %s state."
-msgstr ""
+msgstr "Нельзя удалить заказы снабжения в состоянии  %s"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
 msgid "Check Procurement"
-msgstr ""
+msgstr "Проверка снабжения"
 
 #. module: procurement
 #: help:procurement.order,rule_id:0
@@ -127,7 +127,7 @@ msgstr "Компания"
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "Compute all procurements in the background."
-msgstr ""
+msgstr "Вычислить всё снабжение в фоновом режиме."
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order_compute_all
@@ -153,7 +153,7 @@ msgstr "Создано"
 #: field:procurement.order.compute.all,create_date:0
 #: field:procurement.rule,create_date:0
 msgid "Created on"
-msgstr "Создан"
+msgstr "Создано"
 
 #. module: procurement
 #: help:procurement.order,message_last_post:0
@@ -163,7 +163,7 @@ msgstr "Дата последнего сообщения размещенног�
 #. module: procurement
 #: field:procurement.group,move_type:0
 msgid "Delivery Method"
-msgstr ""
+msgstr "Метод доставки"
 
 #. module: procurement
 #: field:procurement.order,name:0
@@ -188,7 +188,7 @@ msgstr "Исключения"
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
 msgid "External note..."
-msgstr ""
+msgstr "Внешняя заметка..."
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
@@ -252,6 +252,7 @@ msgstr "Если отмечено, новые сообщения требуют 
 #: help:procurement.rule,active:0
 msgid "If unchecked, it will allow you to hide the rule without removing it."
 msgstr ""
+"Если флажок не установлен, это позволит вам скрыть правило, не удаляя его."
 
 #. module: procurement
 #: code:addons/procurement/procurement.py:155
@@ -293,7 +294,7 @@ msgstr "Поздно"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Leave Empty"
-msgstr ""
+msgstr "Оставьте пустым"
 
 #. module: procurement
 #: view:res.company:procurement.mrp_company
@@ -319,7 +320,7 @@ msgstr "Название"
 #: code:addons/procurement/procurement.py:212
 #, python-format
 msgid "No rule matching this procurement"
-msgstr ""
+msgstr "Нет правила, которое соответствует снабжению"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -339,7 +340,7 @@ msgstr "Примечания"
 #. module: procurement
 #: selection:procurement.group,move_type:0
 msgid "Partial"
-msgstr ""
+msgstr "Частично"
 
 #. module: procurement
 #: field:procurement.order,priority:0
@@ -362,7 +363,7 @@ msgstr "Проблемы снабжения"
 #. module: procurement
 #: field:procurement.order,group_id:0
 msgid "Procurement Group"
-msgstr ""
+msgstr "Группа снабжения"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_tree_view
@@ -377,17 +378,17 @@ msgstr "Заказы снабжения"
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_group
 msgid "Procurement Requisition"
-msgstr ""
+msgstr "Заявка снабжения"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_rule
 msgid "Procurement Rule"
-msgstr ""
+msgstr "Правило снабжения"
 
 #. module: procurement
 #: view:procurement.group:procurement.procurement_group_form_view
 msgid "Procurement group"
-msgstr "Группа поставок"
+msgstr "Группа снабжения"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -415,7 +416,7 @@ msgstr "Ед. изм. продукции"
 #. module: procurement
 #: field:procurement.order,product_uos:0
 msgid "Product UoS"
-msgstr "Ед.продажи товара"
+msgstr "Ед.продажи продукции"
 
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
@@ -450,7 +451,7 @@ msgstr "Количество"
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
 msgid "Reconfirm Procurement"
-msgstr ""
+msgstr "Снова подтвердить снабжение"
 
 #. module: procurement
 #: field:procurement.group,name:0
@@ -463,6 +464,8 @@ msgid ""
 "Reference of the document that created this Procurement.\n"
 "This is automatically completed by Odoo."
 msgstr ""
+"Сноска на документ, создавший этот запрос снабжения.\n"
+"Заполняется автоматически."
 
 #. module: procurement
 #: field:procurement.order,rule_id:0
@@ -493,7 +496,7 @@ msgstr "Запланированная дата"
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Scheduled Month"
-msgstr ""
+msgstr "Запланированный месяц"
 
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
@@ -503,7 +506,7 @@ msgstr "Параметры планировщика"
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
 msgid "Scheduling"
-msgstr ""
+msgstr "Планирование"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -535,6 +538,7 @@ msgstr "Резюме"
 #: help:procurement.rule,name:0
 msgid "This field will fill the packing origin and the name of its moves"
 msgstr ""
+"Это поле будет попадать в источник упаковки и в название его перемещений."
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_tree_view

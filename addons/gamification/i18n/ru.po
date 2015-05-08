@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:45+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"gamification/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 13:09+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/gamification/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:42+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:37+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: gamification
 #: model:email.template,body_html:gamification.email_template_badge_received
@@ -36,6 +36,19 @@ msgid ""
 "        % endif\n"
 "        "
 msgstr ""
+"\n"
+"        <p>Поздравляем, вы получили значок "
+"<strong>${object.badge_id.name}</strong> !\n"
+"            % if object.sender_id\n"
+"                Этот значок был подарен "
+"<strong>${object.sender_id.name}</strong>.\n"
+"            % endif\n"
+"        </p>\n"
+"\n"
+"        % if object.comment\n"
+"            <p><em>${object.comment}</em></p>\n"
+"        % endif\n"
+"        "
 
 #. module: gamification
 #: model:email.template,body_html:gamification.email_template_goal_reminder
@@ -51,13 +64,14 @@ msgid ""
 "it.</p>\n"
 "            "
 msgstr ""
-"<header>\n"
+"\n"
+"    <header>\n"
 "        <strong>Напоминание ${object.name}</strong>\n"
 "    </header>\n"
 "    \n"
 "    <p>Вы не обновляли свой прогресс для цели ${object.definition_id.name} "
-"(в настоящее время достигли ${object.completeness}%) как минимум ${object."
-"remind_update_delay} дней. Не забудьте сделать это.</p>\n"
+"(в настоящее время достигли ${object.completeness}%) как минимум "
+"${object.remind_update_delay} дней. Не забудьте сделать это.</p>\n"
 "            "
 
 #. module: gamification
@@ -135,6 +149,7 @@ msgid ""
 "% endif\n"
 "            "
 msgstr ""
+"\n"
 "<header>\n"
 "    <strong>${object.name}</strong>\n"
 "</header>\n"
@@ -207,7 +222,7 @@ msgstr ""
 #. module: gamification
 #: selection:gamification.challenge.line,condition:0
 msgid "<="
-msgstr ""
+msgstr "<="
 
 #. module: gamification
 #: code:addons/gamification/models/challenge.py:756
@@ -216,12 +231,16 @@ msgid ""
 "<br/>Nobody has succeeded to reach every goal, no badge is rewared for this "
 "challenge."
 msgstr ""
+"<br/>Никому не удалось достигнуть каждой цели, за эту задачу не выдан ни "
+"один значок."
 
 #. module: gamification
 #: code:addons/gamification/models/challenge.py:754
 #, python-format
 msgid "<br/>Reward (badge %s) for every succeeding user was sent to %s."
 msgstr ""
+"<br/>Вознаграждение (значок %s) для каждого последующего пользователя было "
+"отправлено %s."
 
 #. module: gamification
 #: code:addons/gamification/models/challenge.py:763
@@ -230,6 +249,8 @@ msgid ""
 "<br/>Special rewards were sent to the top competing users. The ranking for "
 "this challenge is :"
 msgstr ""
+"<br/>Специальные вознаграждения были отправлены главным конкурирующим "
+"пользователям. Рейтинг для этой задачи :"
 
 #. module: gamification
 #: model:ir.actions.act_window,help:gamification.badge_list_action
@@ -386,7 +407,7 @@ msgstr "Действие"
 #. module: gamification
 #: field:gamification.badge,active:0
 msgid "Active"
-msgstr "Активно"
+msgstr "Активный"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
@@ -1156,7 +1177,8 @@ msgstr "Наследственные модели"
 #: code:addons/gamification/models/goal.py:334
 #, python-format
 msgid "Invalid return content from the evaluation of code for definition %s"
-msgstr "Недействительное содержимое возврата от оценки кода для определения %s"
+msgstr ""
+"Недействительное содержимое возврата от оценки кода для определения %s"
 
 #. module: gamification
 #: model:gamification.goal.definition,name:gamification.definition_base_invite
@@ -1359,7 +1381,8 @@ msgstr "Никто не назначен через задачи"
 #: code:addons/gamification/models/challenge.py:766
 #, python-format
 msgid "Nobody reached the required conditions to receive special badges."
-msgstr "Никто не достиг необходимых условий для получения специальных значков."
+msgstr ""
+"Никто не достиг необходимых условий для получения специальных значков."
 
 #. module: gamification
 #: selection:gamification.challenge,period:0
@@ -1754,7 +1777,8 @@ msgstr "Задание: меньше, чем"
 #. module: gamification
 #: help:gamification.goal.definition,action_id:0
 msgid "The action that will be called to update the goal value."
-msgstr "Действие, которое нужно будет выполнить, чтобы обновить значение цели."
+msgstr ""
+"Действие, которое нужно будет выполнить, чтобы обновить значение цели."
 
 #. module: gamification
 #: code:addons/gamification/models/challenge.py:750
@@ -2112,8 +2136,8 @@ msgid ""
 "count=True, context=context)"
 msgstr ""
 "например, результат = pool.get('mail.followers').search(cr, uid, "
-"[('res_model', '=', 'mail.group'), ('partner_id', '=', object.user_id."
-"partner_id.id)], count=True, context=context)"
+"[('res_model', '=', 'mail.group'), ('partner_id', '=', "
+"object.user_id.partner_id.id)], count=True, context=context)"
 
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_form_view

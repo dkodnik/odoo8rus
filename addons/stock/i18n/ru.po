@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:08+0000\n"
-"PO-Revision-Date: 2014-10-22 23:23+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"stock/ru/>\n"
-"Language: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-04-26 08:14+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.starlight-"
+"biz.com//projects/odoo/stock/ru/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:24+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:42+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: stock
 #: help:stock.picking,state:0
@@ -57,13 +57,13 @@ msgstr ""
 #: code:addons/stock/stock.py:1662
 #, python-format
 msgid " (%s reserved)"
-msgstr ""
+msgstr " (%s резерв)"
 
 #. module: stock
 #: code:addons/stock/stock.py:1665
 #, python-format
 msgid " (reserved)"
-msgstr ""
+msgstr " (резерв)"
 
 #. module: stock
 #: code:addons/stock/stock.py:3090
@@ -76,7 +76,7 @@ msgstr ""
 #: code:addons/stock/product.py:335
 #, python-format
 msgid " On Hand"
-msgstr ""
+msgstr " На руках"
 
 #. module: stock
 #: code:addons/stock/stock.py:3224
@@ -116,7 +116,7 @@ msgstr ""
 #. module: stock
 #: field:stock.inventory,move_ids_exist:0
 msgid " Stock Move Exists?"
-msgstr ""
+msgstr " Перемещение существует ?"
 
 #. module: stock
 #: code:addons/stock/stock.py:2444
@@ -128,13 +128,13 @@ msgstr "%s %s %s было <b>перемещено в</b> брак."
 #: code:addons/stock/stock.py:2930
 #, python-format
 msgid "%s: Supply Product from %s"
-msgstr ""
+msgstr "%s: Поставка товаров из %s"
 
 #. module: stock
 #: code:addons/stock/res_config.py:43
 #, python-format
 msgid "%s: Transit Location"
-msgstr ""
+msgstr "%s: место транзита"
 
 #. module: stock
 #: help:stock.move,state:0
@@ -185,7 +185,7 @@ msgstr ""
 #: code:addons/stock/static/src/xml/picking.xml:260
 #, python-format
 msgid "< Previous"
-msgstr ""
+msgstr "< Предыдущий"
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_routes_form
@@ -332,6 +332,10 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">￼\n"
+"                Создание нового склада.￼\n"
+"              </p>￼\n"
+"            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_receipt_picking_move
@@ -400,13 +404,13 @@ msgstr ""
 #: code:addons/stock/static/src/js/widgets.js:656
 #, python-format
 msgid "<p>We could not find a picking to display.</p>"
-msgstr ""
+msgstr "<p>Мы не смогли найти выбранный элемент</p>"
 
 #. module: stock
 #: code:addons/stock/stock.py:2556
 #, python-format
 msgid "A Pack"
-msgstr ""
+msgstr "Упаковка"
 
 #. module: stock
 #: field:report.stock.lines.date,active:0
@@ -417,7 +421,7 @@ msgstr ""
 #: field:stock.picking.type,active:0
 #: field:stock.warehouse.orderpoint,active:0
 msgid "Active"
-msgstr "Активен"
+msgstr "Активный"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
@@ -455,7 +459,7 @@ msgstr ""
 #. module: stock
 #: selection:stock.move,procure_method:0
 msgid "Advanced: Apply Procurement Rules"
-msgstr ""
+msgstr "Дополнительно: Применить правила снабжения"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_type_form
@@ -463,7 +467,7 @@ msgstr ""
 #: model:ir.ui.menu,name:stock.menu_action_picking_type_form
 #: view:stock.picking.type:stock.stock_picking_type_kanban
 msgid "All Operations"
-msgstr ""
+msgstr "Все операции"
 
 #. module: stock
 #: selection:stock.picking,move_type:0
@@ -474,18 +478,18 @@ msgstr "Все сразу"
 #: code:addons/stock/stock.py:2542
 #, python-format
 msgid "All products"
-msgstr ""
+msgstr "Все продукты"
 
 #. module: stock
 #: field:stock.move,returned_move_ids:0
 msgid "All returned moves"
-msgstr ""
+msgstr "Все возвращенные перемещения"
 
 #. module: stock
 #: code:addons/stock/procurement.py:241
 #, python-format
 msgid "All stock moves have been cancelled for this procurement."
-msgstr ""
+msgstr "Все перемещения запасов были отменены для данного снабжения."
 
 #. module: stock
 #: field:stock.config.settings,module_claim_from_delivery:0
@@ -509,7 +513,7 @@ msgstr ""
 msgid ""
 "Allows you to select and maintain different units of measure for products."
 msgstr ""
-"Позволяет выбирать и поддерживать различные единицы измерения товаров."
+"Позволяет выбирать и поддерживать различные единицы измерения для товаров."
 
 #. module: stock
 #: help:stock.config.settings,group_uos:0
@@ -523,22 +527,22 @@ msgstr ""
 #. module: stock
 #: view:stock.location.route:stock.stock_location_route_form_view
 msgid "Applicable On"
-msgstr ""
+msgstr "Применяется к"
 
 #. module: stock
 #: field:stock.location.route,product_selectable:0
 msgid "Applicable on Product"
-msgstr ""
+msgstr "Применимо к продукту"
 
 #. module: stock
 #: field:stock.location.route,product_categ_selectable:0
 msgid "Applicable on Product Category"
-msgstr ""
+msgstr "Применимо к категории продуктов"
 
 #. module: stock
 #: field:stock.location.route,warehouse_selectable:0
 msgid "Applicable on Warehouse"
-msgstr ""
+msgstr "Применяется на склад"
 
 #. module: stock
 #: view:stock.config.settings:stock.view_stock_config_settings
@@ -555,17 +559,17 @@ msgstr ""
 #. module: stock
 #: view:make.procurement:stock.view_make_procurment_wizard
 msgid "Ask New Products"
-msgstr ""
+msgstr "Спросить новые продукты"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
 msgid "Assign Owner"
-msgstr ""
+msgstr "Назначить владельца"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_internal_search
 msgid "Assigned Moves"
-msgstr ""
+msgstr "Назначенные перемещения"
 
 #. module: stock
 #: field:stock.location.path,auto:0
@@ -581,12 +585,12 @@ msgstr "Шаги не добавляются автоматически"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_procurement
 msgid "Automatic Procurements"
-msgstr ""
+msgstr "Автоматическое снабжение"
 
 #. module: stock
 #: field:stock.move,string_availability_info:0
 msgid "Availability"
-msgstr "Доступность"
+msgstr "Доступно"
 
 #. module: stock
 #: selection:stock.move,state:0
@@ -596,7 +600,7 @@ msgstr "Доступно"
 #. module: stock
 #: view:product.template:stock.product_template_search_form_view_stock
 msgid "Available Products"
-msgstr ""
+msgstr "Доступные продукты"
 
 #. module: stock
 #: field:stock.move,backorder_id:0
@@ -608,30 +612,30 @@ msgstr "Дозаказ из"
 #: code:addons/stock/stock.py:952
 #, python-format
 msgid "Back order <em>%s</em> <b>created</b>."
-msgstr ""
+msgstr "Возврат <em>%s</em> <b>создан</b>."
 
 #. module: stock
 #: code:addons/stock/stock.py:4193
 #, python-format
 msgid "Backorder exists"
-msgstr ""
+msgstr "Возврат существует"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_backorder
 #: view:stock.picking:stock.view_picking_internal_search
 #: view:stock.picking.type:stock.stock_picking_type_kanban
 msgid "Backorders"
-msgstr ""
+msgstr "Возвраты"
 
 #. module: stock
 #: view:stock.picking.type:stock.stock_picking_type_kanban
 msgid "Backorders (%)"
-msgstr ""
+msgstr "Невыполненные заказы (%)"
 
 #. module: stock
 #: view:website:stock.report_picking
 msgid "Barcode"
-msgstr "Штрихкод"
+msgstr "Штрих-код"
 
 #. module: stock
 #: view:website:stock.barcode_index
@@ -730,12 +734,12 @@ msgstr "Отменить инвентаризацию"
 #. module: stock
 #: view:stock.move:stock.view_move_form
 msgid "Cancel Move"
-msgstr ""
+msgstr "Отменить перемещение"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
 msgid "Cancel Transfer"
-msgstr ""
+msgstr "Отменить перемещение"
 
 #. module: stock
 #: selection:stock.inventory,state:0
@@ -758,14 +762,14 @@ msgstr "Место"
 #. module: stock
 #: field:stock.return.picking,move_dest_exists:0
 msgid "Chained Move Exists"
-msgstr ""
+msgstr "Связанное перемещение существует"
 
 #. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/xml/picking.xml:24
 #, python-format
 msgid "Change Location"
-msgstr ""
+msgstr "Изменить местоположение"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_change_product_qty
@@ -778,14 +782,14 @@ msgstr "Изменить количество продукта"
 #: code:addons/stock/static/src/xml/picking.xml:173
 #, python-format
 msgid "Change destination location"
-msgstr ""
+msgstr "Изменить место назначения"
 
 #. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/xml/picking.xml:169
 #, python-format
 msgid "Change source location"
-msgstr ""
+msgstr "Изменить место источника"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
@@ -803,7 +807,7 @@ msgstr ""
 #. module: stock
 #: field:stock.inventory.line,product_qty:0
 msgid "Checked Quantity"
-msgstr ""
+msgstr "Проверенное количество"
 
 #. module: stock
 #: help:stock.move,partially_available:0
@@ -968,7 +972,7 @@ msgstr ""
 #. module: stock
 #: selection:procurement.rule,procure_method:0
 msgid "Create Procurement"
-msgstr ""
+msgstr "Создать снабжение"
 
 #. module: stock
 #. openerp-web
@@ -985,7 +989,7 @@ msgstr "Созданные перемещения товаров"
 #. module: stock
 #: field:stock.warehouse.orderpoint,procurement_ids:0
 msgid "Created Procurements"
-msgstr ""
+msgstr "Созданные снабжения"
 
 #. module: stock
 #: field:make.procurement,create_uid:0
@@ -1064,7 +1068,7 @@ msgstr "Дата создания"
 #. module: stock
 #: help:stock.picking,date:0
 msgid "Creation Date, usually the time of the order"
-msgstr ""
+msgstr "Дата создания, используется время заказа"
 
 #. module: stock
 #: code:addons/stock/stock.py:3392
@@ -1092,7 +1096,7 @@ msgstr "Валюта в которой выражена стоимость ед�
 #: model:ir.actions.act_window,name:stock.product_open_quants
 #: view:stock.location:stock.view_location_form
 msgid "Current Stock"
-msgstr ""
+msgstr "Текущий запас"
 
 #. module: stock
 #: help:product.product,qty_available:0
@@ -1118,12 +1122,12 @@ msgstr "Клиент"
 #. module: stock
 #: field:procurement.order,partner_dest_id:0
 msgid "Customer Address"
-msgstr "Адрес клиента"
+msgstr "Адрес заказчика"
 
 #. module: stock
 #: view:website:stock.report_picking
 msgid "Customer Address:"
-msgstr ""
+msgstr "Адрес заказчика:"
 
 #. module: stock
 #: field:product.template,sale_delay:0
@@ -1251,7 +1255,7 @@ msgstr ""
 #. module: stock
 #: field:stock.picking.type,default_location_src_id:0
 msgid "Default Source Location"
-msgstr ""
+msgstr "Исходное местоположение по умолчанию"
 
 #. module: stock
 #: help:stock.warehouse,reception_steps:0
@@ -1266,12 +1270,12 @@ msgstr ""
 #. module: stock
 #: selection:stock.move,procure_method:0
 msgid "Default: Take From Stock"
-msgstr ""
+msgstr "По умолчанию: Брать со склада"
 
 #. module: stock
 #: help:stock.warehouse,route_ids:0
 msgid "Defaults routes through the warehouse"
-msgstr ""
+msgstr "По умолчанию маршруты идут через склад"
 
 #. module: stock
 #: help:stock.location,putaway_strategy_id:0
@@ -1438,12 +1442,12 @@ msgstr "Выполнено"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_done
 msgid "Done Transfers"
-msgstr ""
+msgstr "Выполненные перемещения"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_done_grouped
 msgid "Done Transfers by Date"
-msgstr ""
+msgstr "Выполненные перемещения  на дату"
 
 #. module: stock
 #: selection:stock.inventory,state:0
@@ -1466,7 +1470,7 @@ msgstr "Изменить..."
 #: code:addons/stock/wizard/stock_transfer_details.py:115
 #, python-format
 msgid "Enter transfer details"
-msgstr ""
+msgstr "Ввести детали перемещения"
 
 #. module: stock
 #: code:addons/stock/stock.py:638
@@ -1531,7 +1535,7 @@ msgstr ""
 #: code:addons/stock/static/src/xml/picking.xml:101
 #, python-format
 msgid "Filter by location..."
-msgstr ""
+msgstr "Сортировать по местоположению"
 
 #. module: stock
 #: view:stock.quant:stock.quant_search_view
@@ -1541,7 +1545,7 @@ msgstr "Фильтры"
 #. module: stock
 #: view:product.putaway:stock.view_putaway
 msgid "Fixed Locations Per Categories"
-msgstr ""
+msgstr "Фиксированные места по категориям"
 
 #. module: stock
 #: field:product.putaway,fixed_location_ids:0
@@ -1667,7 +1671,7 @@ msgstr "Будущее Кол-во"
 #: code:addons/stock/product.py:252
 #, python-format
 msgid "Future Receipts"
-msgstr ""
+msgstr "Будущие поступления"
 
 #. module: stock
 #: code:addons/stock/product.py:258
@@ -1735,7 +1739,7 @@ msgstr ""
 #. module: stock
 #: field:stock.pack.operation,processed:0
 msgid "Has been processed?"
-msgstr ""
+msgstr "Был обработан?"
 
 #. module: stock
 #: field:stock.location,posz:0
@@ -1944,7 +1948,7 @@ msgstr "Поступающие товары"
 #. module: stock
 #: field:stock.quant,in_date:0
 msgid "Incoming Date"
-msgstr ""
+msgstr "Дата поступления"
 
 #. module: stock
 #: field:stock.warehouse,reception_steps:0
@@ -1954,7 +1958,7 @@ msgstr "Поступающие грузы"
 #. module: stock
 #: help:stock.incoterms,code:0
 msgid "Incoterm Standard Code"
-msgstr ""
+msgstr "Стандартный код Инкотермс"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_incoterms_tree
@@ -1989,7 +1993,7 @@ msgstr ""
 #. module: stock
 #: field:stock.warehouse,wh_input_stock_loc_id:0
 msgid "Input Location"
-msgstr ""
+msgstr "Место входа"
 
 #. module: stock
 #: help:stock.config.settings,module_stock_picking_wave:0
@@ -2001,7 +2005,7 @@ msgstr ""
 #. module: stock
 #: model:stock.location,name:stock.stock_location_inter_wh
 msgid "Inter Company Transit"
-msgstr ""
+msgstr "Перемещение между компаниями"
 
 #. module: stock
 #: view:stock.location:stock.view_location_search
@@ -2035,7 +2039,7 @@ msgstr "Внутренняя ссылка"
 #: model:stock.picking.type,name:stock.picking_type_internal
 #, python-format
 msgid "Internal Transfers"
-msgstr ""
+msgstr "Внутренние перемещения"
 
 #. module: stock
 #: field:res.company,internal_transit_location_id:0
@@ -2045,7 +2049,7 @@ msgstr ""
 #. module: stock
 #: field:stock.warehouse,int_type_id:0
 msgid "Internal Type"
-msgstr ""
+msgstr "Внутренний тип"
 
 #. module: stock
 #: help:stock.production.lot,ref:0
@@ -2120,13 +2124,13 @@ msgstr "Управление инвентаризацией"
 #. module: stock
 #: field:stock.inventory,date:0
 msgid "Inventory Date"
-msgstr ""
+msgstr "Дата инвентаризации"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 #: view:stock.transfer_details:stock.view_stock_enter_transfer_details
 msgid "Inventory Details"
-msgstr ""
+msgstr "Детали инвентаризации"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_inventory_line
@@ -2136,7 +2140,7 @@ msgstr "Позиция инвентаризации"
 #. module: stock
 #: help:stock.inventory,line_ids:0
 msgid "Inventory Lines."
-msgstr ""
+msgstr "Позиции инвентаризации."
 
 #. module: stock
 #: field:product.template,property_stock_inventory:0
@@ -2151,12 +2155,12 @@ msgstr ""
 #. module: stock
 #: help:stock.inventory,move_ids:0
 msgid "Inventory Moves."
-msgstr ""
+msgstr "Перемещения инвентаризации"
 
 #. module: stock
 #: help:stock.inventory,name:0
 msgid "Inventory Name."
-msgstr ""
+msgstr "Название инвентаризации"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_filter
@@ -2167,7 +2171,7 @@ msgstr "Описание инвентаризации"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_location_route
 msgid "Inventory Routes"
-msgstr "Пути следования непроданных товаров"
+msgstr "Маршруты инвентаризации"
 
 #. module: stock
 #: field:stock.quant,inventory_value:0
@@ -5681,7 +5685,7 @@ msgstr ""
 #: code:addons/stock/stock.py:2159
 #, python-format
 msgid "You must assign a serial number for the product %s"
-msgstr ""
+msgstr "Вы должны указать серийный номер продукта %s"
 
 #. module: stock
 #: constraint:stock.move:0
@@ -5707,7 +5711,7 @@ msgstr "_Отмена"
 #: view:product.template:stock.view_template_property_form
 #: view:stock.location.path:stock.stock_location_path_form
 msgid "days"
-msgstr "дней"
+msgstr "дни"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
@@ -5773,7 +5777,7 @@ msgstr ""
 #: code:addons/stock/static/src/xml/picking.xml:269
 #, python-format
 msgid "the operations."
-msgstr ""
+msgstr "операции."
 
 #. module: stock
 #: view:stock.return.picking:stock.view_stock_return_picking_form
@@ -5815,7 +5819,7 @@ msgstr ""
 #. module: stock
 #: view:product.template:stock.view_template_property_form
 msgid "⇒ Request Procurement"
-msgstr ""
+msgstr "⇒ Запрос снабжения"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
@@ -5825,7 +5829,7 @@ msgstr ""
 #. module: stock
 #: view:product.template:stock.view_template_property_form
 msgid "⇒ Update"
-msgstr ""
+msgstr "⇒ Обновить"
 
 #~ msgid "Warehouse Management"
 #~ msgstr "Управление складом"

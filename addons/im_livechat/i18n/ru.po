@@ -6,31 +6,34 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-01 20:46+0300\n"
-"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 13:09+0000\n"
+"Last-Translator: Olivier Dony (Odoo) <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/im_livechat/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:51+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:38+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: im_livechat
 #: view:website:im_livechat.loader
-msgid "\" || '',\n"
+msgid ""
+"\" || '',\n"
 "                        auto: window.oe_im_livechat_auto || false,\n"
 "                        defaultUsername: \""
-msgstr "\" || '',\n"
+msgstr ""
+"\" || '',\n"
 "                        auto: window.oe_im_livechat_auto || false,\n"
 "                        defaultUsername: \""
 
 #. module: im_livechat
 #: view:website:im_livechat.loader
-msgid "\" || undefined,\n"
+msgid ""
+"\" || undefined,\n"
 "                    });\n"
 "            })();"
 msgstr ""
@@ -40,7 +43,8 @@ msgstr ""
 
 #. module: im_livechat
 #: view:website:im_livechat.loader
-msgid "\",\n"
+msgid ""
+"\",\n"
 "                        defaultMessage: \""
 msgstr ""
 "\",\n"
@@ -48,7 +52,8 @@ msgstr ""
 
 #. module: im_livechat
 #: view:website:im_livechat.loader
-msgid "\",\n"
+msgid ""
+"\",\n"
 "                        inputPlaceholder: \""
 msgstr ""
 "\",\n"
@@ -56,7 +61,8 @@ msgstr ""
 
 #. module: im_livechat
 #: view:website:im_livechat.loader
-msgid "\",\n"
+msgid ""
+"\",\n"
 "                    \""
 msgstr ""
 "\",\n"
@@ -64,7 +70,8 @@ msgstr ""
 
 #. module: im_livechat
 #: view:website:im_livechat.loader
-msgid ",\n"
+msgid ""
+",\n"
 "                    {\n"
 "                        buttonText: \""
 msgstr ""
@@ -74,7 +81,8 @@ msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.action_support_channels
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new live chat channel.\n"
 "              </p><p>\n"
 "                You can create channels for each website on which you want\n"
@@ -154,7 +162,8 @@ msgstr "Полное имя"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
-msgid "Copy and paste this code into your website, within the &lt;head&gt; tag:"
+msgid ""
+"Copy and paste this code into your website, within the &lt;head&gt; tag:"
 msgstr "Скопируйте и вставьте этот код в ваш сайт, внутрь &lt;head&gt; tag:"
 
 #. module: im_livechat
@@ -174,7 +183,10 @@ msgstr "Дата"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
-msgid "For website built with Odoo CMS, please install the website_livechat module. Then go to Settings > Website Settings and select the Live Chat Channel you want to add on your website."
+msgid ""
+"For website built with Odoo CMS, please install the website_livechat module. "
+"Then go to Settings > Website Settings and select the Live Chat Channel you "
+"want to add on your website."
 msgstr ""
 "Для веб-сайт построеного с Odoo CMS, необходимо установить модуль "
 "website_livechat. Затем перейдите в меню Настройки> Настройки веб-сайт и "
@@ -271,7 +283,10 @@ msgstr "Средний размер фото"
 
 #. module: im_livechat
 #: help:im_livechat.channel,image_medium:0
-msgid "Medium-sized photo of the group. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgid ""
+"Medium-sized photo of the group. It is automatically resized as a 128x128px "
+"image, with aspect ratio preserved. Use this field in form views or some "
+"kanban views."
 msgstr ""
 "Среднее фото для группы. Автоматически переформатируется как изображение "
 "64x64px, соотношение сторон сохраняется. Используйте это поле в любом месте "
@@ -286,7 +301,8 @@ msgstr "Мои сессии"
 #. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:137
 #, python-format
-msgid "None of our collaborators seems to be available, please try again later."
+msgid ""
+"None of our collaborators seems to be available, please try again later."
 msgstr ""
 "Ни один из наших сотрудников, кажется, не доступен, попробуйте еще раз позже."
 
@@ -342,7 +358,10 @@ msgstr "Фото маленького размера"
 
 #. module: im_livechat
 #: help:im_livechat.channel,image_small:0
-msgid "Small-sized photo of the group. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgid ""
+"Small-sized photo of the group. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
 msgstr ""
 "Маленько фото для группы. Автоматически переформатируется как изображение "
 "64x64px, соотношение сторон сохраняется. Используйте это поле в любом месте "
@@ -375,14 +394,18 @@ msgstr "Пользователь сможет присоединиться ка�
 
 #. module: im_livechat
 #: help:im_livechat.channel,image:0
-msgid "This field holds the image used as photo for the group, limited to 1024x1024px."
+msgid ""
+"This field holds the image used as photo for the group, limited to "
+"1024x1024px."
 msgstr ""
 "Это поле поддерживает изображение, используется как фото группы, ограничено "
 "1024x1024px."
 
 #. module: im_livechat
 #: help:im_livechat.channel,default_message:0
-msgid "This is an automated 'welcome' message that your visitor will see when they initiate a new chat session."
+msgid ""
+"This is an automated 'welcome' message that your visitor will see when they "
+"initiate a new chat session."
 msgstr ""
 "Это автоматическое 'Добро пожаловать' сообщение, которое ваш посетитель "
 "будет видеть, когда он начнет новый сеанс."
@@ -407,7 +430,7 @@ msgstr "Посетитель"
 #. module: im_livechat
 #: field:im_livechat.channel,web_page:0
 msgid "Web Page"
-msgstr "Вэб страница"
+msgstr "Веб страница"
 
 #. module: im_livechat
 #: field:im_livechat.channel,default_message:0

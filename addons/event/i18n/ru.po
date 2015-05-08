@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-20 22:29+0300\n"
-"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 13:10+0000\n"
+"Last-Translator: Olivier Dony (Odoo) <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/event/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 07:40+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:36+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: event
 #: model:email.template,body_html:event.confirmation_event
@@ -848,14 +848,14 @@ msgstr ""
 "контрактами.</li>\n"
 "    <li>Управление складами, производство (планирование производственных "
 "ресурсов) &amp; продажи, импорт/экспорт.</li>\n"
-"    <li>Пункты продажи, введение в подготовку отчетов по заказу клиента.</li>"
-"\n"
+"    <li>Пункты продажи, введение в подготовку отчетов по заказу "
+"клиента.</li>\n"
 "    </ul>\n"
 "    <p> </p>\n"
 "    <p><strong>Где нас найти:</strong></p>\n"
 "    <p>Chamber Works 60, Rosewood Court Detroit, MI 48212 (США)</p>\n"
-"    <p>Для получения дополнительной информации свяжитесь с нами по <a href=\""
-"mailto:events@openerp.com\">events@openerp.com</a>.</p>\n"
+"    <p>Для получения дополнительной информации свяжитесь с нами по <a "
+"href=\"mailto:events@openerp.com\">events@openerp.com</a>.</p>\n"
 "    <p> </p>\n"
 "    <p>С уважением,</p>\n"
 "    <p>Луиджи Рони, старший менеджер по корпоративным мероприятиям</p>\n"
@@ -996,8 +996,8 @@ msgstr ""
 "                    <td width=\"10%\" style=\"height:45px; width:110px; "
 "border-radius: 90px 90px 0 0; -moz-border-radius: 90px 90px 0 0; -webkit-"
 "border-radius: 90px 90px 0 0; background:lightgrey; text-align: -webkit-"
-"center; padding-top: 10px;\""
-"><div>Премиум</div><div>Билет</div><div>onsite</div></td>\n"
+"center; padding-top: "
+"10px;\"><div>Премиум</div><div>Билет</div><div>onsite</div></td>\n"
 "                    <td width=\"25%\"></td>\n"
 "                </tr>\n"
 "                <tr style=\"background:lightgrey; height: 15px;\">\n"
@@ -1073,10 +1073,10 @@ msgstr ""
 "            <h2>Особые мероприятия</h2>\n"
 "            <table style=\"border: 1px solid black;\">\n"
 "                <tr style=\"border: 1px solid black;\">\n"
-"                    <td class=\"text-center\" width=\"15%\""
-"><strong>4/6</strong></td>\n"
-"                    <td class=\"text-center\" width=\"25%\""
-"><strong>19ч00</strong></td>\n"
+"                    <td class=\"text-center\" "
+"width=\"15%\"><strong>4/6</strong></td>\n"
+"                    <td class=\"text-center\" "
+"width=\"25%\"><strong>19ч00</strong></td>\n"
 "                    <td><small>Барбекю с пивом</small></td>\n"
 "                </tr>\n"
 "                <tr>\n"
@@ -1098,13 +1098,13 @@ msgstr ""
 "                </div>\n"
 "            </div>\n"
 "            <div class=\"row\">\n"
-"                <small class=\"col-xs-3\" style=\"float: left; padding-right:"
-" 0px; padding-left: 0px;\">спонсор</small>\n"
+"                <small class=\"col-xs-3\" style=\"float: left; padding-"
+"right: 0px; padding-left: 0px;\">спонсор</small>\n"
 "                <div class=\"col-xs-2\" style=\"padding-right: 0px; padding-"
 "left: 0px;\">\n"
 "                <span>\n"
-"                    <img class=\"img img-responsive\" src=\""
-"https://www.odoo.com/openerp_website/static/src/img/logo_white.png\">\n"
+"                    <img class=\"img img-responsive\" "
+"src=\"https://www.odoo.com/openerp_website/static/src/img/logo_white.png\">\n"
 "                </span>\n"
 "                </div>\n"
 "            </div>\n"
@@ -1205,7 +1205,7 @@ msgstr "Доступные места"
 #. module: event
 #: view:event.confirm:event.view_event_confirm
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -1281,7 +1281,7 @@ msgstr "Подтвердить регистрацию"
 #: selection:report.event.registration,event_state:0
 #: selection:report.event.registration,registration_state:0
 msgid "Confirmed"
-msgstr "Подтверждено"
+msgstr "Утверждено"
 
 #. module: event
 #: view:event.event:event.view_event_search
@@ -1366,7 +1366,7 @@ msgstr "Черновик"
 #. module: event
 #: field:event.registration,email:0
 msgid "Email"
-msgstr "Эл. почта"
+msgstr "Email"
 
 #. module: event
 #: field:event.event,date_end:0
@@ -1799,7 +1799,7 @@ msgstr "Участник / Имя контакта"
 #: field:event.registration,partner_id:0
 #: model:ir.model,name:event.model_res_partner
 msgid "Partner"
-msgstr "Контрагент"
+msgstr "Партнер"
 
 #. module: event
 #: field:event.registration,phone:0
@@ -1963,7 +1963,7 @@ msgstr "Подписано"
 #: field:event.event,message_summary:0
 #: field:event.registration,message_summary:0
 msgid "Summary"
-msgstr "Описание"
+msgstr "Резюме"
 
 #. module: event
 #: model:event.event,name:event.event_3
@@ -2037,7 +2037,7 @@ msgstr "Типы событий"
 #: selection:event.event,state:0
 #: selection:event.registration,state:0
 msgid "Unconfirmed"
-msgstr "Неподтверждённый"
+msgstr "Не подтверждено"
 
 #. module: event
 #: field:event.event,seats_unconfirmed:0
@@ -2135,3 +2135,6 @@ msgstr "билет"
 #: view:event.event:event.view_event_kanban
 msgid "tickets"
 msgstr "билеты"
+
+#~ msgid "Participant / Contact"
+#~ msgstr "Участник / Контакт"

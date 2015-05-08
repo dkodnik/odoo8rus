@@ -1,28 +1,28 @@
 # Russian translation for openobject-addons
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:05+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"website_event_track/ru/>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 08:16+0000\n"
+"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:28+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:43+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid ". These are 30 minutes talks on many\n"
-"                                    different topics. Most topics are accepted in lightning talks."
+msgid ""
+". These are 30 minutes talks on many\n"
+"                                    different topics. Most topics are "
+"accepted in lightning talks."
 msgstr ""
 ". Это 30-минутные доклады на многие\n"
 "                                    разные темы. Большинство тем принято в "
@@ -30,7 +30,8 @@ msgstr ""
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid ". These are standard talks with slides,\n"
+msgid ""
+". These are standard talks with slides,\n"
 "                                    alocated in slots of 60 minutes."
 msgstr ""
 ". Это стандартные доклады со слайдами,\n"
@@ -38,7 +39,8 @@ msgstr ""
 
 #. module: website_event_track
 #: model:ir.actions.act_window,help:website_event_track.act_event_list_tracks
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                  Click to add a track.\n"
 "              </p><p>\n"
 "                  Tracks define the agenda of your event. These can be\n"
@@ -57,7 +59,9 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
-msgid "A technical explanation of Odoo as a CMS and a eCommerce platform for version 8."
+msgid ""
+"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"version 8."
 msgstr ""
 "Техническое определение Odoo как платформы CMS и eCommerce для версии 8."
 
@@ -90,8 +94,10 @@ msgstr "Все теги"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid "Allow video and audio recording of their\n"
-"                                    presentation, for publishing on our website."
+msgid ""
+"Allow video and audio recording of their\n"
+"                                    presentation, for publishing on our "
+"website."
 msgstr ""
 "Разрешить видео- и аудиозапись их\n"
 "                                    презентации для публикации на нашем "
@@ -187,12 +193,15 @@ msgstr "Удалить"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track6
-msgid "Detailed roadmap of accounting new modules and improvements for version 8."
+msgid ""
+"Detailed roadmap of accounting new modules and improvements for version 8."
 msgstr ""
+"Подробный план действий учета новых модулей и улучшений для версии 8."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
-msgid "Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+msgid ""
+"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
 "Откройте для себя управление взаимоотношениями с клиентами на Odoo: Как "
 "оптимизировать ваши продажи, от потенциальных клиентов к заказам на продажу."
@@ -325,7 +334,8 @@ msgstr "Фильтровать направления..."
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
-msgid "Find out what people see and say about this event, \n"
+msgid ""
+"Find out what people see and say about this event, \n"
 "                        and join the conversation."
 msgstr ""
 "Узнать, что люди видят и говорят о вашем событии, \n"
@@ -363,14 +373,18 @@ msgstr "Наивысший (***)"
 
 #. module: website_event_track
 #: help:event.track,message_summary:0
-msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
 msgstr ""
 "Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
 "непосредственно в HTML формате для того, чтобы вставить в виды kanban."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track18
-msgid "How to build your marketing strategy for the purpose of generating leads with Odoo."
+msgid ""
+"How to build your marketing strategy for the purpose of generating leads "
+"with Odoo."
 msgstr ""
 "Как выстроить свою маркетинговую стратегию в целях привлечения потенциальных "
 "клиентов с Odoo."
@@ -398,7 +412,9 @@ msgstr "Как объединить материалы аппаратных ср
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
-msgid "How to use Odoo for your HR process: recruitment, leaves management, appraisals, expenses, etc."
+msgid ""
+"How to use Odoo for your HR process: recruitment, leaves management, "
+"appraisals, expenses, etc."
 msgstr ""
 "Как использовать Odoo для процесса управления персоналом: набор кадров, учет "
 "отпусков, деловые оценки, расходы и т.д."
@@ -511,7 +527,8 @@ msgstr "Средний (*)"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track25
 msgid "Merge proposals review, code sprint (entire afternoon)"
-msgstr "Обзор предложений по объединению, код-спринт (весь день после полудня)"
+msgstr ""
+"Обзор предложений по объединению, код-спринт (весь день после полудня)"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track24
@@ -617,7 +634,8 @@ msgstr "Опубликовано"
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
-msgid "Put here the list of documents, like slides of\n"
+msgid ""
+"Put here the list of documents, like slides of\n"
 "                            the presentations. Remove the above t-if when\n"
 "                            it's implemented."
 msgstr ""
@@ -805,7 +823,8 @@ msgstr "Новая маркетинговая стратегия."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
-msgid "The new way to promote your modules in the Apps platform and Odoo website."
+msgid ""
+"The new way to promote your modules in the Apps platform and Odoo website."
 msgstr ""
 "Новый способ для продвижения ваших модулей в платформе приложений и на сайте "
 "Odoo."
@@ -817,7 +836,8 @@ msgstr "Это событие не принимает предложения."
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid "Timely release of presentation material (slides),\n"
+msgid ""
+"Timely release of presentation material (slides),\n"
 "                                    for publishing on our website."
 msgstr ""
 "Своевременный выпуск материала презентации (слайдов)\n"
@@ -891,7 +911,8 @@ msgstr ""
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid "We will accept a broad range of\n"
+msgid ""
+"We will accept a broad range of\n"
 "                                presentations, from reports on academic and\n"
 "                                commercial projects to tutorials and case\n"
 "                                studies. As long as the presentation is\n"

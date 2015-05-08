@@ -7,17 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-22 23:27+0400\n"
-"Last-Translator: \n"
-"Language-Team: Russian <http://translate.starlight-biz.com//projects/odoo/"
-"sale_journal/ru/>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-03-13 10:52+0000\n"
+"Last-Translator: Chertykov Denis <chertykov@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:20+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-03-14 05:36+0000\n"
+"X-Generator: Launchpad (build 17389)\n"
 
 #. module: sale_journal
 #: field:sale_journal.invoice.type,active:0
@@ -32,7 +30,7 @@ msgstr "Создано"
 #. module: sale_journal
 #: field:sale_journal.invoice.type,create_date:0
 msgid "Created on"
-msgstr "Создан"
+msgstr "Создано"
 
 #. module: sale_journal
 #: help:sale.order,invoice_type_id:0
@@ -151,7 +149,7 @@ msgstr "Заказ на продажу"
 #. module: sale_journal
 #: model:ir.model,name:sale_journal.model_stock_move
 msgid "Stock Move"
-msgstr "Движение запаса"
+msgstr "Перемещение запасов"
 
 #. module: sale_journal
 #: help:res.partner,property_invoice_type:0

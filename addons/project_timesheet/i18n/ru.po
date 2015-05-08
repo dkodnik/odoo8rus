@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-10-07 23:23+0300\n"
-"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-04-26 08:14+0000\n"
+"Last-Translator: user3 <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/project_timesheet/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:13+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:41+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: project_timesheet
 #: model:ir.actions.act_window,help:project_timesheet.action_account_analytic_overdue
@@ -117,17 +117,17 @@ msgstr "Неправильная конфигурация!"
 #. module: project_timesheet
 #: view:project.project:project_timesheet.project_invoice_search
 msgid "Billable"
-msgstr "Включается в счет"
+msgstr "Оплачиваемый"
 
 #. module: project_timesheet
 #: model:ir.ui.menu,name:project_timesheet.menu_invoicing_contracts
 msgid "Contracts to Renew"
-msgstr "Контракты, сроки действия которых нужно продлить"
+msgstr "Договоры к продлению"
 
 #. module: project_timesheet
 #: model:ir.actions.act_window,name:project_timesheet.action_account_analytic_overdue
 msgid "Customer Projects"
-msgstr "Проекты покупателя"
+msgstr "Проекты клиента"
 
 #. module: project_timesheet
 #: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
@@ -153,12 +153,12 @@ msgstr "Группировать по"
 #. module: project_timesheet
 #: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
 msgid "Group by month of date"
-msgstr "Группа по месяцам даты"
+msgstr "Группировать по месяцу в дате"
 
 #. module: project_timesheet
 #: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
 msgid "Group by year of date"
-msgstr "Группировка по дате"
+msgstr "Группировать по году в дате"
 
 #. module: project_timesheet
 #: view:project.project:project_timesheet.view_project_kanban_inherited

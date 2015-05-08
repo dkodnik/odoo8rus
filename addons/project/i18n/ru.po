@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-08-14 13:08+0000\n"
-"PO-Revision-Date: 2014-10-20 22:29+0300\n"
-"Last-Translator: user3 <user3@translate.starlight-biz.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-04-26 08:13+0000\n"
+"Last-Translator: Rinat Karimov <Unknown>\n"
 "Language-Team: Russian <http://translate.starlight-"
 "biz.com//projects/odoo/project/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-22 08:11+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:40+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+"Language: ru\n"
 
 #. module: project
 #: field:res.partner,task_count:0
@@ -160,7 +160,7 @@ msgstr "Принять электронные письма от"
 #. module: project
 #: field:project.project,active:0
 msgid "Active"
-msgstr "Активен"
+msgstr "Активный"
 
 #. module: project
 #: view:project.task:project.view_task_form2
@@ -243,7 +243,7 @@ msgstr "Дата назначения"
 #: view:project.task:project.view_task_search_form
 #: view:report.project.task.user:project.view_task_project_user_search
 msgid "Assignation Month"
-msgstr "Месяц передачи"
+msgstr "Месяц назначения"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.act_res_users_2_project_task_opened
@@ -666,7 +666,7 @@ msgstr "Расширенные фильтры"
 #. module: project
 #: view:project.task:project.view_task_form2
 msgid "Extra Info"
-msgstr "Доп. информация"
+msgstr "Доп. инфо."
 
 #. module: project
 #: model:project.category,name:project.project_category_02
@@ -1001,7 +1001,7 @@ msgstr "Управление оценкой времени по задачам"
 #: view:project.project:project.view_project_project_filter
 #: model:res.groups,name:project.group_project_manager
 msgid "Manager"
-msgstr "Руководитель"
+msgstr "Менеджер"
 
 #. module: project
 #: view:project.project:project.view_project_project_filter
@@ -1028,7 +1028,7 @@ msgstr "Сообщения и история общения"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Miscellaneous"
-msgstr "Разное"
+msgstr "Прочее"
 
 #. module: project
 #: view:project.task.history.cumulative:project.view_task_history_search
@@ -1560,7 +1560,7 @@ msgstr "Теги"
 #: field:project.task.work,task_id:0
 #: view:report.project.task.user:project.view_task_project_user_search
 msgid "Task"
-msgstr "Задание"
+msgstr "Задача"
 
 #. module: project
 #: field:project.project,tasks:0
@@ -1572,7 +1572,7 @@ msgstr "Активность по задаче"
 #: model:mail.message.subtype,name:project.mt_project_task_assigned
 #: model:mail.message.subtype,name:project.mt_task_assigned
 msgid "Task Assigned"
-msgstr "Задание определено"
+msgstr "Задача определена"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_blocked
@@ -1814,7 +1814,7 @@ msgstr "Оценка времени на задачи"
 #: field:project.project,effective_hours:0
 #: field:project.task.work,hours:0
 msgid "Time Spent"
-msgstr "Затраченное время"
+msgstr "Затрачено времени"
 
 #. module: project
 #: help:project.project,resource_calendar_id:0
@@ -1838,7 +1838,7 @@ msgstr ""
 #. module: project
 #: field:project.task,total_hours:0
 msgid "Total"
-msgstr "Всего"
+msgstr "Итого"
 
 #. module: project
 #: field:report.project.task.user,total_hours:0
@@ -2018,4 +2018,4 @@ msgstr "неизвестно"
 #~ msgstr "№ задачи"
 
 #~ msgid "Users"
-#~ msgstr "Исполнитель"
+#~ msgstr "Пользователи"

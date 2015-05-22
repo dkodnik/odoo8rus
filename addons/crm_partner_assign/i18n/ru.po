@@ -1,23 +1,21 @@
 # Russian translation for openobject-addons
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-12-21 17:05+0000\n"
-"PO-Revision-Date: 2015-04-26 03:01+0000\n"
-"Last-Translator: user5 <Unknown>\n"
-"Language-Team: Russian <http://translate.starlight-"
-"biz.com//projects/odoo/crm_partner_assign/ru/>\n"
+"PO-Revision-Date: 2013-06-06 10:24+0000\n"
+"Last-Translator: Chertykov Denis <chertykov@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-27 05:36+0000\n"
-"X-Generator: Launchpad (build 17430)\n"
-"Language: ru\n"
+"X-Launchpad-Export-Date: 2014-04-22 07:41+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,delay_close:0
@@ -53,7 +51,7 @@ msgstr "кол-во вопросов"
 #: view:crm.lead.report.assign:0
 #: view:crm.partner.report.assign:0
 msgid "Group By..."
-msgstr "Группировать по..."
+msgstr "Группировать по ..."
 
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,body:0
@@ -68,7 +66,7 @@ msgstr "Вперед"
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Geo Localize"
-msgstr "Географически локализовать"
+msgstr "Геолоцировать"
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,starred:0
@@ -92,7 +90,7 @@ msgstr ""
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:0
 msgid "Date Partnership"
-msgstr "Дата сотрудничества"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,type:0
@@ -151,7 +149,7 @@ msgstr "Уникальный идентификатор сообщения"
 #. module: crm_partner_assign
 #: field:res.partner,date_review_next:0
 msgid "Next Partner Review"
-msgstr "Обзор следующего контрагента"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,history_mode:0
@@ -201,7 +199,7 @@ msgstr ""
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Partner Activation"
-msgstr "Активация контрагента"
+msgstr ""
 
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,type:0
@@ -209,10 +207,10 @@ msgid "System notification"
 msgstr "Системное уведомление"
 
 #. module: crm_partner_assign
-#: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:77
+#: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:74
 #, python-format
 msgid "Lead forward"
-msgstr "Следующая возможность"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,probability:0
@@ -256,7 +254,7 @@ msgstr "Отправить"
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Next"
-msgstr "Далее"
+msgstr "Следующий"
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -278,7 +276,7 @@ msgstr "Тип"
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,type:0
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. module: crm_partner_assign
 #: help:crm.lead,partner_assigned_id:0
@@ -353,7 +351,7 @@ msgstr "Июль"
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:0
 msgid "Date Review"
-msgstr "Дата обзора"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -373,7 +371,7 @@ msgid "To read"
 msgstr "Прочитать"
 
 #. module: crm_partner_assign
-#: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:77
+#: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:74
 #, python-format
 msgid "Fwd"
 msgstr "Прд"
@@ -381,7 +379,7 @@ msgstr "Прд"
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Geo Localization"
-msgstr "Географическая локализация"
+msgstr "Геолокация"
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -393,7 +391,7 @@ msgstr "Анализ назначений предложений"
 #: view:crm.lead.forward.to.partner:0
 #: view:res.partner:0
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Отмена"
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,history_mode:0
@@ -480,7 +478,7 @@ msgstr "Связанные сообщения"
 #: field:crm.partner.report.assign,date_review:0
 #: field:res.partner,date_review:0
 msgid "Latest Partner Review"
-msgstr "Последний обзор контрагента"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,subject:0
@@ -495,7 +493,7 @@ msgstr "или"
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,body:0
 msgid "Contents"
-msgstr "Содержание"
+msgstr "Содержимое"
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,vote_user_ids:0
@@ -518,7 +516,7 @@ msgstr ""
 #: field:crm.partner.report.assign,date_partnership:0
 #: field:res.partner,date_partnership:0
 msgid "Partnership Date"
-msgstr "Дата сотрудничества"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead:0
@@ -606,7 +604,7 @@ msgstr "Пользователь"
 #. module: crm_partner_assign
 #: field:res.partner.grade,active:0
 msgid "Active"
-msgstr "Активный"
+msgstr "Активно"
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,month:0
@@ -667,7 +665,7 @@ msgstr "Планируемая выручка"
 #. module: crm_partner_assign
 #: view:res.partner:0
 msgid "Partner Review"
-msgstr "Обзор контрагента"
+msgstr ""
 
 #. module: crm_partner_assign
 #: field:crm.partner.report.assign,period_id:0
@@ -708,8 +706,8 @@ msgid ""
 "Cannot contact geolocation servers. Please make sure that your internet "
 "connection is up and running (%s)."
 msgstr ""
-"Не удается подключиться к геолокационным серверам. Пожалуйста, убедитесь, "
-"что вы подключены к интернету и он работает (%s)."
+"Не удается связаться с сервером геолокации. Пожалуйста, убедитесь, что ваше "
+"подключение к интернету работает (%s)."
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,month:0
@@ -730,7 +728,7 @@ msgstr "Последняя дата, когда этот вопрос был н�
 #: selection:crm.lead.report.assign,state:0
 #: view:res.partner:0
 msgid "Open"
-msgstr "Открыть"
+msgstr "Открыто"
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,subtype_id:0
@@ -740,7 +738,7 @@ msgstr "Подтип"
 #. module: crm_partner_assign
 #: field:res.partner,date_localization:0
 msgid "Geo Localization Date"
-msgstr "Дата географической локализации"
+msgstr "Дата геолокации"
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -797,7 +795,7 @@ msgstr "Назначенный партнер"
 #. module: crm_partner_assign
 #: field:res.partner,grade_id:0
 msgid "Partner Level"
-msgstr "Уровень контрагента"
+msgstr ""
 
 #. module: crm_partner_assign
 #: help:crm.lead.forward.to.partner,to_read:0
@@ -814,7 +812,7 @@ msgstr "Предложение"
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,partner_id:0
 msgid "Customer"
-msgstr "Клиент"
+msgstr "Заказчик"
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,month:0
@@ -830,7 +828,7 @@ msgstr "Названия"
 #: model:ir.actions.act_window,name:crm_partner_assign.res_partner_activation_act
 #: model:ir.ui.menu,name:crm_partner_assign.res_partner_activation_config_mi
 msgid "Partner Activations"
-msgstr "Активации партнера"
+msgstr ""
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:0
@@ -948,3 +946,202 @@ msgstr "Фильтры"
 #: model:ir.model,name:crm_partner_assign.model_res_partner
 msgid "Partner"
 msgstr "Партнер"
+
+#~ msgid "HTML formatting?"
+#~ msgstr "Форматирование HTML ?"
+
+#~ msgid "State"
+#~ msgstr "Состояние"
+
+#~ msgid "7 Days"
+#~ msgstr "7 дней"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#~ msgid "Reply To"
+#~ msgstr "Ответить"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "unknown"
+#~ msgstr "неизвестный"
+
+#~ msgid "CC"
+#~ msgstr "Копия"
+
+#~ msgid "Unchanged"
+#~ msgstr "Не изменен"
+
+#~ msgid "Last 30 Days"
+#~ msgstr "Последние 30 дней"
+
+#~ msgid "Send new email"
+#~ msgstr "Послать новое эл. письмо"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Email Address"
+#~ msgstr "Адрес эл. почты"
+
+#~ msgid "crm.lead"
+#~ msgstr "crm.lead"
+
+#~ msgid "Error ! You can not create recursive associated members."
+#~ msgstr "Ошибка! Вы не можете создать рекурсивно связанных участников."
+
+#~ msgid "Select this if you want to send email with HTML formatting."
+#~ msgstr "Выберите, если вы хотите посылать эл. письма с HTML форматированием."
+
+#~ msgid ""
+#~ "These addresses will receive a copy of this email. To modify the permanent "
+#~ "CC list, edit the global CC field of this case"
+#~ msgstr ""
+#~ "Эти адреса будут получать копию этого письма. Для изменения постоянного "
+#~ "списка рассылки копий измените поле 'Глобальная копия' этого вопроса."
+
+#~ msgid "To"
+#~ msgstr "Кому"
+
+#~ msgid "Send to"
+#~ msgstr "Отправить"
+
+#~ msgid ""
+#~ "\n"
+#~ "This is the module used by OpenERP SA to redirect customers to his "
+#~ "partners,\n"
+#~ "based on geolocalization.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "Этот модуль используется OpenERP SA для перенаправления клиентов партнёрам,\n"
+#~ "в зависимости от геолокации.\n"
+#~ "    "
+
+#, python-format
+#~ msgid ""
+#~ "Could not contact geolocation servers, please make sure you have a working "
+#~ "internet connection (%s)"
+#~ msgstr ""
+#~ "Нет соединения с сервисом геолокации. Проверьте работоспособность интернет-"
+#~ "соединения (%s)"
+
+#~ msgid "Reply-to of the Sales team defined on this case"
+#~ msgstr "Адрес для ответа команде продаж, определённый для этого дела"
+
+#~ msgid "Message Body"
+#~ msgstr "Тело сообщения"
+
+#~ msgid "Partner Geo-Localisation"
+#~ msgstr "Геолокация партнёра"
+
+#~ msgid "Set New State To"
+#~ msgstr "Установить новое состояние в"
+
+#~ msgid "Permanently delete emails after sending"
+#~ msgstr "Не сохранять сообщения после отправки"
+
+#~ msgid "Message type"
+#~ msgstr "Тип сообщения"
+
+#~ msgid "Message recipients"
+#~ msgstr "Получатели сообщения"
+
+#~ msgid "#Partner"
+#~ msgstr "# партнеров"
+
+#~ msgid "Plain-text version of the message"
+#~ msgstr "Простая текстовая версия сообщения"
+
+#~ msgid ""
+#~ "Add here all attachments of the current document you want to include in the "
+#~ "Email."
+#~ msgstr ""
+#~ "Добавьте сюда все приложения к текущему документу, которые вы хотите "
+#~ "включить в эл. письмо."
+
+#~ msgid "Text contents"
+#~ msgstr "Текстовое содержимое"
+
+#~ msgid "Rich-text/HTML version of the message"
+#~ msgstr "Форматный текст/HTML версия сообщения"
+
+#~ msgid "Auto Delete"
+#~ msgstr "Авто удаление"
+
+#~ msgid "Blind carbon copy message recipients"
+#~ msgstr "Получатели скрытой копии сообщения"
+
+#~ msgid ""
+#~ "Type of message, usually 'html' or 'plain', used to select plaintext or rich "
+#~ "text contents accordingly"
+#~ msgstr ""
+#~ "Тип сообщения, обычно 'html' или 'простой', используемый для выбора "
+#~ "содержимого соответственно простого текста или форматного текста"
+
+#~ msgid "Use Template"
+#~ msgstr "Использовать шаблон"
+
+#~ msgid "Related Document model"
+#~ msgstr "Модель связанного документа"
+
+#~ msgid "Salesman"
+#~ msgstr "Продавец"
+
+#~ msgid "Referred Partner"
+#~ msgstr "Относящийся партнёр"
+
+#~ msgid "Rich-text contents"
+#~ msgstr "Форматное текстовое сообщение"
+
+#~ msgid "Cc"
+#~ msgstr "Копия"
+
+#~ msgid "References"
+#~ msgstr "Ссылки"
+
+#~ msgid "# of Partner"
+#~ msgstr "# партнеров"
+
+#~ msgid "Partner name"
+#~ msgstr "Название партнера"
+
+#~ msgid "Carbon copy message recipients"
+#~ msgstr "Получатели скрытой копии сообщения"
+
+#~ msgid ""
+#~ "Full message headers, e.g. SMTP session headers (usually available on "
+#~ "inbound messages only)"
+#~ msgstr ""
+#~ "Полные заголовки сообщения, т.е. заголовки сессии SMTP (обычно доступные "
+#~ "только во входящих сообщениях)"
+
+#~ msgid ""
+#~ "Message sender, taken from user preferences. If empty, this is not a mail "
+#~ "but a message."
+#~ msgstr ""
+#~ "Отправитель сообщения, взятый из параметров пользователя. Если пусто, то это "
+#~ "не почта, а сообщение."
+
+#~ msgid "Reply-To"
+#~ msgstr "Адрес ответа"
+
+#~ msgid "Message headers"
+#~ msgstr "Заголовки сообщения"
+
+#~ msgid "Bcc"
+#~ msgstr "Скрытая копия"
+
+#~ msgid "Message references, such as identifiers of previous messages"
+#~ msgstr "Ссылки сообщения, такие как идентификаторы предыдущих сообщений"
+
+#~ msgid "Error ! You cannot create recursive associated members."
+#~ msgstr "Ошибка! Вы не можете создавать рекурсивные ссылки на участников."
+
+#~ msgid "E-mail composition wizard"
+#~ msgstr "Мастер создания электронной почты"
+
+#~ msgid "Preferred response address for the message"
+#~ msgstr "Предпочтительный адрес ответа для сообщения"
